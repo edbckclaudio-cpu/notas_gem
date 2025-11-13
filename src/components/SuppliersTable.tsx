@@ -14,7 +14,7 @@ export default function SuppliersTable() {
   }, []);
   return (
     <div className="overflow-x-auto">
-      <table className="min-w-full text-sm">
+      <table className="min-w-full text-[10px]">
         <thead>
           <tr className="text-left">
             <th className="p-2">Nome</th>

@@ -26,7 +26,7 @@ export default function ProductsMatrix() {
 
   return (
     <div className="overflow-x-auto">
-      <table className="min-w-full text-sm">
+      <table className="min-w-full text-[10px]">
         <thead>
           <tr>
             <th className="p-2 text-left">Produto</th>
