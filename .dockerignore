@@ -1,0 +1,9 @@
+node_modules
+.git
+.next
+public/exports/*.xlsx
+.vercel
+coverage
+build
+dist
+*.log
