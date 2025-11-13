@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useMemo, useState } from "react";
-import { Calendar, dateFnsLocalizer, Event as RBCEvent } from "react-big-calendar";
+import { Calendar, dateFnsLocalizer } from "react-big-calendar";
 import { format, parse, startOfWeek, getDay } from "date-fns";
 import { ptBR } from "date-fns/locale";
 import "react-big-calendar/lib/css/react-big-calendar.css";
@@ -37,17 +37,14 @@ export default function CalendarView({ onSelectDate }: { onSelectDate?: (date: D
   }, []);
 
   const formatBRL = (n: number) => new Intl.NumberFormat("pt-BR", { style: "currency", currency: "BRL" }).format(n);
-  const events: RBCEvent[] = useMemo(() => {
-    return invoices.map((i) => {
-      const parcelaInfo = typeof i.parcela === "number" && i.parcela > 0 ? `Parcela ${i.parcela} • ` : "";
-      return {
-        title: `${parcelaInfo}${i.fornecedor} • ${formatBRL(i.total)}`,
-        start: new Date(i.vencimento),
-        end: new Date(i.vencimento),
-        allDay: true,
-        resource: i,
-      };
+  // Soma de vencimentos por dia (yyyy-MM-dd -> total)
+  const sumByDay = useMemo(() => {
+    const map = new Map<string, number>();
+    invoices.forEach((i) => {
+      const key = format(new Date(i.vencimento), "yyyy-MM-dd");
+      map.set(key, (map.get(key) ?? 0) + (i.total || 0));
     });
+    return map;
   }, [invoices]);
 
   // Estilos dos eventos (mais legíveis e modernos)
@@ -73,6 +70,11 @@ export default function CalendarView({ onSelectDate }: { onSelectDate?: (date: D
       style.backgroundColor = "#fff7ed"; // orange-50
       style.outline = "2px solid #f59e0b"; // orange-500
       style.boxShadow = "inset 0 0 0 1px #f59e0b";
+    }
+    // Se houver vencimento no dia, destaca levemente o fundo
+    const key = format(date, "yyyy-MM-dd");
+    if ((sumByDay.get(key) ?? 0) > 0) {
+      style.backgroundColor = isToday ? style.backgroundColor : "#fffbe6"; // amarelo bem claro
     }
     return { style };
   };
@@ -102,12 +104,25 @@ export default function CalendarView({ onSelectDate }: { onSelectDate?: (date: D
       `${l.format(start, "dd/MM/yyyy", culture)} – ${l.format(end, "dd/MM/yyyy", culture)}`,
   };
 
+  // Cabeçalho de cada dia no mês: mostra o número do dia e a soma do vencimento
+  const DateHeader = ({ label, date }: { label: string; date: Date }) => {
+    const key = format(date, "yyyy-MM-dd");
+    const sum = sumByDay.get(key) ?? 0;
+    return (
+      <div className="rbc-datecell-center">
+        <span className="day-label">{label}</span>
+        {sum > 0 && <span className="sum-badge">{formatBRL(sum)}</span>}
+        <span></span>
+      </div>
+    );
+  };
+
   return (
-    <div className="h-[380px] md:h-[440px]">
+    <div className="h-[380px] md:h-[440px] calendar-sum">
       <Calendar
         localizer={localizer}
         culture="pt-BR"
-        events={events}
+        events={[]}
         startAccessor="start"
         endAccessor="end"
         onSelectSlot={(slot: any) => onSelectDate?.(slot.start)}
@@ -116,8 +131,12 @@ export default function CalendarView({ onSelectDate }: { onSelectDate?: (date: D
         dayPropGetter={dayPropGetter}
         messages={messages}
         formats={formats}
+        components={{
+          event: () => null, // não exibe blocos azuis de eventos
+          month: { dateHeader: DateHeader },
+        }}
         views={["month"]}
-        popup
+        popup={false}
       />
     </div>
   );
