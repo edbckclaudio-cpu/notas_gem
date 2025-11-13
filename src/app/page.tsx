@@ -167,14 +167,14 @@ export default function Dashboard() {
         </header>
 
         <section className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-          <Card>
-            <CardHeader>
-              <CardTitle>Upload / Armazenamento</CardTitle>
+          <Card className="text-[12px]">
+            <CardHeader className="p-3">
+              <CardTitle className="text-sm font-medium">Upload / Armazenamento</CardTitle>
             </CardHeader>
-            <CardContent>
-              <div className="flex flex-col gap-3">
-                <input type="file" accept="application/pdf" multiple className="block w-full" id="file-input" />
-                <div className="flex flex-col gap-3">
+            <CardContent className="p-3">
+              <div className="flex flex-col gap-2">
+                <input type="file" accept="application/pdf" multiple className="block w-full text-[12px]" id="file-input" />
+                <div className="flex flex-col gap-2">
                   <Button
                     variant="success"
                     loading={uploading}
@@ -191,10 +191,11 @@ export default function Dashboard() {
                       else { toast.error("Falha ao armazenar arquivos"); }
                     }}
                     className="w-full whitespace-nowrap"
+                    size="sm"
                   >
                     🟩 Armazenar
                   </Button>
-                  <Button variant="warning" onClick={() => setManageOpen(true)} className="w-full whitespace-nowrap">🟨 Gerenciar</Button>
+                  <Button variant="warning" onClick={() => setManageOpen(true)} className="w-full whitespace-nowrap" size="sm">🟨 Gerenciar</Button>
                   <Button
                     variant="outline"
                     loading={csvLoading}
@@ -255,6 +256,7 @@ export default function Dashboard() {
                       }
                     }}
                     className="w-full whitespace-nowrap"
+                    size="sm"
                   >
                     📄 Ver arquivo CSV
                   </Button>
@@ -297,15 +299,16 @@ export default function Dashboard() {
                       }
                     }}
                     className="w-full whitespace-nowrap"
+                    size="sm"
                   >
                     🟦 Analisar
                   </Button>
                 </div>
                 {analyzing && (
-                  <p className="text-sm text-zinc-600">Analisando arquivos com Gemini…</p>
+                  <p className="text-[12px] text-zinc-600">Analisando arquivos com Gemini…</p>
                 )}
                 {uploading && (
-                  <p className="text-sm text-zinc-600">Enviando arquivos…</p>
+                  <p className="text-[12px] text-zinc-600">Enviando arquivos…</p>
                 )}
               </div>
             </CardContent>
