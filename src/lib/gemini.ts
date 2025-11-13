@@ -230,7 +230,7 @@ export async function analyzeInvoices(fileUrls: string[]): Promise<{
 
           for (const row of rowsObj) {
             const r = buildNormRow(row);
-            const nf = get(r, ["nf_e", "nf_e_", "nf_e__", "nfe", "numero_nfe"]);
+            const nf = get(r, ["nf_e", "nf_e_", "nf_e__", "nfe", "numero_nfe", "danfe", "numero_danfe", "nro_danfe"]);
             const serie = get(r, ["serie", "serie_", "serie__"]);
             const fornecedor = get(r, ["emitente", "fornecedor", "empresa", "nome_emitente", "razao_social", "nome_fantasia"]);
             const cnpjVal = get(r, ["cnpj_emitente", "cnpj", "cnpj_fornecedor", "cnpj_destinatario", "cnpj_emit"]);
@@ -286,6 +286,8 @@ export async function analyzeInvoices(fileUrls: string[]): Promise<{
                     vencimento: d.toISOString(),
                     total: val > 0 ? val : 0,
                     arquivo_url: url,
+                    nf: (nf && String(nf).trim()) || undefined,
+                    serie: (serie && String(serie).trim()) || undefined,
                     // Em parcelas, o valor informado já é o valor da parcela.
                     // Não somamos itens repetidos da mesma parcela.
                     sum: 0,
@@ -318,6 +320,8 @@ export async function analyzeInvoices(fileUrls: string[]): Promise<{
                   vencimento: vencDate.toISOString(),
                   total: 0,
                   arquivo_url: url,
+                  nf: (nf && String(nf).trim()) || undefined,
+                  serie: (serie && String(serie).trim()) || undefined,
                   sum: 0,
                   parcela: undefined,
                 };

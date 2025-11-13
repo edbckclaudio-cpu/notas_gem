@@ -20,7 +20,7 @@ export default function Dashboard() {
   const [savingEmail, setSavingEmail] = useState(false);
   const [sendingReport, setSendingReport] = useState(false);
   const [busyFile, setBusyFile] = useState<string | null>(null);
-  const [invoices, setInvoices] = useState<Array<{ id: string; fornecedor: string; cnpj: string; vencimento: string; total: number }>>([]);
+  const [invoices, setInvoices] = useState<Array<{ id: string; fornecedor: string; cnpj: string; vencimento: string; total: number; nf?: string; serie?: string }>>([]);
   const [selectedDate, setSelectedDate] = useState<Date | null>(null);
   const [csvOpen, setCsvOpen] = useState(false);
   const [csvLoading, setCsvLoading] = useState(false);
@@ -70,7 +70,7 @@ export default function Dashboard() {
   }, []);
 
   const suppliersForSelected = useMemo(() => {
-    if (!selectedDate) return [] as Array<{ fornecedor: string; cnpj: string; total: number }>;
+    if (!selectedDate) return [] as Array<{ fornecedor: string; cnpj: string; total: number; danfes: string[] }>;
     const day = selectedDate.getDate();
     const month = selectedDate.getMonth();
     const year = selectedDate.getFullYear();
@@ -78,13 +78,21 @@ export default function Dashboard() {
       const d = new Date(i.vencimento);
       return d.getDate() === day && d.getMonth() === month && d.getFullYear() === year;
     });
-    const map = new Map<string, { fornecedor: string; cnpj: string; total: number }>();
+    const map = new Map<string, { fornecedor: string; cnpj: string; total: number; danfeSet: Set<string> }>();
     sameDay.forEach((i) => {
       const key = i.cnpj;
       const prev = map.get(key);
-      if (prev) prev.total += i.total; else map.set(key, { fornecedor: i.fornecedor, cnpj: i.cnpj, total: i.total });
+      const nf = (i.nf ?? '').toString().trim();
+      if (prev) {
+        prev.total += i.total;
+        if (nf) prev.danfeSet.add(nf);
+      } else {
+        const set = new Set<string>();
+        if (nf) set.add(nf);
+        map.set(key, { fornecedor: i.fornecedor, cnpj: i.cnpj, total: i.total, danfeSet: set });
+      }
     });
-    return Array.from(map.values());
+    return Array.from(map.values()).map(v => ({ fornecedor: v.fornecedor, cnpj: v.cnpj, total: v.total, danfes: Array.from(v.danfeSet) }));
   }, [selectedDate, invoices]);
 
   return (
@@ -438,16 +446,20 @@ export default function Dashboard() {
       </Drawer>
 
       {/* Drawer Calendário */}
-      <Drawer open={calendarOpen} onClose={() => setCalendarOpen(false)} title="Notas que vencem nesta data">
+      <Drawer
+        open={calendarOpen}
+        onClose={() => setCalendarOpen(false)}
+        title={selectedDate ? `Notas que vencem em ${selectedDate.toLocaleDateString('pt-BR')}` : "Notas que vencem nesta data"}
+      >
         {!selectedDate && <div className="text-sm text-zinc-600">Selecione uma data no calendário.</div>}
         {selectedDate && (
-          <div className="space-y-2 text-sm">
+          <div className="space-y-2 text-[10px]">
             {suppliersForSelected.length === 0 && (
               <div className="text-zinc-600">Nenhuma nota vencendo nesta data.</div>
             )}
             {suppliersForSelected.map((s) => (
               <div key={s.cnpj} className="flex justify-between">
-                <span>{s.fornecedor}</span>
+                <span>{s.fornecedor}{s.danfes?.length ? ` — ${s.danfes.join(', ')}` : ''}</span>
                 <span>CNPJ: {s.cnpj}</span>
                 <span>Total: {new Intl.NumberFormat("pt-BR", { style: "currency", currency: "BRL" }).format(s.total)}</span>
               </div>

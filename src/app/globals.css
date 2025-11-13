@@ -44,6 +44,9 @@ body {
 .rbc-month-view {
   border-radius: 8px;
 }
+.rbc-month-view .rbc-date-cell {
+  position: relative; /* permite centralizar o badge no quadrado */
+}
 .rbc-month-row {
   border-top: 1px solid #f1f5f9; /* slate-100 */
 }
@@ -63,7 +66,7 @@ body {
 /* ===== Layout do cabeçalho de cada dia (mantém tudo visível) ===== */
 .rbc-month-view .rbc-date-cell > .rbc-datecell-center {
   display: grid;
-  grid-template-columns: 1fr auto 1fr;
+  grid-template-columns: auto 1fr; /* mantém dia à esquerda */
   align-items: center;
   padding: 2px 4px;
 }
@@ -73,13 +76,25 @@ body {
   color: #4b5563; /* zinc-600 */
 }
 .rbc-month-view .rbc-date-cell .sum-badge {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   justify-self: center;
   background: linear-gradient(180deg, #fff8cc, #ffe89a);
   color: #6b4e00;
   font-weight: 600;
-  font-size: 12px;
-  border: 1px solid #f3d27a;
+  font-size: 9px; /* reduzindo ainda mais o tamanho */
+  border: none; /* removendo borda conforme solicitado */
   border-radius: 10px;
-  padding: 4px 8px;
-  box-shadow: 0 1px 2px rgba(0,0,0,0.06);
+  padding: 1px 5px; /* mais compacto */
+  line-height: 1.15; /* melhor leitura em duas linhas */
+  max-width: 90%;
+  display: inline-block;
+  text-align: center; /* centraliza o conteúdo em múltiplas linhas */
+  white-space: normal; /* permite quebrar em duas linhas */
+  overflow-wrap: break-word; /* quebra quando necessário */
+  text-overflow: unset; /* sem reticências */
+  box-shadow: none; /* removendo sombra */
+  pointer-events: none; /* evita interferência com cliques no calendário */
 }

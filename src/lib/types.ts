@@ -20,6 +20,9 @@ export type Invoice = {
   vencimento: string; // ISO date
   total: number;
   arquivo_url: string;
+  // Número da DANFE (NF-e) e série, quando disponíveis
+  nf?: string;
+  serie?: string;
   parcela?: number; // índice da parcela (1,2,3...)
 };
 
