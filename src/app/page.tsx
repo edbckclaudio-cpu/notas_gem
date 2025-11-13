@@ -132,6 +132,29 @@ export default function Dashboard() {
             >
               Alterar e-mail
             </Button>
+            <Button
+              size="lg"
+              variant="secondary"
+              className="whitespace-nowrap"
+              title="Enviar relatório consolidado por e-mail"
+              loading={sendingReport}
+              loadingText="Enviando…"
+              onClick={async () => {
+                if (!email || !email.includes("@")) {
+                  return toast.error("Informe um e-mail válido antes de enviar.");
+                }
+                setSendingReport(true);
+                try {
+                  const res = await fetch("/api/report", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ email }) });
+                  if (res.ok) toast.success(`Relatório enviado para: ${email || "(sem e-mail)"}`);
+                  else toast.error("Falha ao enviar relatório");
+                } finally {
+                  setSendingReport(false);
+                }
+              }}
+            >
+              💌 Enviar Relatório Consolidado
+            </Button>
           </div>
         </header>
 
@@ -321,27 +344,7 @@ export default function Dashboard() {
           </Card>
         </section>
 
-        <div className="mt-6 flex justify-end">
-          <Button
-            loading={sendingReport}
-            loadingText="Enviando…"
-            onClick={async () => {
-              if (!email || !email.includes("@")) {
-                return toast.error("Informe um e-mail válido antes de enviar.");
-              }
-              setSendingReport(true);
-              try {
-                const res = await fetch("/api/report", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ email }) });
-                if (res.ok) toast.success(`Relatório enviado para: ${email || "(sem e-mail)"}`);
-                else toast.error("Falha ao enviar relatório");
-              } finally {
-                setSendingReport(false);
-              }
-            }}
-          >
-            💌 Enviar Relatório Consolidado
-          </Button>
-        </div>
+        
       </div>
 
       {/* Drawer Gerenciar */}
