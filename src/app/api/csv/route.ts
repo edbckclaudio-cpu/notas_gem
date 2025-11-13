@@ -2,6 +2,9 @@ import { NextRequest, NextResponse } from "next/server";
 import fs from "fs";
 import path from "path";
 import { parse as parseCSV } from "csv-parse/sync";
+import { looksTwoSpaceDelimited, parseTwoSpace } from "../../../lib/csvTwoSpace";
+
+export const runtime = "nodejs";
 
 const uploadsDir = path.join(process.cwd(), "public", "uploads");
 
@@ -32,15 +35,20 @@ export async function GET(req: NextRequest) {
       const files = names.map((n) => {
         const filePath = path.join(uploadsDir, n);
         const raw = fs.readFileSync(filePath, "utf-8");
-        const delimiter = detectDelimiter(raw);
-        const rows = parseCSV(raw, {
-          delimiter,
-          columns: false,
-          skip_empty_lines: true,
-          relax_column_count: true,
-          trim: true,
-          relax_quotes: true,
-        }) as string[][];
+        const useTwoSpaces = looksTwoSpaceDelimited(raw);
+        const delimiter = useTwoSpaces ? "two-spaces" : detectDelimiter(raw);
+        const rows = useTwoSpaces
+          ? (parseTwoSpace(raw, false).rows as string[][])
+          : (parseCSV(raw, {
+              delimiter,
+              columns: false,
+              skip_empty_lines: true,
+              relax_column_count: true,
+              trim: true,
+              quote: '"',
+              escape: '"',
+              relax_quotes: true,
+            }) as string[][]);
         return { name: n, delimiter, rows };
       });
       return NextResponse.json({ files });
@@ -49,15 +57,20 @@ export async function GET(req: NextRequest) {
     const filePath = path.join(uploadsDir, name);
     if (!fs.existsSync(filePath)) return NextResponse.json({ error: "Arquivo não encontrado" }, { status: 404 });
     const raw = fs.readFileSync(filePath, "utf-8");
-    const delimiter = detectDelimiter(raw);
-    const rows = parseCSV(raw, {
-      delimiter,
-      columns: false,
-      skip_empty_lines: true,
-      relax_column_count: true,
-      trim: true,
-      relax_quotes: true,
-    }) as string[][];
+    const useTwoSpaces = looksTwoSpaceDelimited(raw);
+    const delimiter = useTwoSpaces ? "two-spaces" : detectDelimiter(raw);
+    const rows = useTwoSpaces
+      ? (parseTwoSpace(raw, false).rows as string[][])
+      : (parseCSV(raw, {
+          delimiter,
+          columns: false,
+          skip_empty_lines: true,
+          relax_column_count: true,
+          trim: true,
+          quote: '"',
+          escape: '"',
+          relax_quotes: true,
+        }) as string[][]);
     return NextResponse.json({ delimiter, rows });
   } catch (e: any) {
     return NextResponse.json({ error: e?.message || "Falha ao ler CSV" }, { status: 500 });

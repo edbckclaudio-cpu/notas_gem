@@ -3,6 +3,7 @@ import path from "path";
 import { createRequire } from "module";
 import type { Invoice, Product } from "./types";
 import { parse as parseCSV } from "csv-parse/sync";
+import { looksTwoSpaceDelimited, parseTwoSpace } from "./csvTwoSpace";
 
 export async function analyzeInvoices(fileUrls: string[]): Promise<{
   invoices: Invoice[];
@@ -54,7 +55,8 @@ export async function analyzeInvoices(fileUrls: string[]): Promise<{
           }
           return best;
         };
-        const delimiter = detectDelimiter(raw);
+        const useTwoSpaces = looksTwoSpaceDelimited(raw);
+        const delimiter = useTwoSpaces ? "" : detectDelimiter(raw);
 
         const parseNumber = (s: string) => {
           if (!s) return 0;
@@ -95,13 +97,21 @@ export async function analyzeInvoices(fileUrls: string[]): Promise<{
         // Tentar com cabeçalho; se não houver, cair para linhas como arrays
         let rowsObj: any[] | null = null;
         try {
-          rowsObj = parseCSV(raw, {
-            delimiter,
-            columns: true,
-            skip_empty_lines: true,
-            relax_column_count: true,
-            trim: true,
-          }) as any[];
+          if (useTwoSpaces) {
+            rowsObj = parseTwoSpace(raw, true).rows as any[];
+          } else {
+            rowsObj = parseCSV(raw, {
+              delimiter,
+              columns: true,
+              skip_empty_lines: true,
+              relax_column_count: true,
+              trim: true,
+              quote: '"',
+              escape: '"',
+              relax_quotes: true,
+              skip_records_with_error: true,
+            }) as any[];
+          }
         } catch {}
 
         if (rowsObj && rowsObj.length > 0) {
@@ -330,14 +340,19 @@ export async function analyzeInvoices(fileUrls: string[]): Promise<{
           }
         } else {
           // Caminho sem cabeçalho: tratar cada linha como array e agrupar por fornecedor+cnpj+vencimento
-          const rows = parseCSV(raw, {
-            delimiter,
-            columns: false,
-            skip_empty_lines: true,
-            relax_column_count: true,
-            trim: true,
-            relax_quotes: true,
-          }) as string[][];
+          const rows = useTwoSpaces
+            ? (parseTwoSpace(raw, false).rows as string[][])
+            : (parseCSV(raw, {
+                delimiter,
+                columns: false,
+                skip_empty_lines: true,
+                relax_column_count: true,
+                trim: true,
+                quote: '"',
+                escape: '"',
+                relax_quotes: true,
+                skip_records_with_error: true,
+              }) as string[][]);
 
           type Key = string;
           const invByKey = new Map<Key, Invoice>();
