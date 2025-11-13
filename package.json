@@ -1,0 +1,41 @@
+{
+  "name": "notas_para_gemini",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@supabase/supabase-js": "^2.81.1",
+    "class-variance-authority": "^0.7.1",
+    "csv-parse": "^6.1.0",
+    "date-fns": "^4.1.0",
+    "lucide-react": "^0.553.0",
+    "next": "16.0.1",
+    "pdf-parse": "^2.4.5",
+    "pdf2json": "^4.0.0",
+    "pdfjs-dist": "^5.4.394",
+    "react": "19.2.0",
+    "react-big-calendar": "^1.19.4",
+    "react-dom": "19.2.0",
+    "recharts": "^3.4.1",
+    "resend": "^6.4.2",
+    "sonner": "^2.0.7",
+    "tailwind-merge": "^3.4.0",
+    "zustand": "^5.0.8"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.0.1",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}

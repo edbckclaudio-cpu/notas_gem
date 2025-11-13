@@ -1,0 +1,4162 @@
+{
+  "users": [
+    {
+      "id": "dc55daff-2d70-4180-9280-953aaaef33fc",
+      "email": "kushida1@hotmail.com"
+    },
+    {
+      "id": "08b81c87-d6b8-457a-a921-b4b451fbefa1",
+      "email": "edbck.claudio@gmail.com"
+    }
+  ],
+  "invoices": [
+    {
+      "id": "04c5ac0a-e7a8-46cf-a1be-57b3d88fe3ab",
+      "user_id": "local-user",
+      "fornecedor": "CRISTIANE HASEGAWA PESCADOS EPP",
+      "cnpj": "06.323.460/0001-37",
+      "vencimento": "2025-11-13T13:08:43.627Z",
+      "total": 640,
+      "arquivo_url": "/uploads/notas1.csv",
+      "sum": 640
+    },
+    {
+      "id": "13430e5f-248f-43bf-81c2-b1e418d950f0",
+      "user_id": "local-user",
+      "fornecedor": "CRISTIANE HASEGAWA PESCADOS EPP",
+      "cnpj": "06.323.460/0001-37",
+      "vencimento": "2025-11-28T00:00:00.000Z",
+      "total": 575.58,
+      "arquivo_url": "/uploads/notas1.csv",
+      "sum": 0,
+      "parcela": 1
+    },
+    {
+      "id": "159490c1-2887-4310-92b7-de6a156935f0",
+      "user_id": "local-user",
+      "fornecedor": "W2W E-COMMERCE DE VINHOS S/A",
+      "cnpj": "09.813.204/0004-69",
+      "vencimento": "2025-11-26T00:00:00.000Z",
+      "total": 470.75,
+      "arquivo_url": "/uploads/notas1.csv",
+      "sum": 0,
+      "parcela": 1
+    },
+    {
+      "id": "1caed74c-5b3a-4319-abf3-44ed30028b0b",
+      "user_id": "local-user",
+      "fornecedor": "W2W E-COMMERCE DE VINHOS S/A",
+      "cnpj": "09.813.204/0004-69",
+      "vencimento": "2025-12-11T00:00:00.000Z",
+      "total": 470.75,
+      "arquivo_url": "/uploads/notas1.csv",
+      "sum": 0,
+      "parcela": 2
+    },
+    {
+      "id": "d457b71b-b47f-4aed-968d-805b92972298",
+      "user_id": "local-user",
+      "fornecedor": "WINE CAPITAL IMPORTACAO E DISTRIBUICAO-EIREL",
+      "cnpj": "27.312.819/0001-40",
+      "vencimento": "2025-11-29T00:00:00.000Z",
+      "total": 607.5,
+      "arquivo_url": "/uploads/notas1.csv",
+      "sum": 0,
+      "parcela": 1
+    },
+    {
+      "id": "9f2f85dc-605a-4877-82e3-3585abd23c49",
+      "user_id": "local-user",
+      "fornecedor": "WINE CAPITAL IMPORTACAO E DISTRIBUICAO-EIREL",
+      "cnpj": "27.312.819/0001-40",
+      "vencimento": "2025-12-23T00:00:00.000Z",
+      "total": 607.5,
+      "arquivo_url": "/uploads/notas1.csv",
+      "sum": 0,
+      "parcela": 2
+    },
+    {
+      "id": "539d1408-7774-499e-99a4-6a3d214c9306",
+      "user_id": "local-user",
+      "fornecedor": "CRISTIANE HASEGAWA PESCADOS EPP",
+      "cnpj": "06.323.460/0001-37",
+      "vencimento": "2025-11-21T00:00:00.000Z",
+      "total": 1786.4,
+      "arquivo_url": "/uploads/notas1.csv",
+      "sum": 0,
+      "parcela": 1
+    },
+    {
+      "id": "9cbe0a3f-e6f0-473b-bebc-b1236ee17feb",
+      "user_id": "local-user",
+      "fornecedor": "SPECIALITA COMERCIO DE BEBIDAS TDA.",
+      "cnpj": "09.063.896/0001-22",
+      "vencimento": "2025-12-01T00:00:00.000Z",
+      "total": 1476.94,
+      "arquivo_url": "/uploads/notas1.csv",
+      "sum": 0,
+      "parcela": 1
+    },
+    {
+      "id": "40e16f75-9e39-47e9-af12-a142907f891f",
+      "user_id": "local-user",
+      "fornecedor": "CRISTIANE HASEGAWA PESCADOS EPP",
+      "cnpj": "06.323.460/0001-37",
+      "vencimento": "2025-12-03T00:00:00.000Z",
+      "total": 346.16,
+      "arquivo_url": "/uploads/notas1.csv",
+      "sum": 0,
+      "parcela": 1
+    },
+    {
+      "id": "cb4badb3-b28b-439d-9cc8-09e368c7a3c2",
+      "user_id": "local-user",
+      "fornecedor": "CRISTIANE HASEGAWA PESCADOS EPP",
+      "cnpj": "06.323.460/0001-37",
+      "vencimento": "2025-12-18T00:00:00.000Z",
+      "total": 346.16,
+      "arquivo_url": "/uploads/notas1.csv",
+      "sum": 0,
+      "parcela": 2
+    },
+    {
+      "id": "187db821-8808-4741-bfb9-bdd9c6d9d5d9",
+      "user_id": "local-user",
+      "fornecedor": "CRISTIANE HASEGAWA PESCADOS EPP",
+      "cnpj": "06.323.460/0001-37",
+      "vencimento": "2026-01-02T00:00:00.000Z",
+      "total": 346.16,
+      "arquivo_url": "/uploads/notas1.csv",
+      "sum": 0,
+      "parcela": 3
+    },
+    {
+      "id": "6b4588cc-b4d5-4ce4-88e4-30bd3ef2682c",
+      "user_id": "local-user",
+      "fornecedor": "AC URBAN TRIBE IMPORTACAO E COMERCIO LTDA",
+      "cnpj": "14.739.674/0002-06",
+      "vencimento": "2025-12-03T00:00:00.000Z",
+      "total": 1546,
+      "arquivo_url": "/uploads/notas1.csv",
+      "sum": 0,
+      "parcela": 1
+    },
+    {
+      "id": "d6eb264e-4832-458e-8289-c5a75b933af4",
+      "user_id": "local-user",
+      "fornecedor": "Petara Importacao e Distribuicao de Bebidas Ltda.",
+      "cnpj": "38.063.278/0001-80",
+      "vencimento": "2025-11-20T00:00:00.000Z",
+      "total": 192,
+      "arquivo_url": "/uploads/notas2.csv",
+      "sum": 0,
+      "parcela": 1
+    },
+    {
+      "id": "88c883b2-74eb-438b-b381-d9609e0ce42a",
+      "user_id": "local-user",
+      "fornecedor": "LEGEND COMERCIO DE BEBIDAS LTDA",
+      "cnpj": "41.939.028/0001-76",
+      "vencimento": "2025-11-13T13:08:43.638Z",
+      "total": 1782,
+      "arquivo_url": "/uploads/notas2.csv",
+      "sum": 1782
+    },
+    {
+      "id": "d2adc926-2e21-47ba-81b1-1b33824301aa",
+      "user_id": "local-user",
+      "fornecedor": "FRUTT'S HORTIFRUTI LTDA",
+      "cnpj": "10.751.978/0001-49",
+      "vencimento": "2025-11-15T00:00:00.000Z",
+      "total": 550.88,
+      "arquivo_url": "/uploads/notas2.csv",
+      "sum": 0,
+      "parcela": 1
+    },
+    {
+      "id": "3414f604-dee5-4575-a567-2a94c01114c3",
+      "user_id": "local-user",
+      "fornecedor": "WAN SAN COMERCIAL LTDA",
+      "cnpj": "59.713.305/0001-93",
+      "vencimento": "2025-11-20T00:00:00.000Z",
+      "total": 695.89,
+      "arquivo_url": "/uploads/notas2.csv",
+      "sum": 0,
+      "parcela": 1
+    },
+    {
+      "id": "900f2e31-c3df-46af-b29f-2be177f38ff1",
+      "user_id": "local-user",
+      "fornecedor": "WAN SAN COMERCIAL LTDA",
+      "cnpj": "59.713.305/0001-93",
+      "vencimento": "2025-12-04T00:00:00.000Z",
+      "total": 695.89,
+      "arquivo_url": "/uploads/notas2.csv",
+      "sum": 0,
+      "parcela": 2
+    },
+    {
+      "id": "753d97ec-ec6d-44b7-97ee-15744f540eb6",
+      "user_id": "local-user",
+      "fornecedor": "MEIWA INDUSTRIA E COMERCIO LTDA",
+      "cnpj": "55.078.307/0001-05",
+      "vencimento": "2025-11-19T00:00:00.000Z",
+      "total": 310.11,
+      "arquivo_url": "/uploads/notas2.csv",
+      "sum": 0,
+      "parcela": 1
+    },
+    {
+      "id": "9dc4d60f-6758-4a25-b059-bedf37e810bb",
+      "user_id": "local-user",
+      "fornecedor": "CRISTIANE HASEGAWA-PESCADOS",
+      "cnpj": "06.323.460/0001-37",
+      "vencimento": "2025-11-13T13:08:43.696Z",
+      "total": 2295.4,
+      "arquivo_url": "/uploads/notas2.csv",
+      "sum": 2295.4
+    },
+    {
+      "id": "71e05294-0a49-4123-84a7-dc5869e3151b",
+      "user_id": "local-user",
+      "fornecedor": "HERMANN VINHOS E VINHAS LTDA",
+      "cnpj": "11.683.999/0001-37",
+      "vencimento": "2025-11-15T00:00:00.000Z",
+      "total": 230.26,
+      "arquivo_url": "/uploads/notas2.csv",
+      "sum": 0,
+      "parcela": 1
+    },
+    {
+      "id": "21a662dc-6eab-4737-9d18-98747a216138",
+      "user_id": "local-user",
+      "fornecedor": "PEIXE GOURMET IMPORTACAO E EXPORTACAO LTDA",
+      "cnpj": "14.798.308/0001-39",
+      "vencimento": "2025-11-25T00:00:00.000Z",
+      "total": 719.88,
+      "arquivo_url": "/uploads/notas2.csv",
+      "sum": 0,
+      "parcela": 1
+    },
+    {
+      "id": "9dc068cd-9dd2-4cf9-9d80-6d44de5bf453",
+      "user_id": "local-user",
+      "fornecedor": "COSTAZZURRA IMPORTAÇÃO E EXPORTAÇÃO LTDA",
+      "cnpj": "05.728.235/0001-18",
+      "vencimento": "2025-11-20T00:00:00.000Z",
+      "total": 553.49,
+      "arquivo_url": "/uploads/notas2.csv",
+      "sum": 0,
+      "parcela": 1
+    },
+    {
+      "id": "bf786d59-9945-415b-abf9-21f6ba546f4c",
+      "user_id": "local-user",
+      "fornecedor": "PEIXE GOURMET IMPORTACAO E EXPORTACAO LTDA",
+      "cnpj": "14.798.308/0001-39",
+      "vencimento": "1988-01-01T02:00:00.000Z",
+      "total": 111125,
+      "arquivo_url": "/uploads/notas3.csv",
+      "sum": 0,
+      "parcela": 1
+    },
+    {
+      "id": "239e8936-5094-4202-b268-46e471b48a79",
+      "user_id": "local-user",
+      "fornecedor": "PEIXE GOURMET IMPORTACAO E EXPORTACAO LTDA",
+      "cnpj": "14.798.308/0001-39",
+      "vencimento": "2025-11-13T13:08:43.866Z",
+      "total": 0,
+      "arquivo_url": "/uploads/notas3.csv",
+      "sum": 0,
+      "parcela": 2
+    },
+    {
+      "id": "ec7d1215-a118-4e67-9e0c-49294f2acfd3",
+      "user_id": "local-user",
+      "fornecedor": "PEIXE GOURMET IMPORTACAO E EXPORTACAO LTDA",
+      "cnpj": "14.798.308/0001-39",
+      "vencimento": "2025-11-13T13:08:43.866Z",
+      "total": 0,
+      "arquivo_url": "/uploads/notas3.csv",
+      "sum": 0,
+      "parcela": 3
+    },
+    {
+      "id": "c7cd420a-8010-45d3-9f1a-595c363d3f99",
+      "user_id": "local-user",
+      "fornecedor": "PIRAMIDES DISTRIBUIDORA LTDA",
+      "cnpj": "63.064.737/0001-98",
+      "vencimento": "1992-01-01T02:00:00.000Z",
+      "total": 18112025,
+      "arquivo_url": "/uploads/notas3.csv",
+      "sum": 0,
+      "parcela": 1
+    },
+    {
+      "id": "4983740d-3030-461e-93a1-312574dc855e",
+      "user_id": "local-user",
+      "fornecedor": "PIRAMIDES DISTRIBUIDORA LTDA",
+      "cnpj": "63.064.737/0001-98",
+      "vencimento": "2025-11-13T13:08:43.866Z",
+      "total": 0,
+      "arquivo_url": "/uploads/notas3.csv",
+      "sum": 0,
+      "parcela": 2
+    },
+    {
+      "id": "73e31f7d-18f1-4bce-ba49-71f6a093b2b8",
+      "user_id": "local-user",
+      "fornecedor": "PIRAMIDES DISTRIBUIDORA LTDA",
+      "cnpj": "63.064.737/0001-98",
+      "vencimento": "2025-11-13T13:08:43.867Z",
+      "total": 35012,
+      "arquivo_url": "/uploads/notas3.csv",
+      "sum": 0,
+      "parcela": 3
+    },
+    {
+      "id": "0dfa3f22-a540-4748-abc3-e8499a2b5546",
+      "user_id": "local-user",
+      "fornecedor": "WAN SAN COMERCIAL LTDA",
+      "cnpj": "59.713.305/0001-93",
+      "vencimento": "2001-12-01T02:00:00.000Z",
+      "total": 131125,
+      "arquivo_url": "/uploads/notas3.csv",
+      "sum": 0,
+      "parcela": 1
+    },
+    {
+      "id": "475f539c-e7aa-45e9-8da2-1342d8bf6b18",
+      "user_id": "local-user",
+      "fornecedor": "WAN SAN COMERCIAL LTDA",
+      "cnpj": "59.713.305/0001-93",
+      "vencimento": "2025-11-13T13:08:43.867Z",
+      "total": 271125,
+      "arquivo_url": "/uploads/notas3.csv",
+      "sum": 0,
+      "parcela": 2
+    },
+    {
+      "id": "7afdff29-e7e4-44f0-be86-7b7e0f1520c2",
+      "user_id": "local-user",
+      "fornecedor": "WAN SAN COMERCIAL LTDA",
+      "cnpj": "59.713.305/0001-93",
+      "vencimento": "2025-11-13T13:08:43.867Z",
+      "total": 0,
+      "arquivo_url": "/uploads/notas3.csv",
+      "sum": 0,
+      "parcela": 3
+    },
+    {
+      "id": "3953419b-e199-4dd8-9849-afc91493fbe4",
+      "user_id": "local-user",
+      "fornecedor": "COSTAZZURRA IMPORTAÇÃO E EXPORTAÇÃO LTDA",
+      "cnpj": "05.728.235/0001-18",
+      "vencimento": "1977-01-01T03:00:00.000Z",
+      "total": 161125,
+      "arquivo_url": "/uploads/notas3.csv",
+      "sum": 0,
+      "parcela": 1
+    },
+    {
+      "id": "04de07ff-8c63-4d7d-909d-d41d92ac9855",
+      "user_id": "local-user",
+      "fornecedor": "COSTAZZURRA IMPORTAÇÃO E EXPORTAÇÃO LTDA",
+      "cnpj": "05.728.235/0001-18",
+      "vencimento": "2025-11-13T13:08:43.870Z",
+      "total": 0,
+      "arquivo_url": "/uploads/notas3.csv",
+      "sum": 0,
+      "parcela": 2
+    },
+    {
+      "id": "b343e6b2-0a36-452b-a3ac-661437f94fd1",
+      "user_id": "local-user",
+      "fornecedor": "COSTAZZURRA IMPORTAÇÃO E EXPORTAÇÃO LTDA",
+      "cnpj": "05.728.235/0001-18",
+      "vencimento": "2025-11-13T13:08:43.870Z",
+      "total": 750,
+      "arquivo_url": "/uploads/notas3.csv",
+      "sum": 0,
+      "parcela": 3
+    },
+    {
+      "id": "29621cdc-75e6-4296-ac1f-c015465bc154",
+      "user_id": "local-user",
+      "fornecedor": "FORTE ALIMENTOS COMERCIO E IMP LTDA",
+      "cnpj": "21.498.077/0001-03",
+      "vencimento": "1977-01-01T03:00:00.000Z",
+      "total": 18112025,
+      "arquivo_url": "/uploads/notas3.csv",
+      "sum": 0,
+      "parcela": 1
+    },
+    {
+      "id": "cc08356a-9c5a-4af2-a2ae-dc129face494",
+      "user_id": "local-user",
+      "fornecedor": "FORTE ALIMENTOS COMERCIO E IMP LTDA",
+      "cnpj": "21.498.077/0001-03",
+      "vencimento": "2025-11-13T13:08:43.870Z",
+      "total": 25112025,
+      "arquivo_url": "/uploads/notas3.csv",
+      "sum": 0,
+      "parcela": 2
+    },
+    {
+      "id": "b2221ca0-b91c-4441-964d-255331b3169f",
+      "user_id": "local-user",
+      "fornecedor": "FORTE ALIMENTOS COMERCIO E IMP LTDA",
+      "cnpj": "21.498.077/0001-03",
+      "vencimento": "2025-11-13T13:08:43.870Z",
+      "total": 0,
+      "arquivo_url": "/uploads/notas3.csv",
+      "sum": 0,
+      "parcela": 3
+    },
+    {
+      "id": "e23ed0a9-6456-4a30-b577-d01c3dc090bd",
+      "user_id": "local-user",
+      "fornecedor": "DECANTER VINHOS FINOS LTDA",
+      "cnpj": "01.367.632/0001-50",
+      "vencimento": "1984-01-01T03:00:00.000Z",
+      "total": 15112025,
+      "arquivo_url": "/uploads/notas3.csv",
+      "sum": 0,
+      "parcela": 1
+    },
+    {
+      "id": "8a2f2d1e-92e0-4c5e-9c50-a3e48457e889",
+      "user_id": "local-user",
+      "fornecedor": "DECANTER VINHOS FINOS LTDA",
+      "cnpj": "01.367.632/0001-50",
+      "vencimento": "2025-11-13T13:08:43.870Z",
+      "total": 30112025,
+      "arquivo_url": "/uploads/notas3.csv",
+      "sum": 0,
+      "parcela": 2
+    },
+    {
+      "id": "294ee473-4c76-4354-94bf-5682b2c4a338",
+      "user_id": "local-user",
+      "fornecedor": "DECANTER VINHOS FINOS LTDA",
+      "cnpj": "01.367.632/0001-50",
+      "vencimento": "2025-11-13T13:08:43.870Z",
+      "total": 15122025,
+      "arquivo_url": "/uploads/notas3.csv",
+      "sum": 0,
+      "parcela": 3
+    },
+    {
+      "id": "5704cf25-ff46-4515-b586-1896e59537f4",
+      "user_id": "local-user",
+      "fornecedor": "FRUTT'S HORTIFRUTI LTDA",
+      "cnpj": "10.751.978/0001-49",
+      "vencimento": "1950-01-01T02:00:00.000Z",
+      "total": 13112025,
+      "arquivo_url": "/uploads/notas3.csv",
+      "sum": 0,
+      "parcela": 1
+    },
+    {
+      "id": "4ff8c179-737a-4075-91ba-bb3cd6745b17",
+      "user_id": "local-user",
+      "fornecedor": "FRUTT'S HORTIFRUTI LTDA",
+      "cnpj": "10.751.978/0001-49",
+      "vencimento": "2025-11-13T13:08:43.871Z",
+      "total": 0,
+      "arquivo_url": "/uploads/notas3.csv",
+      "sum": 0,
+      "parcela": 2
+    },
+    {
+      "id": "ffe9660b-a0ce-4f73-baaa-7f3e481223b6",
+      "user_id": "local-user",
+      "fornecedor": "FRUTT'S HORTIFRUTI LTDA",
+      "cnpj": "10.751.978/0001-49",
+      "vencimento": "2025-11-13T13:08:43.871Z",
+      "total": 0,
+      "arquivo_url": "/uploads/notas3.csv",
+      "sum": 0,
+      "parcela": 3
+    },
+    {
+      "id": "b7961599-d74d-42d9-96d3-f2bfc4e9a8b9",
+      "user_id": "local-user",
+      "fornecedor": "FABENE CIA DE ALIMENTOS LTDA",
+      "cnpj": "36.226.780/0001-30",
+      "vencimento": "2001-06-01T03:00:00.000Z",
+      "total": 12112025,
+      "arquivo_url": "/uploads/notas3.csv",
+      "sum": 0,
+      "parcela": 1
+    },
+    {
+      "id": "1d3afe1e-eee5-43ef-8090-12d3f81f1205",
+      "user_id": "local-user",
+      "fornecedor": "FABENE CIA DE ALIMENTOS LTDA",
+      "cnpj": "36.226.780/0001-30",
+      "vencimento": "0872-06-01T03:06:28.000Z",
+      "total": 0,
+      "arquivo_url": "/uploads/notas3.csv",
+      "sum": 0,
+      "parcela": 2
+    },
+    {
+      "id": "a7ac835f-5f14-4b06-9fb5-dced4f0b0591",
+      "user_id": "local-user",
+      "fornecedor": "FABENE CIA DE ALIMENTOS LTDA",
+      "cnpj": "36.226.780/0001-30",
+      "vencimento": "2025-11-13T13:08:43.875Z",
+      "total": 0,
+      "arquivo_url": "/uploads/notas3.csv",
+      "sum": 0,
+      "parcela": 3
+    },
+    {
+      "id": "596eb694-74b4-481e-bb34-098ea2b450cb",
+      "user_id": "local-user",
+      "fornecedor": "FRUTT'S HORTIFRUTI LTDA",
+      "cnpj": "10.751.978/0001-49",
+      "vencimento": "2001-12-01T02:00:00.000Z",
+      "total": 12112025,
+      "arquivo_url": "/uploads/notas3.csv",
+      "sum": 0,
+      "parcela": 1
+    },
+    {
+      "id": "95148fd9-004e-49c0-9d38-ec1dec4b6e21",
+      "user_id": "local-user",
+      "fornecedor": "FRUTT'S HORTIFRUTI LTDA",
+      "cnpj": "10.751.978/0001-49",
+      "vencimento": "1950-12-01T03:00:00.000Z",
+      "total": 0,
+      "arquivo_url": "/uploads/notas3.csv",
+      "sum": 0,
+      "parcela": 2
+    },
+    {
+      "id": "0af0116c-5eca-4b41-859f-cf1d3601368d",
+      "user_id": "local-user",
+      "fornecedor": "HMI REPRESENTACAO DE ALIMENTOS LTDA",
+      "cnpj": "30.161.877/0001-25",
+      "vencimento": "2025-11-03T00:00:00.000Z",
+      "total": 670.51,
+      "arquivo_url": "/uploads/notas4.csv",
+      "sum": 0,
+      "parcela": 1
+    },
+    {
+      "id": "08696c3d-3cba-4ee6-b162-f616302216a9",
+      "user_id": "local-user",
+      "fornecedor": "MASTER FOODS COMERCIO E IMPORTACAO LTDA",
+      "cnpj": "08.602.684/0002-94",
+      "vencimento": "2025-11-03T00:00:00.000Z",
+      "total": 2776.37,
+      "arquivo_url": "/uploads/notas4.csv",
+      "sum": 0,
+      "parcela": 1
+    },
+    {
+      "id": "ba82a910-5eb1-4cdf-a2ae-3099021abd48",
+      "user_id": "local-user",
+      "fornecedor": "SPECIALITA COMERCIO DE BEBIDAS LTDA.",
+      "cnpj": "09.063.896/0001-22",
+      "vencimento": "2025-11-03T00:00:00.000Z",
+      "total": 398.36,
+      "arquivo_url": "/uploads/notas4.csv",
+      "sum": 0,
+      "parcela": 1
+    },
+    {
+      "id": "896db480-124a-4732-a043-8a3cd3d3c010",
+      "user_id": "local-user",
+      "fornecedor": "FRUTT'S HORTIFRUTI LTDA",
+      "cnpj": "10.751.978/0001-49",
+      "vencimento": "2025-11-04T00:00:00.000Z",
+      "total": 549.95,
+      "arquivo_url": "/uploads/notas4.csv",
+      "sum": 0,
+      "parcela": 1
+    },
+    {
+      "id": "ca411d4b-6a0b-4e17-b466-d0037807e2e9",
+      "user_id": "local-user",
+      "fornecedor": "EMPORIO MEL COMERCIO DE ALIMENTOS E BI",
+      "cnpj": "09.640.611/0002-50",
+      "vencimento": "2025-11-03T00:00:00.000Z",
+      "total": 879.1,
+      "arquivo_url": "/uploads/notas4.csv",
+      "sum": 0,
+      "parcela": 1
+    },
+    {
+      "id": "8b49a6cf-c53f-4071-aa3f-76bb01bb1da2",
+      "user_id": "local-user",
+      "fornecedor": "EMPORIO MEL COMERCIO DE ALIMENTOS E BI",
+      "cnpj": "09.640.611/0002-50",
+      "vencimento": "2025-11-10T00:00:00.000Z",
+      "total": 879.1,
+      "arquivo_url": "/uploads/notas4.csv",
+      "sum": 0,
+      "parcela": 2
+    },
+    {
+      "id": "a47e7bb3-c40f-4e7c-aab0-38f16811c562",
+      "user_id": "local-user",
+      "fornecedor": "PEIXE GOURMET IMPORTACAO E EXPORTACAO LTDA",
+      "cnpj": "14.798.308/0001-39",
+      "vencimento": "2025-11-01T00:00:00.000Z",
+      "total": 719.88,
+      "arquivo_url": "/uploads/notas4.csv",
+      "sum": 0,
+      "parcela": 1
+    },
+    {
+      "id": "2b734048-a6d1-4e72-9dcb-4b630937b5bb",
+      "user_id": "local-user",
+      "fornecedor": "FABENE CIA DE ALIMENTOS LTDA",
+      "cnpj": "36.226.780/0001-30",
+      "vencimento": "2025-11-03T00:00:00.000Z",
+      "total": 910.16,
+      "arquivo_url": "/uploads/notas4.csv",
+      "sum": 0,
+      "parcela": 1
+    },
+    {
+      "id": "f2b89ee2-d38c-4994-88fe-93cc141883bf",
+      "user_id": "local-user",
+      "fornecedor": "FRUTT'S HORTIFRUTI LTDA",
+      "cnpj": "10.751.978/0001-49",
+      "vencimento": "2025-11-01T00:00:00.000Z",
+      "total": 632.87,
+      "arquivo_url": "/uploads/notas4.csv",
+      "sum": 0,
+      "parcela": 1
+    },
+    {
+      "id": "90defe38-17f3-40d8-83bd-f32892e41e18",
+      "user_id": "local-user",
+      "fornecedor": "LEVITARE - INDUSTRIA E COMERCIO DE LATICINIOS LTDA",
+      "cnpj": "52.604.311/0003-25",
+      "vencimento": "2025-11-03T00:00:00.000Z",
+      "total": 448.92,
+      "arquivo_url": "/uploads/notas4.csv",
+      "sum": 0,
+      "parcela": 1
+    },
+    {
+      "id": "6c298243-63c5-44d5-9ccb-e06f30d4ce57",
+      "user_id": "local-user",
+      "fornecedor": "FRUTT'S HORTIFRUTI LTDA",
+      "cnpj": "10.751.978/0001-49",
+      "vencimento": "2025-11-06T00:00:00.000Z",
+      "total": 460.86,
+      "arquivo_url": "/uploads/notas5.csv",
+      "sum": 0,
+      "parcela": 1
+    },
+    {
+      "id": "87d6c08f-b29f-4e5e-b860-8d4db328acbd",
+      "user_id": "local-user",
+      "fornecedor": "WAN SAN COMERCIAL LTDA",
+      "cnpj": "59.713.305/0001-93",
+      "vencimento": "2025-11-06T00:00:00.000Z",
+      "total": 603.92,
+      "arquivo_url": "/uploads/notas5.csv",
+      "sum": 0,
+      "parcela": 1
+    },
+    {
+      "id": "3fe9aec1-f74f-40a9-aef0-267dea69bbc3",
+      "user_id": "local-user",
+      "fornecedor": "WAN SAN COMERCIAL LTDA",
+      "cnpj": "59.713.305/0001-93",
+      "vencimento": "2025-11-20T00:00:00.000Z",
+      "total": 603.92,
+      "arquivo_url": "/uploads/notas5.csv",
+      "sum": 0,
+      "parcela": 2
+    },
+    {
+      "id": "ec9fd26f-a087-4307-93a3-af2a15f86991",
+      "user_id": "local-user",
+      "fornecedor": "IMF REPRESENTACAO DE ALIMENTOS LTDA",
+      "cnpj": "30.161.877/0001-25",
+      "vencimento": "2025-05-11T03:00:00.000Z",
+      "total": 238.24,
+      "arquivo_url": "/uploads/notas5.csv",
+      "sum": 0,
+      "parcela": 1
+    },
+    {
+      "id": "d32f11ac-401f-4f1a-8dd4-205e971983cc",
+      "user_id": "local-user",
+      "fornecedor": "ROMEU PASQUANTONIO",
+      "cnpj": "29.835.524/0001-84",
+      "vencimento": "2025-11-04T00:00:00.000Z",
+      "total": 1014,
+      "arquivo_url": "/uploads/notas5.csv",
+      "sum": 0,
+      "parcela": 1
+    },
+    {
+      "id": "601487a0-0fe4-43e0-9661-debbad5f3a5e",
+      "user_id": "local-user",
+      "fornecedor": "FORTE ALIMENTOS COMERCIO E IMP LTDA",
+      "cnpj": "21.498.077/0001-03",
+      "vencimento": "2025-11-04T00:00:00.000Z",
+      "total": 584.83,
+      "arquivo_url": "/uploads/notas5.csv",
+      "sum": 0,
+      "parcela": 1
+    },
+    {
+      "id": "5fb58d3f-8f70-40de-9872-4444fe88fd90",
+      "user_id": "local-user",
+      "fornecedor": "FORTE ALIMENTOS COMERCIO E IMP LTDA",
+      "cnpj": "21.498.077/0001-03",
+      "vencimento": "2025-11-11T00:00:00.000Z",
+      "total": 584.83,
+      "arquivo_url": "/uploads/notas5.csv",
+      "sum": 0,
+      "parcela": 2
+    },
+    {
+      "id": "8852ba7c-8804-47a6-ac04-1324897ca2f8",
+      "user_id": "local-user",
+      "fornecedor": "PIRAMIDES DISTRIBUIDORA LTDA",
+      "cnpj": "63.064.737/0001-98",
+      "vencimento": "2025-11-04T00:00:00.000Z",
+      "total": 1051,
+      "arquivo_url": "/uploads/notas5.csv",
+      "sum": 0,
+      "parcela": 1
+    },
+    {
+      "id": "3dcdc3ed-4a06-4715-bddd-818f3c231096",
+      "user_id": "local-user",
+      "fornecedor": "AC URBAN TRIBE IMPORTACAO E COMERCIO LTDA",
+      "cnpj": "14.739.674/0002-06",
+      "vencimento": "2025-11-06T00:00:00.000Z",
+      "total": 558,
+      "arquivo_url": "/uploads/notas5.csv",
+      "sum": 0,
+      "parcela": 1
+    },
+    {
+      "id": "4d46d5fe-b96d-4cd6-b2de-739760671c43",
+      "user_id": "local-user",
+      "fornecedor": "ROMEU PASQUANTONIO",
+      "cnpj": "29.835.524/0001-84",
+      "vencimento": "2025-11-11T00:00:00.000Z",
+      "total": 1014,
+      "arquivo_url": "/uploads/notas5.csv",
+      "sum": 0,
+      "parcela": 2
+    },
+    {
+      "id": "90dfa842-4da4-4211-a431-2be25827981f",
+      "user_id": "local-user",
+      "fornecedor": "NESTLE BRASIL LTDA",
+      "cnpj": "60.409.075/0540-82",
+      "vencimento": "2025-11-06T00:00:00.000Z",
+      "total": 2587.5,
+      "arquivo_url": "/uploads/notas5.csv",
+      "sum": 0,
+      "parcela": 1
+    },
+    {
+      "id": "0384328a-b571-4d73-bd31-bbd1a170504a",
+      "user_id": "local-user",
+      "fornecedor": "WINE CAPITAL IMPORTACAO E DISTRIBUICAO - EIRELI",
+      "cnpj": "10.992.853/0001-00",
+      "vencimento": "2025-12-02T00:00:00.000Z",
+      "total": 279.87,
+      "arquivo_url": "/uploads/notas6.csv",
+      "sum": 0,
+      "parcela": 1
+    },
+    {
+      "id": "190acc7f-0092-44c1-9874-a5bd87529385",
+      "user_id": "local-user",
+      "fornecedor": "WINE CAPITAL IMPORTACAO E DISTRIBUICAO - EIRELI",
+      "cnpj": "10.992.853/0001-00",
+      "vencimento": "2025-11-08T00:00:00.000Z",
+      "total": 279.88,
+      "arquivo_url": "/uploads/notas6.csv",
+      "sum": 0,
+      "parcela": 2
+    },
+    {
+      "id": "51b46d13-8420-4d8f-8c5a-71ac2a1dffd7",
+      "user_id": "local-user",
+      "fornecedor": "PIRAMIDES DISTRIBUIDORA LTDA",
+      "cnpj": "63.064.737/0001-98",
+      "vencimento": "2025-11-10T00:00:00.000Z",
+      "total": 1428.4,
+      "arquivo_url": "/uploads/notas6.csv",
+      "sum": 0,
+      "parcela": 1
+    },
+    {
+      "id": "d05c43e5-8aa1-40e2-a645-04c044c0f850",
+      "user_id": "local-user",
+      "fornecedor": "PIRAMIDES DISTRIBUIDORA LTDA",
+      "cnpj": "63.064.737/0001-98",
+      "vencimento": "2025-11-13T13:08:43.918Z",
+      "total": 35012,
+      "arquivo_url": "/uploads/notas6.csv",
+      "sum": 0,
+      "parcela": 3
+    },
+    {
+      "id": "85bb15c8-61a7-4941-a401-69cad4e5c61a",
+      "user_id": "local-user",
+      "fornecedor": "AUTOAMERICA LTDA",
+      "cnpj": "04.140.399/0001-67",
+      "vencimento": "2025-11-08T00:00:00.000Z",
+      "total": 1028.68,
+      "arquivo_url": "/uploads/notas6.csv",
+      "sum": 0,
+      "parcela": 1
+    },
+    {
+      "id": "7152a709-31ad-4666-9f74-cbade51bd260",
+      "user_id": "local-user",
+      "fornecedor": "AUTOAMERICA LTDA",
+      "cnpj": "04.140.399/0001-67",
+      "vencimento": "2025-11-13T13:08:43.919Z",
+      "total": 500,
+      "arquivo_url": "/uploads/notas6.csv",
+      "sum": 0,
+      "parcela": 3
+    },
+    {
+      "id": "1270495c-a84d-40f5-a847-79868fb10eed",
+      "user_id": "local-user",
+      "fornecedor": "SPECIALITA COMERCIO DE BEBIDAS LTDA.",
+      "cnpj": "09.063.896/0001-22",
+      "vencimento": "2025-11-06T00:00:00.000Z",
+      "total": 916.56,
+      "arquivo_url": "/uploads/notas6.csv",
+      "sum": 0,
+      "parcela": 1
+    },
+    {
+      "id": "0353d4c9-d1a5-4679-8944-b653030f11f7",
+      "user_id": "local-user",
+      "fornecedor": "SPECIALITA COMERCIO DE BEBIDAS LTDA.",
+      "cnpj": "09.063.896/0001-22",
+      "vencimento": "2025-11-13T13:08:43.919Z",
+      "total": 0,
+      "arquivo_url": "/uploads/notas6.csv",
+      "sum": 0,
+      "parcela": 3
+    },
+    {
+      "id": "a368d380-8421-4053-8f20-9adffdaf2e72",
+      "user_id": "local-user",
+      "fornecedor": "FRUTT'S HORTIFRUTI LTDA",
+      "cnpj": "10.751.978/0001-49",
+      "vencimento": "2025-11-08T00:00:00.000Z",
+      "total": 504.89,
+      "arquivo_url": "/uploads/notas6.csv",
+      "sum": 0,
+      "parcela": 1
+    },
+    {
+      "id": "69ba4636-7004-4f7f-ae4b-fda3dc853e4c",
+      "user_id": "local-user",
+      "fornecedor": "FRUTT'S HORTIFRUTI LTDA",
+      "cnpj": "10.751.978/0001-49",
+      "vencimento": "2025-11-13T13:08:43.919Z",
+      "total": 0,
+      "arquivo_url": "/uploads/notas6.csv",
+      "sum": 0,
+      "parcela": 3
+    },
+    {
+      "id": "30a766f6-974d-4108-a66b-1e26381fd174",
+      "user_id": "local-user",
+      "fornecedor": "KEIKO SAN PRODUTOS ALIMENTICIOS LTDA - KEIKOSAN",
+      "cnpj": "59.501.502/0001-49",
+      "vencimento": "2025-11-07T00:00:00.000Z",
+      "total": 1245.19,
+      "arquivo_url": "/uploads/notas6.csv",
+      "sum": 0,
+      "parcela": 1
+    },
+    {
+      "id": "0cffb9e3-e22e-4ac6-87dd-7ed961554146",
+      "user_id": "local-user",
+      "fornecedor": "KEIKO SAN PRODUTOS ALIMENTICIOS LTDA - KEIKOSAN",
+      "cnpj": "59.501.502/0001-49",
+      "vencimento": "2025-11-11T00:00:00.000Z",
+      "total": 1245,
+      "arquivo_url": "/uploads/notas6.csv",
+      "sum": 0,
+      "parcela": 2
+    },
+    {
+      "id": "03c7bf2f-16fb-4f07-a63e-62866828e953",
+      "user_id": "local-user",
+      "fornecedor": "FUTURA COMERCIAL TRADING LTDA",
+      "cnpj": "00.163.222/0001-25",
+      "vencimento": "2025-11-07T00:00:00.000Z",
+      "total": 776.38,
+      "arquivo_url": "/uploads/notas6.csv",
+      "sum": 0,
+      "parcela": 1
+    },
+    {
+      "id": "0464ca98-187d-4131-8edb-f50a20a18d91",
+      "user_id": "local-user",
+      "fornecedor": "FUTURA COMERCIAL TRADING LTDA",
+      "cnpj": "00.163.222/0001-25",
+      "vencimento": "2025-11-13T13:08:43.921Z",
+      "total": 750,
+      "arquivo_url": "/uploads/notas6.csv",
+      "sum": 0,
+      "parcela": 3
+    },
+    {
+      "id": "99d2fc47-6328-4f3f-bef1-8fcbffc0e09d",
+      "user_id": "local-user",
+      "fornecedor": "CRISTIANE HASEGAWA-PESCADOS",
+      "cnpj": "06.323.460/0001-37",
+      "vencimento": "2025-10-16T00:00:00.000Z",
+      "total": 2519.3,
+      "arquivo_url": "/uploads/notas6.csv",
+      "sum": 0,
+      "parcela": 1
+    },
+    {
+      "id": "4986cfd1-b905-42d7-b619-6f58da101480",
+      "user_id": "local-user",
+      "fornecedor": "CRISTIANE HASEGAWA-PESCADOS",
+      "cnpj": "06.323.460/0001-37",
+      "vencimento": "2025-11-13T13:08:43.921Z",
+      "total": 0,
+      "arquivo_url": "/uploads/notas6.csv",
+      "sum": 0,
+      "parcela": 3
+    },
+    {
+      "id": "6e605172-e533-4052-9985-ca6c18ce8164",
+      "user_id": "local-user",
+      "fornecedor": "ROMEU PASQUANTONIO",
+      "cnpj": "10.992.853/0001-00",
+      "vencimento": "2025-11-11T00:00:00.000Z",
+      "total": 1014,
+      "arquivo_url": "/uploads/notas7.csv",
+      "sum": 0,
+      "parcela": 1
+    },
+    {
+      "id": "904ecfa8-2942-4267-bb4e-dfb73f50391d",
+      "user_id": "local-user",
+      "fornecedor": "ROMEU PASQUANTONIO",
+      "cnpj": "10.992.853/0001-00",
+      "vencimento": "2025-11-18T00:00:00.000Z",
+      "total": 1014,
+      "arquivo_url": "/uploads/notas7.csv",
+      "sum": 0,
+      "parcela": 2
+    },
+    {
+      "id": "26a7872f-01bb-4ba3-b033-7412494f6490",
+      "user_id": "local-user",
+      "fornecedor": "ROMEU PASQUANTONIO",
+      "cnpj": "10.992.853/0001-00",
+      "vencimento": "2025-11-13T13:08:43.925Z",
+      "total": 0,
+      "arquivo_url": "/uploads/notas7.csv",
+      "sum": 0,
+      "parcela": 3
+    },
+    {
+      "id": "9acf206a-82f9-48d3-b372-17f736470b56",
+      "user_id": "local-user",
+      "fornecedor": "SPECIALITA COMERCIO DE BEBIDAS LTDA.",
+      "cnpj": "09.063.896/0001-22",
+      "vencimento": "2025-11-10T00:00:00.000Z",
+      "total": 756.72,
+      "arquivo_url": "/uploads/notas7.csv",
+      "sum": 0,
+      "parcela": 1
+    },
+    {
+      "id": "6733c7bf-261a-4acb-b3fc-7eeb78f3a103",
+      "user_id": "local-user",
+      "fornecedor": "SPECIALITA COMERCIO DE BEBIDAS LTDA.",
+      "cnpj": "09.063.896/0001-22",
+      "vencimento": "2025-11-13T13:08:43.926Z",
+      "total": 0,
+      "arquivo_url": "/uploads/notas7.csv",
+      "sum": 0,
+      "parcela": 2
+    },
+    {
+      "id": "9d7ec77c-f1b7-4761-81a8-eb0110975667",
+      "user_id": "local-user",
+      "fornecedor": "SPECIALITA COMERCIO DE BEBIDAS LTDA.",
+      "cnpj": "09.063.896/0001-22",
+      "vencimento": "2025-11-13T13:08:43.926Z",
+      "total": 0,
+      "arquivo_url": "/uploads/notas7.csv",
+      "sum": 0,
+      "parcela": 3
+    },
+    {
+      "id": "d5e8d666-c2b6-4019-9a78-ccb5bf9d76d3",
+      "user_id": "local-user",
+      "fornecedor": "3GX COMERCIO DE ALIMENTOS LTDA",
+      "cnpj": "22.873.332/0001-13",
+      "vencimento": "2025-11-11T00:00:00.000Z",
+      "total": 1255.29,
+      "arquivo_url": "/uploads/notas7.csv",
+      "sum": 0,
+      "parcela": 1
+    },
+    {
+      "id": "ec7e6d8b-3fe1-4953-aad6-379326243236",
+      "user_id": "local-user",
+      "fornecedor": "3GX COMERCIO DE ALIMENTOS LTDA",
+      "cnpj": "22.873.332/0001-13",
+      "vencimento": "2025-11-18T00:00:00.000Z",
+      "total": 1255.29,
+      "arquivo_url": "/uploads/notas7.csv",
+      "sum": 0,
+      "parcela": 2
+    },
+    {
+      "id": "02cccc9d-46f6-4d86-ba9a-f5bf28783bef",
+      "user_id": "local-user",
+      "fornecedor": "3GX COMERCIO DE ALIMENTOS LTDA",
+      "cnpj": "22.873.332/0001-13",
+      "vencimento": "2025-11-13T13:08:43.926Z",
+      "total": 0,
+      "arquivo_url": "/uploads/notas7.csv",
+      "sum": 0,
+      "parcela": 3
+    },
+    {
+      "id": "7464d9a5-c7ce-4653-895e-f13771cd959b",
+      "user_id": "local-user",
+      "fornecedor": "FRUTT'S HORTIFRUTI LTDA",
+      "cnpj": "10.751.978/0001-49",
+      "vencimento": "2025-11-11T00:00:00.000Z",
+      "total": 401.85,
+      "arquivo_url": "/uploads/notas7.csv",
+      "sum": 0,
+      "parcela": 1
+    },
+    {
+      "id": "d7f48f1c-adc1-4e86-a349-a9f9f2b13b6c",
+      "user_id": "local-user",
+      "fornecedor": "FRUTT'S HORTIFRUTI LTDA",
+      "cnpj": "10.751.978/0001-49",
+      "vencimento": "2025-11-13T13:08:43.926Z",
+      "total": 0,
+      "arquivo_url": "/uploads/notas7.csv",
+      "sum": 0,
+      "parcela": 2
+    },
+    {
+      "id": "ad57a218-9210-4879-9f2c-30d145bb1c0a",
+      "user_id": "local-user",
+      "fornecedor": "FRUTT'S HORTIFRUTI LTDA",
+      "cnpj": "10.751.978/0001-49",
+      "vencimento": "2025-11-13T13:08:43.926Z",
+      "total": 0,
+      "arquivo_url": "/uploads/notas7.csv",
+      "sum": 0,
+      "parcela": 3
+    },
+    {
+      "id": "06bd4935-7c57-4427-9523-7e71fae96e15",
+      "user_id": "local-user",
+      "fornecedor": "IMF REPRESENTACAO DE ALIMENTOS LTDA",
+      "cnpj": "30.161.877/0001-25",
+      "vencimento": "2025-11-12T00:00:00.000Z",
+      "total": 668.76,
+      "arquivo_url": "/uploads/notas7.csv",
+      "sum": 0,
+      "parcela": 1
+    },
+    {
+      "id": "a5fbb2e6-77cc-494b-8bb7-e9b49834f2ea",
+      "user_id": "local-user",
+      "fornecedor": "IMF REPRESENTACAO DE ALIMENTOS LTDA",
+      "cnpj": "30.161.877/0001-25",
+      "vencimento": "2025-11-13T13:08:43.928Z",
+      "total": 0,
+      "arquivo_url": "/uploads/notas7.csv",
+      "sum": 0,
+      "parcela": 2
+    },
+    {
+      "id": "2764062a-f3f4-41fc-b4c7-6712729f348c",
+      "user_id": "local-user",
+      "fornecedor": "IMF REPRESENTACAO DE ALIMENTOS LTDA",
+      "cnpj": "30.161.877/0001-25",
+      "vencimento": "2025-11-13T13:08:43.928Z",
+      "total": 0,
+      "arquivo_url": "/uploads/notas7.csv",
+      "sum": 0,
+      "parcela": 3
+    },
+    {
+      "id": "34a8308e-a33c-4101-ba92-c9ac1f845ff4",
+      "user_id": "local-user",
+      "fornecedor": "FORTE ALIMENTOS COMERCIO E IMP LTDA",
+      "cnpj": "21.498.077/0001-03",
+      "vencimento": "2025-11-11T00:00:00.000Z",
+      "total": 614.78,
+      "arquivo_url": "/uploads/notas7.csv",
+      "sum": 0,
+      "parcela": 1
+    },
+    {
+      "id": "fb69b37c-972f-4d78-bc4b-967f4664c0f6",
+      "user_id": "local-user",
+      "fornecedor": "FORTE ALIMENTOS COMERCIO E IMP LTDA",
+      "cnpj": "21.498.077/0001-03",
+      "vencimento": "2025-11-18T00:00:00.000Z",
+      "total": 614.78,
+      "arquivo_url": "/uploads/notas7.csv",
+      "sum": 0,
+      "parcela": 2
+    },
+    {
+      "id": "7f6ba7be-d42e-4d9c-9c9d-5e163ed9440c",
+      "user_id": "local-user",
+      "fornecedor": "FORTE ALIMENTOS COMERCIO E IMP LTDA",
+      "cnpj": "21.498.077/0001-03",
+      "vencimento": "2025-11-13T13:08:43.928Z",
+      "total": 0,
+      "arquivo_url": "/uploads/notas7.csv",
+      "sum": 0,
+      "parcela": 3
+    },
+    {
+      "id": "2db74829-6e76-4152-ac08-a7fc95d46773",
+      "user_id": "local-user",
+      "fornecedor": "EMPORIO MeL COMERCIO DE ALIMENTOS E BI",
+      "cnpj": "09.640.611/0002-50",
+      "vencimento": "2025-11-10T00:00:00.000Z",
+      "total": 801.22,
+      "arquivo_url": "/uploads/notas7.csv",
+      "sum": 0,
+      "parcela": 1
+    },
+    {
+      "id": "17bfda3a-a8fa-4f88-8003-4e00dca38a5f",
+      "user_id": "local-user",
+      "fornecedor": "EMPORIO MeL COMERCIO DE ALIMENTOS E BI",
+      "cnpj": "09.640.611/0002-50",
+      "vencimento": "2025-11-17T00:00:00.000Z",
+      "total": 801.23,
+      "arquivo_url": "/uploads/notas7.csv",
+      "sum": 0,
+      "parcela": 2
+    },
+    {
+      "id": "3503c9c6-9368-421f-8693-3c37a5a98df3",
+      "user_id": "local-user",
+      "fornecedor": "EMPORIO MeL COMERCIO DE ALIMENTOS E BI",
+      "cnpj": "09.640.611/0002-50",
+      "vencimento": "2025-11-13T13:08:43.928Z",
+      "total": 0,
+      "arquivo_url": "/uploads/notas7.csv",
+      "sum": 0,
+      "parcela": 3
+    },
+    {
+      "id": "407a2a1d-4528-4544-92d3-534cf2737f4f",
+      "user_id": "local-user",
+      "fornecedor": "CALIMP IMP. EXP. LTDA",
+      "cnpj": "00.923.077/0001-33",
+      "vencimento": "2025-11-10T00:00:00.000Z",
+      "total": 451.92,
+      "arquivo_url": "/uploads/notas7.csv",
+      "sum": 0,
+      "parcela": 1
+    },
+    {
+      "id": "8c8987df-9ca8-4140-9f79-5c4ad3c981ee",
+      "user_id": "local-user",
+      "fornecedor": "CALIMP IMP. EXP. LTDA",
+      "cnpj": "00.923.077/0001-33",
+      "vencimento": "2025-11-13T13:08:43.929Z",
+      "total": 0,
+      "arquivo_url": "/uploads/notas7.csv",
+      "sum": 0,
+      "parcela": 2
+    },
+    {
+      "id": "01e5c915-27b0-49f7-9c02-14e64ff6a7c7",
+      "user_id": "local-user",
+      "fornecedor": "CALIMP IMP. EXP. LTDA",
+      "cnpj": "00.923.077/0001-33",
+      "vencimento": "2025-11-13T13:08:43.929Z",
+      "total": 0,
+      "arquivo_url": "/uploads/notas7.csv",
+      "sum": 0,
+      "parcela": 3
+    }
+  ],
+  "products": [
+    {
+      "id": "e5958f30-b49f-4ea6-b020-00045f590129",
+      "invoice_id": "04c5ac0a-e7a8-46cf-a1be-57b3d88fe3ab",
+      "nome": "Camarão Limpo",
+      "data_compra": "2025-11-04T00:00:00.000Z",
+      "valor_unitario": 140
+    },
+    {
+      "id": "19918df6-9fe2-4174-8c16-87fb2f704fb8",
+      "invoice_id": "04c5ac0a-e7a8-46cf-a1be-57b3d88fe3ab",
+      "nome": "Lula limpa",
+      "data_compra": "2025-11-04T00:00:00.000Z",
+      "valor_unitario": 110
+    },
+    {
+      "id": "68a86d8e-945d-4017-8cb3-41afcdb08a8e",
+      "invoice_id": "13430e5f-248f-43bf-81c2-b1e418d950f0",
+      "nome": "RISTRETIO",
+      "data_compra": "2025-10-29T00:00:00.000Z",
+      "valor_unitario": 2.8
+    },
+    {
+      "id": "186d15f7-aeb0-400c-ad20-267d7164cb9b",
+      "invoice_id": "13430e5f-248f-43bf-81c2-b1e418d950f0",
+      "nome": "LEGGERO",
+      "data_compra": "2025-10-29T00:00:00.000Z",
+      "valor_unitario": 2.8
+    },
+    {
+      "id": "d3a3173f-ff65-4090-bfd4-44001ff6de19",
+      "invoice_id": "159490c1-2887-4310-92b7-de6a156935f0",
+      "nome": "Estehan Martin DO. Cariñena Chardonnay Macabeo Blanco 2024",
+      "data_compra": "2025-10-27T00:00:00.000Z",
+      "valor_unitario": 25.96
+    },
+    {
+      "id": "7a319cb2-9baf-4c07-94cf-37f0ddf4442c",
+      "invoice_id": "159490c1-2887-4310-92b7-de6a156935f0",
+      "nome": "Tenuta Sant Antonio Scaia 1.CG.T. Trevenezie Garganega Chardonnay 2023",
+      "data_compra": "2025-10-27T00:00:00.000Z",
+      "valor_unitario": 69.46
+    },
+    {
+      "id": "20b62cdd-bb03-4cf9-b3b4-5a99393f442c",
+      "invoice_id": "159490c1-2887-4310-92b7-de6a156935f0",
+      "nome": "Esteban Martin D.O. Cariñena Garnacha Rosado 2024",
+      "data_compra": "2025-10-27T00:00:00.000Z",
+      "valor_unitario": 25.96
+    },
+    {
+      "id": "c5798d13-c3aa-4b25-bdc0-24ae07c4a260",
+      "invoice_id": "d457b71b-b47f-4aed-968d-805b92972298",
+      "nome": "CABERNET SAUVIGNON VENE TO IGT AMERIGO VESPUCCI",
+      "data_compra": "2025-11-03T00:00:00.000Z",
+      "valor_unitario": 36.5317
+    },
+    {
+      "id": "191e2971-cdb3-49a7-9979-31f410242fb1",
+      "invoice_id": "d457b71b-b47f-4aed-968d-805b92972298",
+      "nome": "CABERNET SAUVIGNON VENE TO IGT AMERIGO VESPUCCI",
+      "data_compra": "2025-11-03T00:00:00.000Z",
+      "valor_unitario": 37.2683
+    },
+    {
+      "id": "0f06ed64-5c46-4dce-bf77-05e44c5308e9",
+      "invoice_id": "d457b71b-b47f-4aed-968d-805b92972298",
+      "nome": "PINOT GRIGIO DELLE VENE ZIE DOC CASTELNUOVO",
+      "data_compra": "2025-11-03T00:00:00.000Z",
+      "valor_unitario": 42.4
+    },
+    {
+      "id": "92dd9ca2-0006-41e2-bc33-68e933b89216",
+      "invoice_id": "d457b71b-b47f-4aed-968d-805b92972298",
+      "nome": "BIANCO PREMIUM THAT'S W HY",
+      "data_compra": "2025-11-03T00:00:00.000Z",
+      "valor_unitario": 43.9
+    },
+    {
+      "id": "4cc4cf8b-c767-4344-8430-33151b5ce0f8",
+      "invoice_id": "539d1408-7774-499e-99a4-6a3d214c9306",
+      "nome": "PREGEREBA",
+      "data_compra": "2025-10-31T00:00:00.000Z",
+      "valor_unitario": 48
+    },
+    {
+      "id": "3f287fd7-72af-48d6-b85d-a33d426bc9d3",
+      "invoice_id": "539d1408-7774-499e-99a4-6a3d214c9306",
+      "nome": "MEXILHAO",
+      "data_compra": "2025-10-31T00:00:00.000Z",
+      "valor_unitario": 60
+    },
+    {
+      "id": "56d6a171-3f87-4f5e-961e-37be871f336c",
+      "invoice_id": "539d1408-7774-499e-99a4-6a3d214c9306",
+      "nome": "LULA",
+      "data_compra": "2025-10-31T00:00:00.000Z",
+      "valor_unitario": 110
+    },
+    {
+      "id": "cfca65d1-f8ea-4e0f-8004-e07044fa7afe",
+      "invoice_id": "9cbe0a3f-e6f0-473b-bebc-b1236ee17feb",
+      "nome": "SUCO DE UVA VARIETAL ROSE CABERNET SAUVIGNON 750ML",
+      "data_compra": "2025-10-30T00:00:00.000Z",
+      "valor_unitario": 31.53
+    },
+    {
+      "id": "8e5f2fcc-2bf2-4319-bdc0-62a8ce53774e",
+      "invoice_id": "9cbe0a3f-e6f0-473b-bebc-b1236ee17feb",
+      "nome": "SUCO DE UVA 250 ml-Vale dos Vinhedos",
+      "data_compra": "2025-10-30T00:00:00.000Z",
+      "valor_unitario": 10.96
+    },
+    {
+      "id": "64f223c4-9bc2-453a-a7e4-9a319fc56feb",
+      "invoice_id": "9cbe0a3f-e6f0-473b-bebc-b1236ee17feb",
+      "nome": "BEBBER-ALMEJO VINHO BRANCO CHARDONNAY 750MIL",
+      "data_compra": "2025-10-30T00:00:00.000Z",
+      "valor_unitario": 54.11
+    },
+    {
+      "id": "60fc2336-b6a4-4f80-a092-d0297ca81c84",
+      "invoice_id": "9cbe0a3f-e6f0-473b-bebc-b1236ee17feb",
+      "nome": "BEBBER-ALMEJO VINHO TINTO ROSE 750ML",
+      "data_compra": "2025-10-30T00:00:00.000Z",
+      "valor_unitario": 1
+    },
+    {
+      "id": "68e6e6e9-8c62-4876-8033-7d451aca3d22",
+      "invoice_id": "40e16f75-9e39-47e9-af12-a142907f891f",
+      "nome": "POMODORI ITA COSTAZZURRA 2,55 KG",
+      "data_compra": "2025-11-04T00:00:00.000Z",
+      "valor_unitario": 31.36
+    },
+    {
+      "id": "614919a6-4033-45ed-bdd7-c1a3be71a954",
+      "invoice_id": "40e16f75-9e39-47e9-af12-a142907f891f",
+      "nome": "ITA SANTA ISABELLA TTO PRIMITIVO PUGLIA 750ML",
+      "data_compra": "2025-11-04T00:00:00.000Z",
+      "valor_unitario": 47.24
+    },
+    {
+      "id": "20a9853a-3793-4bb1-96e3-ea82b4dec163",
+      "invoice_id": "6b4588cc-b4d5-4ce4-88e4-30bd3ef2682c",
+      "nome": "Rioja Bordon Crianza 750ml-17244",
+      "data_compra": "2025-11-05T00:00:00.000Z",
+      "valor_unitario": 93
+    },
+    {
+      "id": "b4c53aa2-d9d2-4de1-9e65-493df7ebaf08",
+      "invoice_id": "6b4588cc-b4d5-4ce4-88e4-30bd3ef2682c",
+      "nome": "Marın Garnacha Blanca",
+      "data_compra": "2025-11-05T00:00:00.000Z",
+      "valor_unitario": 78
+    },
+    {
+      "id": "f59c4222-734b-4a2b-84c5-514c62836b8b",
+      "invoice_id": "6b4588cc-b4d5-4ce4-88e4-30bd3ef2682c",
+      "nome": "Cest Trop Rose",
+      "data_compra": "2025-11-05T00:00:00.000Z",
+      "valor_unitario": 87
+    },
+    {
+      "id": "083c6eef-06ff-47f4-ae48-8c609953b574",
+      "invoice_id": "d6eb264e-4832-458e-8289-c5a75b933af4",
+      "nome": "Del Grano Tinto Seco PET-TTO 1.480ml",
+      "data_compra": "2025-11-06T00:00:00.000Z",
+      "valor_unitario": 24
+    },
+    {
+      "id": "5d1ed891-3698-4212-ace7-dbedd7d6188c",
+      "invoice_id": "d6eb264e-4832-458e-8289-c5a75b933af4",
+      "nome": "Del Grano Branco Seco Niagara PET-BCO 1.480ml",
+      "data_compra": "2025-11-06T00:00:00.000Z",
+      "valor_unitario": 24
+    },
+    {
+      "id": "6c4cc20e-c7c0-42d2-a848-f11508483dff",
+      "invoice_id": "88c883b2-74eb-438b-b381-d9609e0ce42a",
+      "nome": "Logodaj Melnik 55",
+      "data_compra": "2025-10-21T00:00:00.000Z",
+      "valor_unitario": 99
+    },
+    {
+      "id": "90303709-9387-4b78-bc2a-9c138e94f783",
+      "invoice_id": "d2adc926-2e21-47ba-81b1-1b33824301aa",
+      "nome": "ABOBRINHA ITALIANA",
+      "data_compra": "2025-11-07T00:00:00.000Z",
+      "valor_unitario": 1.6
+    },
+    {
+      "id": "bdef46b7-0f48-4540-9133-c3f553b0d7a4",
+      "invoice_id": "d2adc926-2e21-47ba-81b1-1b33824301aa",
+      "nome": "AGRIAO HIDROPONICO",
+      "data_compra": "2025-11-07T00:00:00.000Z",
+      "valor_unitario": 2
+    },
+    {
+      "id": "ff3d492d-4b63-4027-88cd-c1370ef705e2",
+      "invoice_id": "d2adc926-2e21-47ba-81b1-1b33824301aa",
+      "nome": "ALECRIM",
+      "data_compra": "2025-11-07T00:00:00.000Z",
+      "valor_unitario": 12.8
+    },
+    {
+      "id": "62ec0c6d-1a77-40a1-85f8-c1ccc5dd766c",
+      "invoice_id": "d2adc926-2e21-47ba-81b1-1b33824301aa",
+      "nome": "ALFACE CRESPA",
+      "data_compra": "2025-11-07T00:00:00.000Z",
+      "valor_unitario": 1.99
+    },
+    {
+      "id": "5f29e0b8-38ce-454f-a3cc-30504f2ddc4c",
+      "invoice_id": "d2adc926-2e21-47ba-81b1-1b33824301aa",
+      "nome": "ALFACE ROXA HIDROPONICA",
+      "data_compra": "2025-11-07T00:00:00.000Z",
+      "valor_unitario": 2
+    },
+    {
+      "id": "3579ba18-baf1-40d2-821a-07c21d00fd98",
+      "invoice_id": "d2adc926-2e21-47ba-81b1-1b33824301aa",
+      "nome": "ALHO ROXO COM CASCA",
+      "data_compra": "2025-11-07T00:00:00.000Z",
+      "valor_unitario": 2
+    },
+    {
+      "id": "6df191d8-e93b-4635-b74c-13523f982ca5",
+      "invoice_id": "d2adc926-2e21-47ba-81b1-1b33824301aa",
+      "nome": "BANANA TERRA",
+      "data_compra": "2025-11-07T00:00:00.000Z",
+      "valor_unitario": 7.12
+    },
+    {
+      "id": "f8fa18eb-35d7-4539-b3b9-f5ac9de26a8d",
+      "invoice_id": "d2adc926-2e21-47ba-81b1-1b33824301aa",
+      "nome": "BANANA NANICA",
+      "data_compra": "2025-11-07T00:00:00.000Z",
+      "valor_unitario": 4.72
+    },
+    {
+      "id": "ec2bb293-2620-4ab8-83a8-f277240b677e",
+      "invoice_id": "d2adc926-2e21-47ba-81b1-1b33824301aa",
+      "nome": "BATATA DOCE ESP",
+      "data_compra": "2025-11-07T00:00:00.000Z",
+      "valor_unitario": 3.68
+    },
+    {
+      "id": "e6c8b559-7d62-495d-a302-70eca60591d5",
+      "invoice_id": "d2adc926-2e21-47ba-81b1-1b33824301aa",
+      "nome": "BATATA LAVADA",
+      "data_compra": "2025-11-07T00:00:00.000Z",
+      "valor_unitario": 3.84
+    },
+    {
+      "id": "7ece5982-f664-4744-8668-93ee136c9479",
+      "invoice_id": "d2adc926-2e21-47ba-81b1-1b33824301aa",
+      "nome": "CEBOLA BRANCA",
+      "data_compra": "2025-11-07T00:00:00.000Z",
+      "valor_unitario": 6.7
+    },
+    {
+      "id": "4ba3f485-f53a-40aa-8eb4-29da9abc90c0",
+      "invoice_id": "d2adc926-2e21-47ba-81b1-1b33824301aa",
+      "nome": "CEBOLA ROXA",
+      "data_compra": "2025-11-07T00:00:00.000Z",
+      "valor_unitario": 3.84
+    },
+    {
+      "id": "22bc6e36-9dfa-49dd-85fa-4b173c36c58a",
+      "invoice_id": "d2adc926-2e21-47ba-81b1-1b33824301aa",
+      "nome": "CENOURA",
+      "data_compra": "2025-11-07T00:00:00.000Z",
+      "valor_unitario": 9.6
+    },
+    {
+      "id": "f4ffe93e-5995-4fb6-984c-2526e997710a",
+      "invoice_id": "d2adc926-2e21-47ba-81b1-1b33824301aa",
+      "nome": "HORTELA",
+      "data_compra": "2025-11-07T00:00:00.000Z",
+      "valor_unitario": 4.44
+    },
+    {
+      "id": "69e8d661-4d1c-4720-aae8-dea152230a50",
+      "invoice_id": "d2adc926-2e21-47ba-81b1-1b33824301aa",
+      "nome": "LARANJA PERA",
+      "data_compra": "2025-11-07T00:00:00.000Z",
+      "valor_unitario": 5.6
+    },
+    {
+      "id": "f253e74e-6bb1-46b7-a049-f8e54eea88ff",
+      "invoice_id": "d2adc926-2e21-47ba-81b1-1b33824301aa",
+      "nome": "LIMAO TAHITI",
+      "data_compra": "2025-11-07T00:00:00.000Z",
+      "valor_unitario": 16.56
+    },
+    {
+      "id": "e4f1abf3-239f-4b34-9160-47ae36c621d8",
+      "invoice_id": "d2adc926-2e21-47ba-81b1-1b33824301aa",
+      "nome": "LIMAO SICILIANO",
+      "data_compra": "2025-11-07T00:00:00.000Z",
+      "valor_unitario": 15.68
+    },
+    {
+      "id": "01594cb4-aeac-4f00-a487-b660341ed854",
+      "invoice_id": "d2adc926-2e21-47ba-81b1-1b33824301aa",
+      "nome": "MACA VERDE",
+      "data_compra": "2025-11-07T00:00:00.000Z",
+      "valor_unitario": 10
+    },
+    {
+      "id": "979d8350-695e-44a9-9e68-0de2573a70f7",
+      "invoice_id": "d2adc926-2e21-47ba-81b1-1b33824301aa",
+      "nome": "MORANGO",
+      "data_compra": "2025-11-07T00:00:00.000Z",
+      "valor_unitario": 24
+    },
+    {
+      "id": "a908412d-2d45-4f7b-8fe9-aadb12dd2dc9",
+      "invoice_id": "d2adc926-2e21-47ba-81b1-1b33824301aa",
+      "nome": "OVO BRANCO",
+      "data_compra": "2025-11-07T00:00:00.000Z",
+      "valor_unitario": 20
+    },
+    {
+      "id": "01b8351a-442d-4aa5-819f-dbcab16ecd2b",
+      "invoice_id": "d2adc926-2e21-47ba-81b1-1b33824301aa",
+      "nome": "PIMENTAO VERMELHO",
+      "data_compra": "2025-11-07T00:00:00.000Z",
+      "valor_unitario": 3.2
+    },
+    {
+      "id": "bc6b13e0-6e3b-4b5e-b26f-a92178c583b1",
+      "invoice_id": "d2adc926-2e21-47ba-81b1-1b33824301aa",
+      "nome": "RUCULA HIDROPONICA",
+      "data_compra": "2025-11-07T00:00:00.000Z",
+      "valor_unitario": 6.4
+    },
+    {
+      "id": "3d183b93-ef5e-454b-9366-74086532f53d",
+      "invoice_id": "d2adc926-2e21-47ba-81b1-1b33824301aa",
+      "nome": "SALSA CRESPA",
+      "data_compra": "2025-11-07T00:00:00.000Z",
+      "valor_unitario": 2.4
+    },
+    {
+      "id": "e5702c10-9d43-4666-b980-95b3ebab35c6",
+      "invoice_id": "d2adc926-2e21-47ba-81b1-1b33824301aa",
+      "nome": "TOMATE CEREJA",
+      "data_compra": "2025-11-07T00:00:00.000Z",
+      "valor_unitario": 9.6
+    },
+    {
+      "id": "c0a6feaa-d466-4c1f-bac5-fc7a024c9cbd",
+      "invoice_id": "d2adc926-2e21-47ba-81b1-1b33824301aa",
+      "nome": "TOMATE CEREJA AMARELO",
+      "data_compra": "2025-11-07T00:00:00.000Z",
+      "valor_unitario": 8.48
+    },
+    {
+      "id": "4a6791a5-182e-44a8-96f0-80c374fd46e3",
+      "invoice_id": "d2adc926-2e21-47ba-81b1-1b33824301aa",
+      "nome": "TOMATE SALADA",
+      "data_compra": "2025-11-07T00:00:00.000Z",
+      "valor_unitario": 8
+    },
+    {
+      "id": "de710c40-3b8f-446e-be35-064cd938abae",
+      "invoice_id": "d2adc926-2e21-47ba-81b1-1b33824301aa",
+      "nome": "TOMILHO",
+      "data_compra": "2025-11-07T00:00:00.000Z",
+      "valor_unitario": 2.4
+    },
+    {
+      "id": "ea96066e-7685-4fee-8adb-03316805af74",
+      "invoice_id": "d2adc926-2e21-47ba-81b1-1b33824301aa",
+      "nome": "CEBOLINHA COMUM",
+      "data_compra": "2025-11-07T00:00:00.000Z",
+      "valor_unitario": 9.6
+    },
+    {
+      "id": "9d426f8b-79ae-4893-9fc6-2dfca8247a6d",
+      "invoice_id": "3414f604-dee5-4575-a567-2a94c01114c3",
+      "nome": "AGUA SANITARIA SUPER CANDIDA SLT",
+      "data_compra": "2025-11-06T00:00:00.000Z",
+      "valor_unitario": 21.58
+    },
+    {
+      "id": "ad407ac8-2089-4ff5-b532-ea731933e055",
+      "invoice_id": "3414f604-dee5-4575-a567-2a94c01114c3",
+      "nome": "BOBINA PICOTADA (A) 20X28 EXTRUSA C/400",
+      "data_compra": "2025-11-06T00:00:00.000Z",
+      "valor_unitario": 19.6
+    },
+    {
+      "id": "8d855d7e-2d1d-4b9e-a668-ec3386a3b027",
+      "invoice_id": "3414f604-dee5-4575-a567-2a94c01114c3",
+      "nome": "LA DE ACO BOMBRIL",
+      "data_compra": "2025-11-06T00:00:00.000Z",
+      "valor_unitario": 2.8
+    },
+    {
+      "id": "2945174f-68c8-47e4-b00c-3be180c4774f",
+      "invoice_id": "3414f604-dee5-4575-a567-2a94c01114c3",
+      "nome": "ESPONJA D FACE 3M 110X75X20 C/10",
+      "data_compra": "2025-11-06T00:00:00.000Z",
+      "valor_unitario": 1.4
+    },
+    {
+      "id": "f031747d-ee7f-4372-a8c8-68bda22c6f0e",
+      "invoice_id": "3414f604-dee5-4575-a567-2a94c01114c3",
+      "nome": "FIBRACO 3M 87X125 C/5",
+      "data_compra": "2025-11-06T00:00:00.000Z",
+      "valor_unitario": 2.21
+    },
+    {
+      "id": "0e39cf75-dd41-4aed-9309-756408bf72d5",
+      "invoice_id": "3414f604-dee5-4575-a567-2a94c01114c3",
+      "nome": "DETERG NEUTRO YPE 500ML",
+      "data_compra": "2025-11-06T00:00:00.000Z",
+      "valor_unitario": 3.3672
+    },
+    {
+      "id": "78061a93-523d-4a08-8bfe-1c85e5e04ada",
+      "invoice_id": "3414f604-dee5-4575-a567-2a94c01114c3",
+      "nome": "BOBINA FACIL PACK REFIL 280X300",
+      "data_compra": "2025-11-06T00:00:00.000Z",
+      "valor_unitario": 29.95
+    },
+    {
+      "id": "95fe6c20-7b63-4a6e-8c78-9be300f99af3",
+      "invoice_id": "3414f604-dee5-4575-a567-2a94c01114c3",
+      "nome": "GUARD 31,8X31,8 F.DUPLA GRANDHOTEL 9X50",
+      "data_compra": "2025-11-06T00:00:00.000Z",
+      "valor_unitario": 122.8
+    },
+    {
+      "id": "38251916-7d75-4009-a9f6-f9b381e0e255",
+      "invoice_id": "3414f604-dee5-4575-a567-2a94c01114c3",
+      "nome": "LIMPA ALUMINIO VALENCIA SLTS",
+      "data_compra": "2025-11-06T00:00:00.000Z",
+      "valor_unitario": 38.35
+    },
+    {
+      "id": "ef9e617b-dd4f-44e8-bb1f-9412140fc2be",
+      "invoice_id": "3414f604-dee5-4575-a567-2a94c01114c3",
+      "nome": "LUVA LATEX COM PO (M) INOVEN/BOMPACK",
+      "data_compra": "2025-11-06T00:00:00.000Z",
+      "valor_unitario": 29.3
+    },
+    {
+      "id": "9ae68e95-0eba-4682-8319-e289a6dd0e6a",
+      "invoice_id": "3414f604-dee5-4575-a567-2a94c01114c3",
+      "nome": "SACO ALVEJADO ESPECIAL 45X65 C/6 ET AMAR",
+      "data_compra": "2025-11-06T00:00:00.000Z",
+      "valor_unitario": 27.22
+    },
+    {
+      "id": "8315e310-d2c9-4050-85a4-d829d5a3d1b2",
+      "invoice_id": "3414f604-dee5-4575-a567-2a94c01114c3",
+      "nome": "PAP INTERF 2D PROPEL 22X20,7 C4800 22424",
+      "data_compra": "2025-11-06T00:00:00.000Z",
+      "valor_unitario": 132.3
+    },
+    {
+      "id": "9c1cace7-8413-45e8-bbe7-84ccf5358c93",
+      "invoice_id": "3414f604-dee5-4575-a567-2a94c01114c3",
+      "nome": "PAP ALUMINIO 30X100M LIFE CLEAN",
+      "data_compra": "2025-11-06T00:00:00.000Z",
+      "valor_unitario": 58.1
+    },
+    {
+      "id": "ed110407-dbc2-42e5-abff-a7def184ef53",
+      "invoice_id": "3414f604-dee5-4575-a567-2a94c01114c3",
+      "nome": "PAP HIG INT 10X20 F/D ELEGANS 1741 8000",
+      "data_compra": "2025-11-06T00:00:00.000Z",
+      "valor_unitario": 146.2
+    },
+    {
+      "id": "7d01f1c4-cb95-4aee-a522-64a6e9ab4926",
+      "invoice_id": "3414f604-dee5-4575-a567-2a94c01114c3",
+      "nome": "SACO LIXO 200LTS PR EXTRA FORTE C/3KG",
+      "data_compra": "2025-11-06T00:00:00.000Z",
+      "valor_unitario": 51.3
+    },
+    {
+      "id": "14d32f98-63ea-4cab-95a4-050480789316",
+      "invoice_id": "3414f604-dee5-4575-a567-2a94c01114c3",
+      "nome": "DESENG SQUEEZE LIMPOL BOMBRIL 500ML",
+      "data_compra": "2025-11-06T00:00:00.000Z",
+      "valor_unitario": 12.1
+    },
+    {
+      "id": "aa72ed4e-7e55-4ec1-85ff-a26dc7fb378b",
+      "invoice_id": "3414f604-dee5-4575-a567-2a94c01114c3",
+      "nome": "REDE CABELO PRETA C/10",
+      "data_compra": "2025-11-06T00:00:00.000Z",
+      "valor_unitario": 8.2179
+    },
+    {
+      "id": "0eeb0730-4016-4847-b332-06da8b2110e4",
+      "invoice_id": "3414f604-dee5-4575-a567-2a94c01114c3",
+      "nome": "REDE CABELO PRETA REFORCADA REF 300",
+      "data_compra": "2025-11-06T00:00:00.000Z",
+      "valor_unitario": 4.4
+    },
+    {
+      "id": "c3ea98b0-d4aa-4cbb-8be0-d0478dd84992",
+      "invoice_id": "3414f604-dee5-4575-a567-2a94c01114c3",
+      "nome": "SACO LIXO 40LTS PR SANLIX C/100",
+      "data_compra": "2025-11-06T00:00:00.000Z",
+      "valor_unitario": 25.2
+    },
+    {
+      "id": "3a7476f8-fec5-4c39-b13a-0a19e68c5393",
+      "invoice_id": "3414f604-dee5-4575-a567-2a94c01114c3",
+      "nome": "PULVERIZADOR 500ML GIRAFA LEITOSO",
+      "data_compra": "2025-11-06T00:00:00.000Z",
+      "valor_unitario": 6.49
+    },
+    {
+      "id": "083b4013-7aa5-4c92-a758-a3c7aa1bfbe0",
+      "invoice_id": "753d97ec-ec6d-44b7-97ee-15744f540eb6",
+      "nome": "RECIPIENTE MPP16 (1000ML) C/TAMPA 100 UNIDADES",
+      "data_compra": "2025-10-22T00:00:00.000Z",
+      "valor_unitario": 141.26
+    },
+    {
+      "id": "fd51a560-d163-46b2-bbed-aea71f54f742",
+      "invoice_id": "9dc4d60f-6758-4a25-b059-bedf37e810bb",
+      "nome": "Pregencia",
+      "data_compra": "2025-10-28T00:00:00.000Z",
+      "valor_unitario": 48
+    },
+    {
+      "id": "8f3318b4-e0e3-4ac4-8cdd-f6fa143d866e",
+      "invoice_id": "9dc4d60f-6758-4a25-b059-bedf37e810bb",
+      "nome": "Salmão Inteiro",
+      "data_compra": "2025-10-28T00:00:00.000Z",
+      "valor_unitario": 58
+    },
+    {
+      "id": "5945b437-5c6d-4db2-8943-fa7e68fa9f58",
+      "invoice_id": "71e05294-0a49-4123-84a7-dc5869e3151b",
+      "nome": "ESPUMANTE LIRICA BRANCO CRUA 7",
+      "data_compra": "2025-10-15T00:00:00.000Z",
+      "valor_unitario": 72.07
+    },
+    {
+      "id": "d57a4d16-32b6-4aea-b526-53f6ee400b94",
+      "invoice_id": "21a662dc-6eab-4737-9d18-98747a216138",
+      "nome": "POLVO TENTACULO NACIONAL-120/200-CX 12 KG",
+      "data_compra": "2025-11-03T00:00:00.000Z",
+      "valor_unitario": 59.99
+    },
+    {
+      "id": "b0a16eb3-c370-4b6c-a2d9-890325033664",
+      "invoice_id": "9dc068cd-9dd2-4cf9-9d80-6d44de5bf453",
+      "nome": "POMODORI ITA COSTAZZURRA 2,55 KG",
+      "data_compra": "2025-10-21T00:00:00.000Z",
+      "valor_unitario": 36.099333333
+    },
+    {
+      "id": "9bfa216a-0186-479b-b552-857c463f428f",
+      "invoice_id": "bf786d59-9945-415b-abf9-21f6ba546f4c",
+      "nome": "12,000",
+      "data_compra": "2025-10-20T00:00:00.000Z",
+      "valor_unitario": 719.88
+    },
+    {
+      "id": "9a302436-b850-4165-9391-c0a2686f8553",
+      "invoice_id": "c7cd420a-8010-45d3-9f1a-595c363d3f99",
+      "nome": "12,00",
+      "data_compra": "2025-11-04T00:00:00.000Z",
+      "valor_unitario": 364.68
+    },
+    {
+      "id": "ef093fb0-540a-4f03-a0fa-6241e5f4f6f1",
+      "invoice_id": "c7cd420a-8010-45d3-9f1a-595c363d3f99",
+      "nome": "12,00",
+      "data_compra": "2025-11-04T00:00:00.000Z",
+      "valor_unitario": 315.96
+    },
+    {
+      "id": "c57584f8-dbe0-4c04-b4ea-5d5080ed0b36",
+      "invoice_id": "c7cd420a-8010-45d3-9f1a-595c363d3f99",
+      "nome": "1,00",
+      "data_compra": "2025-11-04T00:00:00.000Z",
+      "valor_unitario": 26.16
+    },
+    {
+      "id": "ebb11d4d-f3c0-415f-897f-c0bea65b1a1c",
+      "invoice_id": "c7cd420a-8010-45d3-9f1a-595c363d3f99",
+      "nome": "4,00",
+      "data_compra": "2025-11-04T00:00:00.000Z",
+      "valor_unitario": 183.36
+    },
+    {
+      "id": "b115dcc2-2b1c-40de-b1f7-c81d79cea02f",
+      "invoice_id": "c7cd420a-8010-45d3-9f1a-595c363d3f99",
+      "nome": "1,00",
+      "data_compra": "2025-11-04T00:00:00.000Z",
+      "valor_unitario": 39.4
+    },
+    {
+      "id": "0e8eeabb-c89a-48a2-a6d6-c3a046f20517",
+      "invoice_id": "c7cd420a-8010-45d3-9f1a-595c363d3f99",
+      "nome": "1,00",
+      "data_compra": "2025-11-04T00:00:00.000Z",
+      "valor_unitario": 38.28
+    },
+    {
+      "id": "9b83bb24-bc58-40d0-aca3-789a337e4d68",
+      "invoice_id": "0dfa3f22-a540-4748-abc3-e8499a2b5546",
+      "nome": "AGUA SANITARIA SUPER CANDIDA SLT",
+      "data_compra": "2025-10-30T00:00:00.000Z",
+      "valor_unitario": 21.58
+    },
+    {
+      "id": "9d8f1462-c4e0-4254-8d73-788b720b0f8f",
+      "invoice_id": "0dfa3f22-a540-4748-abc3-e8499a2b5546",
+      "nome": "BOBINA PICOTADA (A) 20X28 EXTRUSA C/400",
+      "data_compra": "2025-10-30T00:00:00.000Z",
+      "valor_unitario": 19.6
+    },
+    {
+      "id": "c8b06718-2703-4679-813e-f7a73bc8f0f9",
+      "invoice_id": "0dfa3f22-a540-4748-abc3-e8499a2b5546",
+      "nome": "PAP ALUMINIO 30X100M LIFE CLEAN",
+      "data_compra": "2025-10-30T00:00:00.000Z",
+      "valor_unitario": 58.1
+    },
+    {
+      "id": "d9bb45db-7712-47bb-9665-f7697e3acccc",
+      "invoice_id": "0dfa3f22-a540-4748-abc3-e8499a2b5546",
+      "nome": "BOBINA FACII PACK REFIL 280X300",
+      "data_compra": "2025-10-30T00:00:00.000Z",
+      "valor_unitario": 29.95
+    },
+    {
+      "id": "b28690e1-3a71-4f26-9c10-9c65fc1e40d7",
+      "invoice_id": "0dfa3f22-a540-4748-abc3-e8499a2b5546",
+      "nome": "LA DE ACO BOMBRIL",
+      "data_compra": "2025-10-30T00:00:00.000Z",
+      "valor_unitario": 2.8
+    },
+    {
+      "id": "c09d28a4-858f-4df6-9591-a9de12eeb743",
+      "invoice_id": "0dfa3f22-a540-4748-abc3-e8499a2b5546",
+      "nome": "ESPONJA D FACE 3M 110X75X20 C/10",
+      "data_compra": "2025-10-30T00:00:00.000Z",
+      "valor_unitario": 1.4
+    },
+    {
+      "id": "bd52e1ac-3d73-4f76-a31a-9eb7b4e93fc4",
+      "invoice_id": "0dfa3f22-a540-4748-abc3-e8499a2b5546",
+      "nome": "DETERG NEUTRO YPE 500ML",
+      "data_compra": "2025-10-30T00:00:00.000Z",
+      "valor_unitario": 3.3672
+    },
+    {
+      "id": "b9ca2057-1def-4a0e-9be6-bfca25a2f1ee",
+      "invoice_id": "0dfa3f22-a540-4748-abc3-e8499a2b5546",
+      "nome": "GUARD 31 EX31,8 F DUPLA GRANDHOTEL 9X50",
+      "data_compra": "2025-10-30T00:00:00.000Z",
+      "valor_unitario": 122.8
+    },
+    {
+      "id": "42037381-50fb-4ea6-bd37-8a6c71dda886",
+      "invoice_id": "0dfa3f22-a540-4748-abc3-e8499a2b5546",
+      "nome": "LIMPA ALUMINIO VALENCIA 5LTS",
+      "data_compra": "2025-10-30T00:00:00.000Z",
+      "valor_unitario": 38.35
+    },
+    {
+      "id": "b3a14b98-0419-4ede-a075-b19ffbb7ce5d",
+      "invoice_id": "0dfa3f22-a540-4748-abc3-e8499a2b5546",
+      "nome": "LIMP VIDRO LIMPOL BOMBRIL 500ML",
+      "data_compra": "2025-10-30T00:00:00.000Z",
+      "valor_unitario": 8.75
+    },
+    {
+      "id": "10d20ef3-8123-48fb-9879-9560b13442d4",
+      "invoice_id": "0dfa3f22-a540-4748-abc3-e8499a2b5546",
+      "nome": "PAP INTERF 2D PROPEL 22X20.7 C4800 22424",
+      "data_compra": "2025-10-30T00:00:00.000Z",
+      "valor_unitario": 132.3
+    },
+    {
+      "id": "baf5766f-cb17-46b0-93f0-77c2085b2402",
+      "invoice_id": "0dfa3f22-a540-4748-abc3-e8499a2b5546",
+      "nome": "SACO LIXO 200LTS PR EXTRA FORTE C/3KG",
+      "data_compra": "2025-10-30T00:00:00.000Z",
+      "valor_unitario": 51.3
+    },
+    {
+      "id": "679eb632-f95a-4221-abf6-ab5b7934b6d3",
+      "invoice_id": "0dfa3f22-a540-4748-abc3-e8499a2b5546",
+      "nome": "REDE CABELO PRETA C/10",
+      "data_compra": "2025-10-30T00:00:00.000Z",
+      "valor_unitario": 8.2179
+    },
+    {
+      "id": "63ede1f7-3e0e-48fd-b500-a417c1bf51b9",
+      "invoice_id": "0dfa3f22-a540-4748-abc3-e8499a2b5546",
+      "nome": "DESENG SQUEEZE LIMPOL BOMBRIL 500ML",
+      "data_compra": "2025-10-30T00:00:00.000Z",
+      "valor_unitario": 12.1
+    },
+    {
+      "id": "2225c072-e47b-4553-9da0-937d825710ac",
+      "invoice_id": "0dfa3f22-a540-4748-abc3-e8499a2b5546",
+      "nome": "FOSFORO FIATLUX EXTRA LONGO C/50",
+      "data_compra": "2025-10-30T00:00:00.000Z",
+      "valor_unitario": 4.4
+    },
+    {
+      "id": "969a69f0-f268-4050-a437-a9925313598f",
+      "invoice_id": "0dfa3f22-a540-4748-abc3-e8499a2b5546",
+      "nome": "LUVA SANRO STAN AM 1494 M",
+      "data_compra": "2025-10-30T00:00:00.000Z",
+      "valor_unitario": 7.95
+    },
+    {
+      "id": "a0df524a-8d2b-44a4-a6b5-a7dd5b51bcf9",
+      "invoice_id": "3953419b-e199-4dd8-9849-afc91493fbe4",
+      "nome": "12",
+      "data_compra": "2025-10-17T00:00:00.000Z",
+      "valor_unitario": 629.77
+    },
+    {
+      "id": "d105a2c8-b697-4a28-bf25-2277e94135ee",
+      "invoice_id": "29621cdc-75e6-4296-ac1f-c015465bc154",
+      "nome": "ARROZ ARBORIO LA PASTINA CX10X1KG VAL APROX TRIBUTOS R$ 54.83 (26.33%) FONTE: IBPT",
+      "data_compra": "2025-11-03T00:00:00.000Z",
+      "valor_unitario": 29.75
+    },
+    {
+      "id": "28f7eb86-d633-4a53-8db6-875c60545726",
+      "invoice_id": "29621cdc-75e6-4296-ac1f-c015465bc154",
+      "nome": "ARROZ BRANCO T1 CAMIL FD6X5KG VAL APROX TRIBUTOS R$ 16.67 (15.73%) FONTE: IBPT",
+      "data_compra": "2025-11-03T00:00:00.000Z",
+      "valor_unitario": 26.5
+    },
+    {
+      "id": "deee654f-1a9c-40ac-b297-84ca8924be6c",
+      "invoice_id": "29621cdc-75e6-4296-ac1f-c015465bc154",
+      "nome": "DAMASCO TURCO KING FOODS PCT 1KG VAL APROX TRIBUTOS R$ 38.29 (42.69%) FONTE: IBPT",
+      "data_compra": "2025-11-03T00:00:00.000Z",
+      "valor_unitario": 89.7
+    },
+    {
+      "id": "cec7a050-72ce-4c11-b26e-3f167b84f2a3",
+      "invoice_id": "29621cdc-75e6-4296-ac1f-c015465bc154",
+      "nome": "LEITE DE COCO SOCOCO CX12XILITRO VAL APROX TRIBUTOS R$ 201.90 (26.33%) FONTE: IBPT",
+      "data_compra": "2025-11-03T00:00:00.000Z",
+      "valor_unitario": 31.95
+    },
+    {
+      "id": "7f3610f9-5927-4655-9d5d-a93f00835da0",
+      "invoice_id": "29621cdc-75e6-4296-ac1f-c015465bc154",
+      "nome": "REQUEIJAO BISNAGA ĮPUROJ CATUPIRY CX12X1,54KG VAL APROX TRIBUTOS R$ 20.83 (32 09%) FONTE: IBPT",
+      "data_compra": "2025-11-03T00:00:00.000Z",
+      "valor_unitario": 64.9
+    },
+    {
+      "id": "ad4c0a09-5df9-4b0c-b0cb-a5ad6421ef7c",
+      "invoice_id": "29621cdc-75e6-4296-ac1f-c015465bc154",
+      "nome": "MUSSARELA DE BUFALA (BOCCONCINO) YEMA PCT 330GR VAL APROX TRIBUTOS R$ 12.55 (32.09%) FONTE: IBPT",
+      "data_compra": "2025-11-03T00:00:00.000Z",
+      "valor_unitario": 19.56
+    },
+    {
+      "id": "e733d69c-8c8e-4994-b3ba-697301baa47a",
+      "invoice_id": "e23ed0a9-6456-4a30-b577-d01c3dc090bd",
+      "nome": "706,62",
+      "data_compra": "2025-10-15T00:00:00.000Z",
+      "valor_unitario": 12
+    },
+    {
+      "id": "b5a7ec4f-1515-4352-a75b-b29daef43e30",
+      "invoice_id": "e23ed0a9-6456-4a30-b577-d01c3dc090bd",
+      "nome": "706,62",
+      "data_compra": "2025-10-15T00:00:00.000Z",
+      "valor_unitario": 2
+    },
+    {
+      "id": "70c3301d-fc32-4e1f-8d10-d33812ba10b3",
+      "invoice_id": "e23ed0a9-6456-4a30-b577-d01c3dc090bd",
+      "nome": "706,62",
+      "data_compra": "2025-10-15T00:00:00.000Z",
+      "valor_unitario": 3
+    },
+    {
+      "id": "c341da16-bea4-41ba-9ded-b4fa164d87fb",
+      "invoice_id": "e23ed0a9-6456-4a30-b577-d01c3dc090bd",
+      "nome": "706,62",
+      "data_compra": "2025-10-15T00:00:00.000Z",
+      "valor_unitario": 3
+    },
+    {
+      "id": "791ecc75-c16d-426e-92a8-9ffeec8ebf20",
+      "invoice_id": "5704cf25-ff46-4515-b586-1896e59537f4",
+      "nome": "1,9400",
+      "data_compra": "2025-11-05T00:00:00.000Z",
+      "valor_unitario": 3.88
+    },
+    {
+      "id": "a3f08a26-9ac4-42d8-8cc2-242e47cab86d",
+      "invoice_id": "5704cf25-ff46-4515-b586-1896e59537f4",
+      "nome": "9,6000000000",
+      "data_compra": "2025-11-05T00:00:00.000Z",
+      "valor_unitario": 28.8
+    },
+    {
+      "id": "de638182-a56d-4a04-b15b-ac313c19b302",
+      "invoice_id": "5704cf25-ff46-4515-b586-1896e59537f4",
+      "nome": "4,8000000000",
+      "data_compra": "2025-11-05T00:00:00.000Z",
+      "valor_unitario": 7.1
+    },
+    {
+      "id": "b7b20788-4222-4026-afe9-e87d71265d29",
+      "invoice_id": "5704cf25-ff46-4515-b586-1896e59537f4",
+      "nome": "3,2000000000",
+      "data_compra": "2025-11-05T00:00:00.000Z",
+      "valor_unitario": 6.4
+    },
+    {
+      "id": "0f19f07b-6fc2-4c37-8e23-aa6005dedaf5",
+      "invoice_id": "5704cf25-ff46-4515-b586-1896e59537f4",
+      "nome": "12,8000000000",
+      "data_compra": "2025-11-05T00:00:00.000Z",
+      "valor_unitario": 12.8
+    },
+    {
+      "id": "8385d3af-dd3a-40a9-8342-28f89b68d767",
+      "invoice_id": "5704cf25-ff46-4515-b586-1896e59537f4",
+      "nome": "1,0000",
+      "data_compra": "2025-11-05T00:00:00.000Z",
+      "valor_unitario": 1.99
+    },
+    {
+      "id": "56237b62-2466-4ffa-8ba1-6dd39ccabaad",
+      "invoice_id": "5704cf25-ff46-4515-b586-1896e59537f4",
+      "nome": "2,0000000000",
+      "data_compra": "2025-11-05T00:00:00.000Z",
+      "valor_unitario": 4
+    },
+    {
+      "id": "e046762e-89ac-411b-9afd-972abb9bf071",
+      "invoice_id": "5704cf25-ff46-4515-b586-1896e59537f4",
+      "nome": "40,5000000000",
+      "data_compra": "2025-11-05T00:00:00.000Z",
+      "valor_unitario": 162
+    },
+    {
+      "id": "c67c890c-e833-4a6f-ae71-f70e68cfabf8",
+      "invoice_id": "5704cf25-ff46-4515-b586-1896e59537f4",
+      "nome": "2,0000",
+      "data_compra": "2025-11-05T00:00:00.000Z",
+      "valor_unitario": 4.6
+    },
+    {
+      "id": "21835b27-4e53-44cf-99d7-6335a6c459ee",
+      "invoice_id": "5704cf25-ff46-4515-b586-1896e59537f4",
+      "nome": "2,0000",
+      "data_compra": "2025-11-05T00:00:00.000Z",
+      "valor_unitario": 22.5
+    },
+    {
+      "id": "79f73c95-794c-4b25-8c37-b6b5d490df82",
+      "invoice_id": "5704cf25-ff46-4515-b586-1896e59537f4",
+      "nome": "2,0000",
+      "data_compra": "2025-11-05T00:00:00.000Z",
+      "valor_unitario": 25.6
+    },
+    {
+      "id": "b018694b-cc12-4c3d-b575-336a153d287d",
+      "invoice_id": "5704cf25-ff46-4515-b586-1896e59537f4",
+      "nome": "2,4000",
+      "data_compra": "2025-11-05T00:00:00.000Z",
+      "valor_unitario": 13.44
+    },
+    {
+      "id": "6fafd84b-53ba-4e16-a2ce-64e8fd422be7",
+      "invoice_id": "5704cf25-ff46-4515-b586-1896e59537f4",
+      "nome": "1,5000",
+      "data_compra": "2025-11-05T00:00:00.000Z",
+      "valor_unitario": 24.84
+    },
+    {
+      "id": "d536a214-28c8-44ba-97f2-2238bbe4528d",
+      "invoice_id": "5704cf25-ff46-4515-b586-1896e59537f4",
+      "nome": "1,6000",
+      "data_compra": "2025-11-05T00:00:00.000Z",
+      "valor_unitario": 12.03
+    },
+    {
+      "id": "da200c1a-dd3b-4600-af07-4737b3369fd4",
+      "invoice_id": "5704cf25-ff46-4515-b586-1896e59537f4",
+      "nome": "9,6000000000",
+      "data_compra": "2025-11-05T00:00:00.000Z",
+      "valor_unitario": 9.6
+    },
+    {
+      "id": "1dfd2149-543e-42b1-b701-bd8cacd38d72",
+      "invoice_id": "5704cf25-ff46-4515-b586-1896e59537f4",
+      "nome": "10,0000000000",
+      "data_compra": "2025-11-05T00:00:00.000Z",
+      "valor_unitario": 20
+    },
+    {
+      "id": "a72d68a4-b146-444d-98ba-c3322386661a",
+      "invoice_id": "5704cf25-ff46-4515-b586-1896e59537f4",
+      "nome": "1,0000",
+      "data_compra": "2025-11-05T00:00:00.000Z",
+      "valor_unitario": 97.2
+    },
+    {
+      "id": "d44948ca-5969-4992-b48c-2b2d66629f3f",
+      "invoice_id": "5704cf25-ff46-4515-b586-1896e59537f4",
+      "nome": "0,3000",
+      "data_compra": "2025-11-05T00:00:00.000Z",
+      "valor_unitario": 6
+    },
+    {
+      "id": "8cdef734-bca1-4cbe-88e8-ee3b303b4601",
+      "invoice_id": "5704cf25-ff46-4515-b586-1896e59537f4",
+      "nome": "2,0000",
+      "data_compra": "2025-11-05T00:00:00.000Z",
+      "valor_unitario": 6.4
+    },
+    {
+      "id": "d6a5c5e0-134c-4488-bb00-7fa58b988133",
+      "invoice_id": "5704cf25-ff46-4515-b586-1896e59537f4",
+      "nome": "4,0000",
+      "data_compra": "2025-11-05T00:00:00.000Z",
+      "valor_unitario": 33.92
+    },
+    {
+      "id": "b10696d7-079b-4869-83c5-20cc85d3bbab",
+      "invoice_id": "5704cf25-ff46-4515-b586-1896e59537f4",
+      "nome": "1,0000",
+      "data_compra": "2025-11-05T00:00:00.000Z",
+      "valor_unitario": 8
+    },
+    {
+      "id": "dcd9b243-3382-4f37-9ed6-2257d21c7662",
+      "invoice_id": "5704cf25-ff46-4515-b586-1896e59537f4",
+      "nome": "1,0000",
+      "data_compra": "2025-11-05T00:00:00.000Z",
+      "valor_unitario": 2.4
+    },
+    {
+      "id": "1198f2a6-4fe0-438f-ab15-c706a7a94552",
+      "invoice_id": "b7961599-d74d-42d9-96d3-f2bfc4e9a8b9",
+      "nome": "19,9100",
+      "data_compra": "2025-10-29T00:00:00.000Z",
+      "valor_unitario": 372.06
+    },
+    {
+      "id": "e3452d3d-cf17-4e86-8f11-470e61c5c181",
+      "invoice_id": "596eb694-74b4-481e-bb34-098ea2b450cb",
+      "nome": "2,5000",
+      "data_compra": "2025-11-04T00:00:00.000Z",
+      "valor_unitario": 29.4
+    },
+    {
+      "id": "9d7fc85a-9b64-4588-8789-f0224d28b441",
+      "invoice_id": "596eb694-74b4-481e-bb34-098ea2b450cb",
+      "nome": "1,0000",
+      "data_compra": "2025-11-04T00:00:00.000Z",
+      "valor_unitario": 12.8
+    },
+    {
+      "id": "3cdfec6b-cab1-4c48-a1a8-fdea1a6a01bc",
+      "invoice_id": "596eb694-74b4-481e-bb34-098ea2b450cb",
+      "nome": "0,1500",
+      "data_compra": "2025-11-04T00:00:00.000Z",
+      "valor_unitario": 7.92
+    },
+    {
+      "id": "09b40243-8a27-41a1-a637-6c960fbad0ef",
+      "invoice_id": "0af0116c-5eca-4b41-859f-cf1d3601368d",
+      "nome": "QUEIJO PARMESAO ARROYO CABRAL",
+      "data_compra": "2025-10-27T00:00:00.000Z",
+      "valor_unitario": 69.9
+    },
+    {
+      "id": "87a8a022-8a4f-49ca-8512-5acf3f38a510",
+      "invoice_id": "0af0116c-5eca-4b41-859f-cf1d3601368d",
+      "nome": "MANTEIGA LA MILK",
+      "data_compra": "2025-10-27T00:00:00.000Z",
+      "valor_unitario": 37.5
+    },
+    {
+      "id": "9f907498-b4e3-44b6-9b75-25db43a1e522",
+      "invoice_id": "08696c3d-3cba-4ee6-b162-f616302216a9",
+      "nome": "PERNIL S/O ALIORI",
+      "data_compra": "2025-10-27T00:00:00.000Z",
+      "valor_unitario": 65.9
+    },
+    {
+      "id": "bbc06168-5df7-44fd-8a27-71f3c7a9ee0a",
+      "invoice_id": "ba82a910-5eb1-4cdf-a2ae-3099021abd48",
+      "nome": "SUCO DE UVA VARIETAL ROSE CABERNET SAUVIGNON 750ML",
+      "data_compra": "2025-10-03T00:00:00.000Z",
+      "valor_unitario": 31.53
+    },
+    {
+      "id": "3177e75d-1ede-479b-baa1-3f7637837857",
+      "invoice_id": "896db480-124a-4732-a043-8a3cd3d3c010",
+      "nome": "ABACAXI",
+      "data_compra": "2025-10-27T00:00:00.000Z",
+      "valor_unitario": 4
+    },
+    {
+      "id": "50f844e7-5143-4acc-91c7-ad3e13c7d13a",
+      "invoice_id": "896db480-124a-4732-a043-8a3cd3d3c010",
+      "nome": "ABOBRINHA ITALIANA",
+      "data_compra": "2025-10-27T00:00:00.000Z",
+      "valor_unitario": 6.4
+    },
+    {
+      "id": "b8692843-7673-466a-8e78-2f99d21b4020",
+      "invoice_id": "896db480-124a-4732-a043-8a3cd3d3c010",
+      "nome": "AGRIAO HIDROPONICO",
+      "data_compra": "2025-10-27T00:00:00.000Z",
+      "valor_unitario": 2
+    },
+    {
+      "id": "6ec3c522-e240-4be8-9068-e68780a2a1f8",
+      "invoice_id": "896db480-124a-4732-a043-8a3cd3d3c010",
+      "nome": "ALECRIM",
+      "data_compra": "2025-10-27T00:00:00.000Z",
+      "valor_unitario": 12.8
+    },
+    {
+      "id": "00ed92a7-f032-4939-ba2b-09e46f3a007f",
+      "invoice_id": "896db480-124a-4732-a043-8a3cd3d3c010",
+      "nome": "ALFACE CRESPA",
+      "data_compra": "2025-10-27T00:00:00.000Z",
+      "valor_unitario": 2.56
+    },
+    {
+      "id": "0514ab1c-a70d-4fc7-9779-71588cb72733",
+      "invoice_id": "896db480-124a-4732-a043-8a3cd3d3c010",
+      "nome": "ALFACE ROXA HIDROPONICA",
+      "data_compra": "2025-10-27T00:00:00.000Z",
+      "valor_unitario": 2.4
+    },
+    {
+      "id": "9194ebfb-9c55-4b42-b7a4-ad1cc874a643",
+      "invoice_id": "896db480-124a-4732-a043-8a3cd3d3c010",
+      "nome": "ALHO ROXO COM CASCA",
+      "data_compra": "2025-10-27T00:00:00.000Z",
+      "valor_unitario": 30.4
+    },
+    {
+      "id": "3af423cf-bbc9-4f0e-acc6-f3326096a3ab",
+      "invoice_id": "896db480-124a-4732-a043-8a3cd3d3c010",
+      "nome": "BANANA TERRA",
+      "data_compra": "2025-10-27T00:00:00.000Z",
+      "valor_unitario": 11.76
+    },
+    {
+      "id": "7d916b76-062b-43e1-bc18-f169312f2492",
+      "invoice_id": "896db480-124a-4732-a043-8a3cd3d3c010",
+      "nome": "BANANA NANICA",
+      "data_compra": "2025-10-27T00:00:00.000Z",
+      "valor_unitario": 7.12
+    },
+    {
+      "id": "7c46b9d6-7ea2-4918-ae64-725702df15b5",
+      "invoice_id": "896db480-124a-4732-a043-8a3cd3d3c010",
+      "nome": "BATATA DOCE ESP",
+      "data_compra": "2025-10-27T00:00:00.000Z",
+      "valor_unitario": 8
+    },
+    {
+      "id": "7f100043-d54b-4c7e-8944-73e3b371dc59",
+      "invoice_id": "896db480-124a-4732-a043-8a3cd3d3c010",
+      "nome": "BATATA LAVADA",
+      "data_compra": "2025-10-27T00:00:00.000Z",
+      "valor_unitario": 5.36
+    },
+    {
+      "id": "bd771e5d-33b7-4ede-bfc9-155886edd029",
+      "invoice_id": "896db480-124a-4732-a043-8a3cd3d3c010",
+      "nome": "CEBOLA BRANCA",
+      "data_compra": "2025-10-27T00:00:00.000Z",
+      "valor_unitario": 2.3
+    },
+    {
+      "id": "7bc5b730-84d3-451b-b57a-59f5ea38c3d7",
+      "invoice_id": "896db480-124a-4732-a043-8a3cd3d3c010",
+      "nome": "CENOURA",
+      "data_compra": "2025-10-27T00:00:00.000Z",
+      "valor_unitario": 6
+    },
+    {
+      "id": "4ee49d99-e804-4bd7-a025-a9a192bc7b80",
+      "invoice_id": "896db480-124a-4732-a043-8a3cd3d3c010",
+      "nome": "SHIMEJI PRETO",
+      "data_compra": "2025-10-27T00:00:00.000Z",
+      "valor_unitario": 11.25
+    },
+    {
+      "id": "89a5019a-e785-4034-ac33-ba9297b75b3a",
+      "invoice_id": "896db480-124a-4732-a043-8a3cd3d3c010",
+      "nome": "SHITAKE",
+      "data_compra": "2025-10-27T00:00:00.000Z",
+      "valor_unitario": 12.8
+    },
+    {
+      "id": "d1acad5b-037c-47bd-801a-43983c1ab3b3",
+      "invoice_id": "896db480-124a-4732-a043-8a3cd3d3c010",
+      "nome": "COENTRO",
+      "data_compra": "2025-10-27T00:00:00.000Z",
+      "valor_unitario": 16
+    },
+    {
+      "id": "a9f79b6a-7184-4be1-96c6-b3d1cc4cb6ce",
+      "invoice_id": "896db480-124a-4732-a043-8a3cd3d3c010",
+      "nome": "DILL",
+      "data_compra": "2025-10-27T00:00:00.000Z",
+      "valor_unitario": 12.8
+    },
+    {
+      "id": "6de2d3aa-98ec-466a-baad-1b57de95d38b",
+      "invoice_id": "896db480-124a-4732-a043-8a3cd3d3c010",
+      "nome": "PIMENTA JALAPENO",
+      "data_compra": "2025-10-27T00:00:00.000Z",
+      "valor_unitario": 32
+    },
+    {
+      "id": "36d920a4-8892-4c33-a459-6546b3a18fe8",
+      "invoice_id": "896db480-124a-4732-a043-8a3cd3d3c010",
+      "nome": "LARANJA PERA",
+      "data_compra": "2025-10-27T00:00:00.000Z",
+      "valor_unitario": 4.16
+    },
+    {
+      "id": "0116024b-ef1c-46c3-ad40-93ef43563bdb",
+      "invoice_id": "896db480-124a-4732-a043-8a3cd3d3c010",
+      "nome": "LIMAO TAHITI",
+      "data_compra": "2025-10-27T00:00:00.000Z",
+      "valor_unitario": 7.5
+    },
+    {
+      "id": "83b520ab-89e6-4b08-8dd0-2d42d964d465",
+      "invoice_id": "896db480-124a-4732-a043-8a3cd3d3c010",
+      "nome": "LIMAO SICILIANO",
+      "data_compra": "2025-10-27T00:00:00.000Z",
+      "valor_unitario": 13.136
+    },
+    {
+      "id": "a56292c7-687d-46c6-a7ff-d204eddc032f",
+      "invoice_id": "896db480-124a-4732-a043-8a3cd3d3c010",
+      "nome": "MANGA PALMER",
+      "data_compra": "2025-10-27T00:00:00.000Z",
+      "valor_unitario": 7.52
+    },
+    {
+      "id": "f8326cf3-4257-4cf2-80d7-57fcca6d6b4b",
+      "invoice_id": "896db480-124a-4732-a043-8a3cd3d3c010",
+      "nome": "MANJERICAO ROXO",
+      "data_compra": "2025-10-27T00:00:00.000Z",
+      "valor_unitario": 9.6
+    },
+    {
+      "id": "2ff2d7d7-8676-4efc-95f9-e83ece752d34",
+      "invoice_id": "896db480-124a-4732-a043-8a3cd3d3c010",
+      "nome": "MORANGO",
+      "data_compra": "2025-10-27T00:00:00.000Z",
+      "valor_unitario": 9
+    },
+    {
+      "id": "711f2738-e2f4-4e51-879d-78afb913935d",
+      "invoice_id": "896db480-124a-4732-a043-8a3cd3d3c010",
+      "nome": "OVO BRANCO",
+      "data_compra": "2025-10-27T00:00:00.000Z",
+      "valor_unitario": 24
+    },
+    {
+      "id": "19e4cc51-abe4-4abb-af9e-29b8c33ecde3",
+      "invoice_id": "896db480-124a-4732-a043-8a3cd3d3c010",
+      "nome": "PIMENTAO VERMELHO",
+      "data_compra": "2025-10-27T00:00:00.000Z",
+      "valor_unitario": 22
+    },
+    {
+      "id": "abf86c8d-bb22-4ea6-8265-fec0b022eea9",
+      "invoice_id": "896db480-124a-4732-a043-8a3cd3d3c010",
+      "nome": "RADICHIO",
+      "data_compra": "2025-10-27T00:00:00.000Z",
+      "valor_unitario": 8
+    },
+    {
+      "id": "cbd40d6e-4638-4e10-9706-4fc84d232876",
+      "invoice_id": "896db480-124a-4732-a043-8a3cd3d3c010",
+      "nome": "RUCULA HIDROPONICA",
+      "data_compra": "2025-10-27T00:00:00.000Z",
+      "valor_unitario": 4
+    },
+    {
+      "id": "0d060ea2-6874-4f1b-8646-6c6881ccb930",
+      "invoice_id": "896db480-124a-4732-a043-8a3cd3d3c010",
+      "nome": "SALSA CRESPA",
+      "data_compra": "2025-10-27T00:00:00.000Z",
+      "valor_unitario": 6.4
+    },
+    {
+      "id": "00c17cda-41cd-4ef5-a504-639dee2a7b67",
+      "invoice_id": "896db480-124a-4732-a043-8a3cd3d3c010",
+      "nome": "TOMATE CEREJA",
+      "data_compra": "2025-10-27T00:00:00.000Z",
+      "valor_unitario": 3.52
+    },
+    {
+      "id": "a979ab8a-27f3-47f1-810e-d9fcef7b8f09",
+      "invoice_id": "896db480-124a-4732-a043-8a3cd3d3c010",
+      "nome": "TOMATE CEREJA AMARELO",
+      "data_compra": "2025-10-27T00:00:00.000Z",
+      "valor_unitario": 8
+    },
+    {
+      "id": "8f6b75bf-2c97-4895-8f1f-9939802cfcc3",
+      "invoice_id": "896db480-124a-4732-a043-8a3cd3d3c010",
+      "nome": "TOMATE SALADA",
+      "data_compra": "2025-10-27T00:00:00.000Z",
+      "valor_unitario": 10.4
+    },
+    {
+      "id": "9bcf0e85-efd8-4381-898b-7997a0989fb7",
+      "invoice_id": "896db480-124a-4732-a043-8a3cd3d3c010",
+      "nome": "TOMILHO",
+      "data_compra": "2025-10-27T00:00:00.000Z",
+      "valor_unitario": 8
+    },
+    {
+      "id": "df64fa7a-22ee-4ca0-a8ca-c13ad663df04",
+      "invoice_id": "896db480-124a-4732-a043-8a3cd3d3c010",
+      "nome": "CEBOLINHA COMUM",
+      "data_compra": "2025-10-27T00:00:00.000Z",
+      "valor_unitario": 3.2
+    },
+    {
+      "id": "22fe09a7-c4f7-409b-bceb-33257b3e2861",
+      "invoice_id": "896db480-124a-4732-a043-8a3cd3d3c010",
+      "nome": "REPOLHO BRANCO",
+      "data_compra": "2025-10-27T00:00:00.000Z",
+      "valor_unitario": 4
+    },
+    {
+      "id": "7c24bb09-4bf3-4c17-a378-ea29f3223510",
+      "invoice_id": "ca411d4b-6a0b-4e17-b466-d0037807e2e9",
+      "nome": "COCO RALADO SOCOCO 1KG",
+      "data_compra": "2025-10-27T00:00:00.000Z",
+      "valor_unitario": 68.13
+    },
+    {
+      "id": "4f3f5968-3e19-41c7-9524-b30d085926ad",
+      "invoice_id": "ca411d4b-6a0b-4e17-b466-d0037807e2e9",
+      "nome": "COGNAC DREHER 900 ML",
+      "data_compra": "2025-10-27T00:00:00.000Z",
+      "valor_unitario": 21.13
+    },
+    {
+      "id": "efd3dc03-ee39-4ec0-ba5c-b34368d3d9d3",
+      "invoice_id": "ca411d4b-6a0b-4e17-b466-d0037807e2e9",
+      "nome": "CREME DE LEITE FRESCO ECILA 1,01 L",
+      "data_compra": "2025-10-27T00:00:00.000Z",
+      "valor_unitario": 46.9
+    },
+    {
+      "id": "4cf4e346-2c27-44aa-b25e-dfb233b95db0",
+      "invoice_id": "ca411d4b-6a0b-4e17-b466-d0037807e2e9",
+      "nome": "MAC ESPAGUETE COM OVOS PETYBON 500G",
+      "data_compra": "2025-10-27T00:00:00.000Z",
+      "valor_unitario": 4.25
+    },
+    {
+      "id": "c66c6c72-d3b7-47a9-b48f-28486e63ccc7",
+      "invoice_id": "ca411d4b-6a0b-4e17-b466-d0037807e2e9",
+      "nome": "MOSTARDA HEINZ FP 255 G",
+      "data_compra": "2025-10-27T00:00:00.000Z",
+      "valor_unitario": 17.89
+    },
+    {
+      "id": "726b4dd2-809b-470a-a798-4b9c7a62b4e2",
+      "invoice_id": "ca411d4b-6a0b-4e17-b466-d0037807e2e9",
+      "nome": "MOSTARDA DIJON BEAUFOR 200GRS",
+      "data_compra": "2025-10-27T00:00:00.000Z",
+      "valor_unitario": 26.56
+    },
+    {
+      "id": "a347d0c5-b579-41e6-b6cd-1114a9c80887",
+      "invoice_id": "ca411d4b-6a0b-4e17-b466-d0037807e2e9",
+      "nome": "OLEO DE GIRASSOL LIZA 900 ML",
+      "data_compra": "2025-10-27T00:00:00.000Z",
+      "valor_unitario": 19.43
+    },
+    {
+      "id": "b4bf59bc-9428-4da7-8260-761fa35fbb10",
+      "invoice_id": "ca411d4b-6a0b-4e17-b466-d0037807e2e9",
+      "nome": "MOLHO SHOYO SAKURA 1,010ML",
+      "data_compra": "2025-10-27T00:00:00.000Z",
+      "valor_unitario": 18.08
+    },
+    {
+      "id": "2c3300ae-69c4-49bb-b5a8-6e648a5f5451",
+      "invoice_id": "ca411d4b-6a0b-4e17-b466-d0037807e2e9",
+      "nome": "SUCO DE MARACUJA MAGUARY 500 ML",
+      "data_compra": "2025-10-27T00:00:00.000Z",
+      "valor_unitario": 10.77
+    },
+    {
+      "id": "52d111ef-f9dd-44dc-9be1-5d690635caeb",
+      "invoice_id": "a47e7bb3-c40f-4e7c-aab0-38f16811c562",
+      "nome": "POLVO TENTACULO NACIONAL-120/200-CX 12 KG",
+      "data_compra": "2025-10-10T00:00:00.000Z",
+      "valor_unitario": 59.99
+    },
+    {
+      "id": "e33f011e-e1e6-4b6c-9b3e-95f5619b9886",
+      "invoice_id": "2b734048-a6d1-4e72-9dcb-4b630937b5bb",
+      "nome": "BERKSHIRE COSTELA JANELA",
+      "data_compra": "2025-10-20T00:00:00.000Z",
+      "valor_unitario": 13.8
+    },
+    {
+      "id": "9fc9e753-062b-446e-a33a-a0a0c8a0c1d0",
+      "invoice_id": "f2b89ee2-d38c-4994-88fe-93cc141883bf",
+      "nome": "ABACAXI",
+      "data_compra": "2025-10-24T00:00:00.000Z",
+      "valor_unitario": 6
+    },
+    {
+      "id": "415a472c-ee47-4385-81a8-e2112b11ecb6",
+      "invoice_id": "f2b89ee2-d38c-4994-88fe-93cc141883bf",
+      "nome": "ABOBRINHA ITALIANA",
+      "data_compra": "2025-10-24T00:00:00.000Z",
+      "valor_unitario": 6.4
+    },
+    {
+      "id": "051859f8-1d8d-4a1d-a92c-1e0a1bd1ad70",
+      "invoice_id": "f2b89ee2-d38c-4994-88fe-93cc141883bf",
+      "nome": "AGRIAO HIDROPONICO",
+      "data_compra": "2025-10-24T00:00:00.000Z",
+      "valor_unitario": 2
+    },
+    {
+      "id": "4f5a8272-a2f1-4edd-ab0b-f06cac162b7d",
+      "invoice_id": "f2b89ee2-d38c-4994-88fe-93cc141883bf",
+      "nome": "ALECRIM",
+      "data_compra": "2025-10-24T00:00:00.000Z",
+      "valor_unitario": 1
+    },
+    {
+      "id": "e61e374d-a45f-4b1e-a812-16f510292c99",
+      "invoice_id": "f2b89ee2-d38c-4994-88fe-93cc141883bf",
+      "nome": "ALFACE CRESPA",
+      "data_compra": "2025-10-24T00:00:00.000Z",
+      "valor_unitario": 2
+    },
+    {
+      "id": "45731108-ddce-4dec-841d-97015bd7e3ff",
+      "invoice_id": "f2b89ee2-d38c-4994-88fe-93cc141883bf",
+      "nome": "ALFACE ROXA HIDROPONICA",
+      "data_compra": "2025-10-24T00:00:00.000Z",
+      "valor_unitario": 2
+    },
+    {
+      "id": "8dd0cb74-d45f-419e-98e1-e7eb594c146a",
+      "invoice_id": "f2b89ee2-d38c-4994-88fe-93cc141883bf",
+      "nome": "ALHO ROXO COM CASCA",
+      "data_compra": "2025-10-24T00:00:00.000Z",
+      "valor_unitario": 2
+    },
+    {
+      "id": "bad7dd73-c0fa-45b3-8b38-b2a5bbd60d39",
+      "invoice_id": "f2b89ee2-d38c-4994-88fe-93cc141883bf",
+      "nome": "BANANA TERRA",
+      "data_compra": "2025-10-24T00:00:00.000Z",
+      "valor_unitario": 4.7
+    },
+    {
+      "id": "d0c6bad6-84dc-498e-bb3a-dfb70f943754",
+      "invoice_id": "f2b89ee2-d38c-4994-88fe-93cc141883bf",
+      "nome": "BANANA NANICA",
+      "data_compra": "2025-10-24T00:00:00.000Z",
+      "valor_unitario": 2.8
+    },
+    {
+      "id": "e42d4c17-ccda-4722-8089-8b04003bebfb",
+      "invoice_id": "f2b89ee2-d38c-4994-88fe-93cc141883bf",
+      "nome": "BATATA LAVADA",
+      "data_compra": "2025-10-24T00:00:00.000Z",
+      "valor_unitario": 8
+    },
+    {
+      "id": "ebd39fc0-06c0-49aa-a2f0-af8dcf819a5a",
+      "invoice_id": "f2b89ee2-d38c-4994-88fe-93cc141883bf",
+      "nome": "CEBOLA BRANCA",
+      "data_compra": "2025-10-24T00:00:00.000Z",
+      "valor_unitario": 3
+    },
+    {
+      "id": "4749dade-5fd7-4a4c-b2b1-fadb15d7f802",
+      "invoice_id": "f2b89ee2-d38c-4994-88fe-93cc141883bf",
+      "nome": "CENOURA",
+      "data_compra": "2025-10-24T00:00:00.000Z",
+      "valor_unitario": 1.06
+    },
+    {
+      "id": "7e75ec91-de8e-4a83-bfd8-aa3214a0903f",
+      "invoice_id": "f2b89ee2-d38c-4994-88fe-93cc141883bf",
+      "nome": "SHIMEJI PRETO",
+      "data_compra": "2025-10-24T00:00:00.000Z",
+      "valor_unitario": 2
+    },
+    {
+      "id": "06545edc-3073-485a-b583-0418f734a5d5",
+      "invoice_id": "f2b89ee2-d38c-4994-88fe-93cc141883bf",
+      "nome": "SHITAKE",
+      "data_compra": "2025-10-24T00:00:00.000Z",
+      "valor_unitario": 2
+    },
+    {
+      "id": "716708ee-8a31-42bb-8afd-0d1c01c6c563",
+      "invoice_id": "f2b89ee2-d38c-4994-88fe-93cc141883bf",
+      "nome": "COENTRO",
+      "data_compra": "2025-10-24T00:00:00.000Z",
+      "valor_unitario": 2
+    },
+    {
+      "id": "f9e797bf-61c2-4f7d-89de-630cb77bef9a",
+      "invoice_id": "f2b89ee2-d38c-4994-88fe-93cc141883bf",
+      "nome": "HORTELA",
+      "data_compra": "2025-10-24T00:00:00.000Z",
+      "valor_unitario": 0.5
+    },
+    {
+      "id": "5e1db14e-f7cd-4c8c-afac-234bb8009ecb",
+      "invoice_id": "f2b89ee2-d38c-4994-88fe-93cc141883bf",
+      "nome": "LIMAO TAHITI",
+      "data_compra": "2025-10-24T00:00:00.000Z",
+      "valor_unitario": 7.5
+    },
+    {
+      "id": "f3a1eaa7-e970-4186-b977-832f9cd70dd5",
+      "invoice_id": "f2b89ee2-d38c-4994-88fe-93cc141883bf",
+      "nome": "MACA VERDE",
+      "data_compra": "2025-10-24T00:00:00.000Z",
+      "valor_unitario": 15.68
+    },
+    {
+      "id": "d9371505-06a7-4e4b-af57-7e130a5e91d0",
+      "invoice_id": "f2b89ee2-d38c-4994-88fe-93cc141883bf",
+      "nome": "MANGA PALMER",
+      "data_compra": "2025-10-24T00:00:00.000Z",
+      "valor_unitario": 7.52
+    },
+    {
+      "id": "e9c21b1d-ad70-4533-afde-7be755a193a7",
+      "invoice_id": "f2b89ee2-d38c-4994-88fe-93cc141883bf",
+      "nome": "MANJERICAO ROXO",
+      "data_compra": "2025-10-24T00:00:00.000Z",
+      "valor_unitario": 9.6
+    },
+    {
+      "id": "44e557d4-49e9-4730-a57f-286684064a0c",
+      "invoice_id": "f2b89ee2-d38c-4994-88fe-93cc141883bf",
+      "nome": "MORANGO",
+      "data_compra": "2025-10-24T00:00:00.000Z",
+      "valor_unitario": 9
+    },
+    {
+      "id": "534ed78a-69f4-4f42-a570-29de962bf800",
+      "invoice_id": "f2b89ee2-d38c-4994-88fe-93cc141883bf",
+      "nome": "OVO BRANCO",
+      "data_compra": "2025-10-24T00:00:00.000Z",
+      "valor_unitario": 24
+    },
+    {
+      "id": "3b619435-4fe1-4660-97aa-2f0e494e2fdb",
+      "invoice_id": "f2b89ee2-d38c-4994-88fe-93cc141883bf",
+      "nome": "PALMITO PUPUNHA",
+      "data_compra": "2025-10-24T00:00:00.000Z",
+      "valor_unitario": 19.2
+    },
+    {
+      "id": "7cc17823-1dd0-41dd-b7eb-df1f77e5d885",
+      "invoice_id": "f2b89ee2-d38c-4994-88fe-93cc141883bf",
+      "nome": "PIMENTA DEDO MOCA",
+      "data_compra": "2025-10-24T00:00:00.000Z",
+      "valor_unitario": 36
+    },
+    {
+      "id": "4caf802a-ad78-4b82-8330-7e99c7ae0b7b",
+      "invoice_id": "f2b89ee2-d38c-4994-88fe-93cc141883bf",
+      "nome": "PIMENTAO VERMELHO",
+      "data_compra": "2025-10-24T00:00:00.000Z",
+      "valor_unitario": 22
+    },
+    {
+      "id": "4828009c-0a81-4912-aea6-ad4871cd954a",
+      "invoice_id": "f2b89ee2-d38c-4994-88fe-93cc141883bf",
+      "nome": "RUCULA HIDROPONICA",
+      "data_compra": "2025-10-24T00:00:00.000Z",
+      "valor_unitario": 4
+    },
+    {
+      "id": "bf077b63-7c8b-462f-b2aa-6614921ab047",
+      "invoice_id": "f2b89ee2-d38c-4994-88fe-93cc141883bf",
+      "nome": "SALSA CRESPA",
+      "data_compra": "2025-10-24T00:00:00.000Z",
+      "valor_unitario": 6.4
+    },
+    {
+      "id": "c47159db-cd9d-4426-8633-e2874c171a06",
+      "invoice_id": "f2b89ee2-d38c-4994-88fe-93cc141883bf",
+      "nome": "TOMATE CEREJA",
+      "data_compra": "2025-10-24T00:00:00.000Z",
+      "valor_unitario": 3.52
+    },
+    {
+      "id": "a04c8da4-05dd-4431-b9af-e8a8dbdf6eaa",
+      "invoice_id": "f2b89ee2-d38c-4994-88fe-93cc141883bf",
+      "nome": "TOMATE CEREJA AMARELO",
+      "data_compra": "2025-10-24T00:00:00.000Z",
+      "valor_unitario": 8
+    },
+    {
+      "id": "ab95795a-b16e-491d-9468-dd503730c9bf",
+      "invoice_id": "f2b89ee2-d38c-4994-88fe-93cc141883bf",
+      "nome": "TOMATE SALADA",
+      "data_compra": "2025-10-24T00:00:00.000Z",
+      "valor_unitario": 10.4
+    },
+    {
+      "id": "ded2f26c-dd75-4af7-91ce-bc0807ddaf3f",
+      "invoice_id": "f2b89ee2-d38c-4994-88fe-93cc141883bf",
+      "nome": "TOMILHO",
+      "data_compra": "2025-10-24T00:00:00.000Z",
+      "valor_unitario": 8
+    },
+    {
+      "id": "0a1bc758-5f65-46cc-b437-67a30cb2ab04",
+      "invoice_id": "f2b89ee2-d38c-4994-88fe-93cc141883bf",
+      "nome": "CEBOLINHA COMUM",
+      "data_compra": "2025-10-24T00:00:00.000Z",
+      "valor_unitario": 3.2
+    },
+    {
+      "id": "2962637a-6ae7-4496-b103-cf42b31f0734",
+      "invoice_id": "f2b89ee2-d38c-4994-88fe-93cc141883bf",
+      "nome": "MANDIOCA DESCASCADA",
+      "data_compra": "2025-10-24T00:00:00.000Z",
+      "valor_unitario": 7.2
+    },
+    {
+      "id": "d24ddda6-5718-4e45-bfdc-1eb00129b1eb",
+      "invoice_id": "90defe38-17f3-40d8-83bd-f32892e41e18",
+      "nome": "QJO TIPO BURRATA DE MOZZARELLA DE BUFALA-POTE 150g CX C/6 UN",
+      "data_compra": "2025-10-27T00:00:00.000Z",
+      "valor_unitario": 112.23
+    },
+    {
+      "id": "cbc3dbb8-dfac-49fa-9ce8-87de964fafb5",
+      "invoice_id": "6c298243-63c5-44d5-9ccb-e06f30d4ce57",
+      "nome": "ABACAXI",
+      "data_compra": "2025-10-29T00:00:00.000Z",
+      "valor_unitario": 3
+    },
+    {
+      "id": "02990924-47b3-47f6-92c6-7855ce84f6b4",
+      "invoice_id": "6c298243-63c5-44d5-9ccb-e06f30d4ce57",
+      "nome": "ABOBRINHA ITALIANA",
+      "data_compra": "2025-10-29T00:00:00.000Z",
+      "valor_unitario": 6.4
+    },
+    {
+      "id": "fb6bb201-f882-4c49-8bc1-05128a4c2e9e",
+      "invoice_id": "6c298243-63c5-44d5-9ccb-e06f30d4ce57",
+      "nome": "AGRIAO HIDROPONICO",
+      "data_compra": "2025-10-29T00:00:00.000Z",
+      "valor_unitario": 3.2
+    },
+    {
+      "id": "ff2471c0-8732-44f3-bed1-4942bab31141",
+      "invoice_id": "6c298243-63c5-44d5-9ccb-e06f30d4ce57",
+      "nome": "ALECRIM",
+      "data_compra": "2025-10-29T00:00:00.000Z",
+      "valor_unitario": 12.8
+    },
+    {
+      "id": "05a97d15-889a-4db1-bbf1-13c29c204210",
+      "invoice_id": "6c298243-63c5-44d5-9ccb-e06f30d4ce57",
+      "nome": "ALFACE CRESPA",
+      "data_compra": "2025-10-29T00:00:00.000Z",
+      "valor_unitario": 2.56
+    },
+    {
+      "id": "0825befc-e930-4dcd-8af7-ffa1304dd685",
+      "invoice_id": "6c298243-63c5-44d5-9ccb-e06f30d4ce57",
+      "nome": "ALFACE ROXA HIDROPONICA",
+      "data_compra": "2025-10-29T00:00:00.000Z",
+      "valor_unitario": 2.4
+    },
+    {
+      "id": "019915a1-365d-4a0c-bd6a-1cf9fb0373b5",
+      "invoice_id": "6c298243-63c5-44d5-9ccb-e06f30d4ce57",
+      "nome": "BANANA TERRA",
+      "data_compra": "2025-10-29T00:00:00.000Z",
+      "valor_unitario": 2.73
+    },
+    {
+      "id": "e96f6258-f5d7-4b07-978b-cd5c83423a04",
+      "invoice_id": "6c298243-63c5-44d5-9ccb-e06f30d4ce57",
+      "nome": "BANANA NANICA",
+      "data_compra": "2025-10-29T00:00:00.000Z",
+      "valor_unitario": 7.12
+    },
+    {
+      "id": "70912a47-75a9-434c-a4ee-52451d9d1496",
+      "invoice_id": "6c298243-63c5-44d5-9ccb-e06f30d4ce57",
+      "nome": "BATATA LAVADA",
+      "data_compra": "2025-10-29T00:00:00.000Z",
+      "valor_unitario": 5.36
+    },
+    {
+      "id": "d6cde39d-d5ac-4231-94b4-702b04c66df7",
+      "invoice_id": "6c298243-63c5-44d5-9ccb-e06f30d4ce57",
+      "nome": "CEBOLA BRANCA",
+      "data_compra": "2025-10-29T00:00:00.000Z",
+      "valor_unitario": 2.3
+    },
+    {
+      "id": "e00834ae-e54b-4425-b717-42c4d35cb9a3",
+      "invoice_id": "6c298243-63c5-44d5-9ccb-e06f30d4ce57",
+      "nome": "CEBOLA ROXA",
+      "data_compra": "2025-10-29T00:00:00.000Z",
+      "valor_unitario": 6.72
+    },
+    {
+      "id": "cfbf81bf-0a44-489e-b28d-93b089ce0597",
+      "invoice_id": "6c298243-63c5-44d5-9ccb-e06f30d4ce57",
+      "nome": "CENOURA",
+      "data_compra": "2025-10-29T00:00:00.000Z",
+      "valor_unitario": 6
+    },
+    {
+      "id": "f5b78eb8-8d91-4da1-a070-45b0e16c2f2e",
+      "invoice_id": "6c298243-63c5-44d5-9ccb-e06f30d4ce57",
+      "nome": "LARANJA PERA",
+      "data_compra": "2025-10-29T00:00:00.000Z",
+      "valor_unitario": 4.448
+    },
+    {
+      "id": "b32c93c1-8e1b-46dc-9154-27e4efd727a0",
+      "invoice_id": "6c298243-63c5-44d5-9ccb-e06f30d4ce57",
+      "nome": "LIMAO TAHITI",
+      "data_compra": "2025-10-29T00:00:00.000Z",
+      "valor_unitario": 7.5
+    },
+    {
+      "id": "43ce9170-cbc8-4cb2-b8f1-a0cbc8ec814d",
+      "invoice_id": "6c298243-63c5-44d5-9ccb-e06f30d4ce57",
+      "nome": "MANGA PALMER",
+      "data_compra": "2025-10-29T00:00:00.000Z",
+      "valor_unitario": 7.52
+    },
+    {
+      "id": "85ec0a0b-aab9-4c63-9d99-68471174eb6a",
+      "invoice_id": "6c298243-63c5-44d5-9ccb-e06f30d4ce57",
+      "nome": "MORANGO",
+      "data_compra": "2025-10-29T00:00:00.000Z",
+      "valor_unitario": 9
+    },
+    {
+      "id": "449cd4c3-98f8-40bc-87cb-ea10a3042cfd",
+      "invoice_id": "6c298243-63c5-44d5-9ccb-e06f30d4ce57",
+      "nome": "OVO BRANCO",
+      "data_compra": "2025-10-29T00:00:00.000Z",
+      "valor_unitario": 24
+    },
+    {
+      "id": "e5dad76b-56ae-4a4b-8187-ac8de22cd04e",
+      "invoice_id": "6c298243-63c5-44d5-9ccb-e06f30d4ce57",
+      "nome": "PALMITO PUPUNHA",
+      "data_compra": "2025-10-29T00:00:00.000Z",
+      "valor_unitario": 19.2
+    },
+    {
+      "id": "2e8b9bfe-dd07-4c11-b611-e785e6b0338d",
+      "invoice_id": "6c298243-63c5-44d5-9ccb-e06f30d4ce57",
+      "nome": "PIMENTAO VERMELHO",
+      "data_compra": "2025-10-29T00:00:00.000Z",
+      "valor_unitario": 22
+    },
+    {
+      "id": "5f96b3e7-4a2b-46fe-af3f-0c575567dcfd",
+      "invoice_id": "6c298243-63c5-44d5-9ccb-e06f30d4ce57",
+      "nome": "RUCULA HIDROPONICA",
+      "data_compra": "2025-10-29T00:00:00.000Z",
+      "valor_unitario": 4
+    },
+    {
+      "id": "b93fcafb-7617-488c-9b03-2d16f2b61fed",
+      "invoice_id": "6c298243-63c5-44d5-9ccb-e06f30d4ce57",
+      "nome": "SALSA CRESPA",
+      "data_compra": "2025-10-29T00:00:00.000Z",
+      "valor_unitario": 6.4
+    },
+    {
+      "id": "d836e9d3-b6d4-4cfa-aea9-75c7d70417c6",
+      "invoice_id": "6c298243-63c5-44d5-9ccb-e06f30d4ce57",
+      "nome": "TOMATE CEREJA",
+      "data_compra": "2025-10-29T00:00:00.000Z",
+      "valor_unitario": 3.52
+    },
+    {
+      "id": "5a338a03-e437-40ab-96cd-f01ae18f4699",
+      "invoice_id": "6c298243-63c5-44d5-9ccb-e06f30d4ce57",
+      "nome": "TOMATE CEREJA AMARELO",
+      "data_compra": "2025-10-29T00:00:00.000Z",
+      "valor_unitario": 8
+    },
+    {
+      "id": "63c56acc-7bd9-484b-a7cd-82f6fe8322ea",
+      "invoice_id": "6c298243-63c5-44d5-9ccb-e06f30d4ce57",
+      "nome": "TOMATE SALADA",
+      "data_compra": "2025-10-29T00:00:00.000Z",
+      "valor_unitario": 10.4
+    },
+    {
+      "id": "a74320e4-cfd9-4572-ad59-11aed3da3727",
+      "invoice_id": "6c298243-63c5-44d5-9ccb-e06f30d4ce57",
+      "nome": "BROCOLIS NINJA",
+      "data_compra": "2025-10-29T00:00:00.000Z",
+      "valor_unitario": 8
+    },
+    {
+      "id": "fa4dfda7-315a-499e-8c13-8a837077bfb9",
+      "invoice_id": "6c298243-63c5-44d5-9ccb-e06f30d4ce57",
+      "nome": "CEBOLINHA COMUM",
+      "data_compra": "2025-10-29T00:00:00.000Z",
+      "valor_unitario": 3.2
+    },
+    {
+      "id": "cbdf4c12-21ca-458f-b7e3-f2f12b82cc8d",
+      "invoice_id": "87d6c08f-b29f-4e5e-b860-8d4db328acbd",
+      "nome": "AGUA SANITARIA SUPER CANDIDA SLT",
+      "data_compra": "2025-10-23T00:00:00.000Z",
+      "valor_unitario": 21.58
+    },
+    {
+      "id": "44291100-033f-43f1-bca5-f48146776b7d",
+      "invoice_id": "87d6c08f-b29f-4e5e-b860-8d4db328acbd",
+      "nome": "BOBINA PICOTADA (A) 20X28 EXTRUSA C/400",
+      "data_compra": "2025-10-23T00:00:00.000Z",
+      "valor_unitario": 19.6
+    },
+    {
+      "id": "9a613fc6-50e1-44a2-84d6-19e08e0fb9f7",
+      "invoice_id": "87d6c08f-b29f-4e5e-b860-8d4db328acbd",
+      "nome": "LA DE ACO BOMBRIL",
+      "data_compra": "2025-10-23T00:00:00.000Z",
+      "valor_unitario": 2.8
+    },
+    {
+      "id": "95b42a90-7349-429c-b89f-314359945177",
+      "invoice_id": "87d6c08f-b29f-4e5e-b860-8d4db328acbd",
+      "nome": "DETERG NEUTRO YPE 500ML",
+      "data_compra": "2025-10-23T00:00:00.000Z",
+      "valor_unitario": 3.3672
+    },
+    {
+      "id": "280045a4-4bba-4e4f-863c-1e65492b1306",
+      "invoice_id": "87d6c08f-b29f-4e5e-b860-8d4db328acbd",
+      "nome": "GUARD.31,8X31,8 F.DUPLA GRANDHOTEL 9X50",
+      "data_compra": "2025-10-23T00:00:00.000Z",
+      "valor_unitario": 122.8
+    },
+    {
+      "id": "b3180cd1-1c88-4038-8543-b9f0cbc206ac",
+      "invoice_id": "87d6c08f-b29f-4e5e-b860-8d4db328acbd",
+      "nome": "LIMPA ALUMINIO VALENCIA 5LTS",
+      "data_compra": "2025-10-23T00:00:00.000Z",
+      "valor_unitario": 38.35
+    },
+    {
+      "id": "0d582338-583d-4d63-a15d-41939f7f065e",
+      "invoice_id": "87d6c08f-b29f-4e5e-b860-8d4db328acbd",
+      "nome": "LIMP VIDRO LIMPOL BOMBRIL 500ML",
+      "data_compra": "2025-10-23T00:00:00.000Z",
+      "valor_unitario": 8.75
+    },
+    {
+      "id": "a795c366-050f-4a48-8f7e-30a183422ea3",
+      "invoice_id": "87d6c08f-b29f-4e5e-b860-8d4db328acbd",
+      "nome": "SACO ALVEJADO EXTRA 50X70 C/6 GOLD",
+      "data_compra": "2025-10-23T00:00:00.000Z",
+      "valor_unitario": 39.99
+    },
+    {
+      "id": "dbc5cb1a-ee26-4f4c-972b-d03a805c4de4",
+      "invoice_id": "87d6c08f-b29f-4e5e-b860-8d4db328acbd",
+      "nome": "PAP.INTERF.2D PROPEL 22X20,7 C4800 22424",
+      "data_compra": "2025-10-23T00:00:00.000Z",
+      "valor_unitario": 132.3
+    },
+    {
+      "id": "ca2360ee-6d57-4828-9484-2ffd9b374ffa",
+      "invoice_id": "87d6c08f-b29f-4e5e-b860-8d4db328acbd",
+      "nome": "SACO LIXO 200LTS PR EXTRA FORTE C/3KG",
+      "data_compra": "2025-10-23T00:00:00.000Z",
+      "valor_unitario": 51.3
+    },
+    {
+      "id": "b7c489be-abeb-472c-85b4-695795c35ace",
+      "invoice_id": "87d6c08f-b29f-4e5e-b860-8d4db328acbd",
+      "nome": "REDE CABELO PRETA C/10",
+      "data_compra": "2025-10-23T00:00:00.000Z",
+      "valor_unitario": 8.2179
+    },
+    {
+      "id": "4eaba083-6858-4ba4-a8f5-2967b78352ce",
+      "invoice_id": "87d6c08f-b29f-4e5e-b860-8d4db328acbd",
+      "nome": "VASSOURA MULT CABO1,40 VERDE 9675C SUPER",
+      "data_compra": "2025-10-23T00:00:00.000Z",
+      "valor_unitario": 24.9
+    },
+    {
+      "id": "7494f059-4ffd-4dde-a82d-9a584f81d041",
+      "invoice_id": "87d6c08f-b29f-4e5e-b860-8d4db328acbd",
+      "nome": "DESENG SQUEEZE LIMPOL BOMBRIL 500ML",
+      "data_compra": "2025-10-23T00:00:00.000Z",
+      "valor_unitario": 12.1
+    },
+    {
+      "id": "2421b3b0-375b-4089-b8ca-8b54efe1104b",
+      "invoice_id": "87d6c08f-b29f-4e5e-b860-8d4db328acbd",
+      "nome": "DETERG DESENGRAX RAMBO MAX CRIVELA 5LTS",
+      "data_compra": "2025-10-23T00:00:00.000Z",
+      "valor_unitario": 55.4
+    },
+    {
+      "id": "e48d0a0f-cdc7-42d1-9e1e-18393c15cfe3",
+      "invoice_id": "87d6c08f-b29f-4e5e-b860-8d4db328acbd",
+      "nome": "FOSFORO FIATLUX EXTRA LONGO C/50",
+      "data_compra": "2025-10-23T00:00:00.000Z",
+      "valor_unitario": 4.4
+    },
+    {
+      "id": "42352730-e3c5-4f18-96c7-f9c3330ec271",
+      "invoice_id": "87d6c08f-b29f-4e5e-b860-8d4db328acbd",
+      "nome": "SACO LIXO 40LTS PR SANLIX C/100",
+      "data_compra": "2025-10-23T00:00:00.000Z",
+      "valor_unitario": 25.2
+    },
+    {
+      "id": "a4f46629-60d6-4063-8ca6-9acb9f313e7a",
+      "invoice_id": "ec9fd26f-a087-4307-93a3-af2a15f86991",
+      "nome": "BRIE SAO VICENTE FORMA",
+      "data_compra": "2025-10-29T00:00:00.000Z",
+      "valor_unitario": 72.9
+    },
+    {
+      "id": "ddd7be82-aae4-4e66-b58d-3027b8403aac",
+      "invoice_id": "d32f11ac-401f-4f1a-8dd4-205e971983cc",
+      "nome": "CAMARAO 11/15 DESC EVISC TELSON",
+      "data_compra": "2025-10-20T00:00:00.000Z",
+      "valor_unitario": 169
+    },
+    {
+      "id": "364cbdd7-374b-4c3a-aef2-3eb0ece86977",
+      "invoice_id": "601487a0-0fe4-43e0-9661-debbad5f3a5e",
+      "nome": "ARROZ ARBORIO LA PASTINA CX10X1KG VAL APROX TRIBUTOS R$ 39.76 (26.33%) FONTE: IBPT",
+      "data_compra": "2025-10-20T00:00:00.000Z",
+      "valor_unitario": 30.2
+    },
+    {
+      "id": "6b858147-6c67-4be1-bae1-b5b9e0bfdb0d",
+      "invoice_id": "601487a0-0fe4-43e0-9661-debbad5f3a5e",
+      "nome": "ARROZ BRANCO T1 CAMIL FD6X5KG VAL APROX TRIBUTOS R$ 8.24 (15.73%) FONTE: IBPT",
+      "data_compra": "2025-10-20T00:00:00.000Z",
+      "valor_unitario": 26.2
+    },
+    {
+      "id": "7ae2a41c-f979-44c3-9bd1-fd97225e0443",
+      "invoice_id": "601487a0-0fe4-43e0-9661-debbad5f3a5e",
+      "nome": "DAMASCO TURCO KING FOODS PCT 1KG VAL APROX TRIBUTOS R$ 75.56 (42.69%) FONTE: IBPT",
+      "data_compra": "2025-10-20T00:00:00.000Z",
+      "valor_unitario": 88.5
+    },
+    {
+      "id": "627677e0-f539-4ebd-81e7-7c9c311365ab",
+      "invoice_id": "601487a0-0fe4-43e0-9661-debbad5f3a5e",
+      "nome": "LEITE DE COCO SOCOCO CX12XILITRO VAL APROX TRIBUTOS R$ 202.15 (26.33%) FONTE: IBPT",
+      "data_compra": "2025-10-20T00:00:00.000Z",
+      "valor_unitario": 31.99
+    },
+    {
+      "id": "b88e7a8f-f29b-43c2-9e0d-87b78b59477b",
+      "invoice_id": "601487a0-0fe4-43e0-9661-debbad5f3a5e",
+      "nome": "MOLHO SHOYU SAKURA CX12X1L VAL APROX TRIBUTOS R$ 6.90 (32.09%) FONTE: IBPT",
+      "data_compra": "2025-10-20T00:00:00.000Z",
+      "valor_unitario": 21.5
+    },
+    {
+      "id": "1b6c02a9-2663-4fd7-84af-c91140dff24b",
+      "invoice_id": "8852ba7c-8804-47a6-ac04-1324897ca2f8",
+      "nome": "SÃO LOURENÇOS. LOURENCO PET 300ML COM GAS 12UN",
+      "data_compra": "2025-10-21T00:00:00.000Z",
+      "valor_unitario": 30.39
+    },
+    {
+      "id": "5a81eb7a-7ea7-4a7b-8db9-53dd843f98c7",
+      "invoice_id": "8852ba7c-8804-47a6-ac04-1324897ca2f8",
+      "nome": "SÃO LOURENÇOS. LOURENCO PET 300ML SEM GAS 12UN",
+      "data_compra": "2025-10-21T00:00:00.000Z",
+      "valor_unitario": 26.33
+    },
+    {
+      "id": "b0cd6f54-d3e8-42e7-aa16-af3384ebd1ec",
+      "invoice_id": "8852ba7c-8804-47a6-ac04-1324897ca2f8",
+      "nome": "PRATA-PRATA MIXER LATA 269ML TONICA ZERO 6UN",
+      "data_compra": "2025-10-21T00:00:00.000Z",
+      "valor_unitario": 26.16
+    },
+    {
+      "id": "f40e0b77-167f-477b-98a3-47ac1a9b6c3e",
+      "invoice_id": "8852ba7c-8804-47a6-ac04-1324897ca2f8",
+      "nome": "HEINEKEN - HEINEKEN LONG NECK 330ML NORMAL 24UN",
+      "data_compra": "2025-10-21T00:00:00.000Z",
+      "valor_unitario": 160.56
+    },
+    {
+      "id": "be599acf-8218-4ab2-ac85-6a0472fad984",
+      "invoice_id": "8852ba7c-8804-47a6-ac04-1324897ca2f8",
+      "nome": "COCA COLA-COCA COLA LATA 350ML NORMAL 12UN",
+      "data_compra": "2025-10-21T00:00:00.000Z",
+      "valor_unitario": 44.28
+    },
+    {
+      "id": "fc2d8808-b6ad-458f-8cf8-45e912b2ebe6",
+      "invoice_id": "8852ba7c-8804-47a6-ac04-1324897ca2f8",
+      "nome": "SCHWEPPES-SCHWEPPES CITRUS LATA 350ML NORMAL 6UN",
+      "data_compra": "2025-10-21T00:00:00.000Z",
+      "valor_unitario": 27.4
+    },
+    {
+      "id": "21404c6b-6f90-43fe-bf50-536c1f92634a",
+      "invoice_id": "3dcdc3ed-4a06-4715-bddd-818f3c231096",
+      "nome": "Rioja Bordon Crianza 750ml-17244",
+      "data_compra": "2025-10-09T00:00:00.000Z",
+      "valor_unitario": 93
+    },
+    {
+      "id": "32079213-7e59-4be3-a0e1-7d25764322b3",
+      "invoice_id": "d32f11ac-401f-4f1a-8dd4-205e971983cc",
+      "nome": "CAMARAO 11/15 DESC EVISC TELSON",
+      "data_compra": "2025-10-28T00:00:00.000Z",
+      "valor_unitario": 169
+    },
+    {
+      "id": "2a70139a-5b95-41cb-8625-13e350cdedb5",
+      "invoice_id": "90dfa842-4da4-4211-a431-2be25827981f",
+      "nome": "RISTRETTO",
+      "data_compra": "2025-10-07T00:00:00.000Z",
+      "valor_unitario": 2.25
+    },
+    {
+      "id": "09d3ad24-8a69-49c2-943f-a854d81dface",
+      "invoice_id": "90dfa842-4da4-4211-a431-2be25827981f",
+      "nome": "LEGGERO",
+      "data_compra": "2025-10-07T00:00:00.000Z",
+      "valor_unitario": 2.25
+    },
+    {
+      "id": "1a9b9aa2-a3fb-4f68-8f9c-b8eec8f92f40",
+      "invoice_id": "90dfa842-4da4-4211-a431-2be25827981f",
+      "nome": "FORTE",
+      "data_compra": "2025-10-07T00:00:00.000Z",
+      "valor_unitario": 2.25
+    },
+    {
+      "id": "5963ae29-82f6-44f1-84c9-17708866fecc",
+      "invoice_id": "0384328a-b571-4d73-bd31-bbd1a170504a",
+      "nome": "CABERNET SAUVIGNON VENETO IGT AMERI GO VESPUCCI",
+      "data_compra": "2025-10-15T00:00:00.000Z",
+      "valor_unitario": 36.9
+    },
+    {
+      "id": "0b603a43-94fa-4d85-a63b-1d182e19b7ce",
+      "invoice_id": "0384328a-b571-4d73-bd31-bbd1a170504a",
+      "nome": "PINOT GRIGIO DELLE VENEZIE DOC CAST ELNUOVO",
+      "data_compra": "2025-10-15T00:00:00.000Z",
+      "valor_unitario": 42.29
+    },
+    {
+      "id": "6012de05-6113-46ec-8199-cf6ac9c6711d",
+      "invoice_id": "51b46d13-8420-4d8f-8c5a-71ac2a1dffd7",
+      "nome": "20.00",
+      "data_compra": "2025-10-27T00:00:00.000Z",
+      "valor_unitario": 607.8
+    },
+    {
+      "id": "ac9b7d47-3e30-41c1-a34f-c57f68f45ac7",
+      "invoice_id": "51b46d13-8420-4d8f-8c5a-71ac2a1dffd7",
+      "nome": "12.00",
+      "data_compra": "2025-10-27T00:00:00.000Z",
+      "valor_unitario": 315.96
+    },
+    {
+      "id": "a24a6f05-a31a-448b-9053-619e5d7a2695",
+      "invoice_id": "51b46d13-8420-4d8f-8c5a-71ac2a1dffd7",
+      "nome": "2.00",
+      "data_compra": "2025-10-27T00:00:00.000Z",
+      "valor_unitario": 52.32
+    },
+    {
+      "id": "eaffd377-0eb7-41d1-96a3-c2002d0be514",
+      "invoice_id": "51b46d13-8420-4d8f-8c5a-71ac2a1dffd7",
+      "nome": "1.00",
+      "data_compra": "2025-10-27T00:00:00.000Z",
+      "valor_unitario": 160.56
+    },
+    {
+      "id": "f2d200b4-a65c-44c9-9227-3cbbe8dd8fcf",
+      "invoice_id": "51b46d13-8420-4d8f-8c5a-71ac2a1dffd7",
+      "nome": "3.00",
+      "data_compra": "2025-10-27T00:00:00.000Z",
+      "valor_unitario": 137.52
+    },
+    {
+      "id": "1feec49a-022f-4873-91b7-ca6b58089dec",
+      "invoice_id": "51b46d13-8420-4d8f-8c5a-71ac2a1dffd7",
+      "nome": "2.00",
+      "data_compra": "2025-10-27T00:00:00.000Z",
+      "valor_unitario": 88.56
+    },
+    {
+      "id": "a16a31f6-8e09-48d1-9598-aaa421532633",
+      "invoice_id": "51b46d13-8420-4d8f-8c5a-71ac2a1dffd7",
+      "nome": "1.00",
+      "data_compra": "2025-10-27T00:00:00.000Z",
+      "valor_unitario": 38.28
+    },
+    {
+      "id": "3ece78c4-1345-4da2-9537-dbf3d3fe7deb",
+      "invoice_id": "51b46d13-8420-4d8f-8c5a-71ac2a1dffd7",
+      "nome": "1.00",
+      "data_compra": "2025-10-27T00:00:00.000Z",
+      "valor_unitario": 27.4
+    },
+    {
+      "id": "a4c16784-9115-4568-a7d8-0c6b09aee5ac",
+      "invoice_id": "85bb15c8-61a7-4941-a401-69cad4e5c61a",
+      "nome": "12.0000",
+      "data_compra": "2025-10-08T00:00:00.000Z",
+      "valor_unitario": 169.56
+    },
+    {
+      "id": "ab64d38f-1b24-4dcc-a034-8fb34baf4e79",
+      "invoice_id": "1270495c-a84d-40f5-a847-79868fb10eed",
+      "nome": "24.0000",
+      "data_compra": "2025-10-07T00:00:00.000Z",
+      "valor_unitario": 916.56
+    },
+    {
+      "id": "def3bee6-0fce-4767-9830-6460961bbbfa",
+      "invoice_id": "a368d380-8421-4053-8f20-9adffdaf2e72",
+      "nome": "1.0000",
+      "data_compra": "2025-10-31T00:00:00.000Z",
+      "valor_unitario": 9.6
+    },
+    {
+      "id": "ba910e57-e077-44f3-9a25-df3f1d2461b6",
+      "invoice_id": "a368d380-8421-4053-8f20-9adffdaf2e72",
+      "nome": "9.6000000000",
+      "data_compra": "2025-10-31T00:00:00.000Z",
+      "valor_unitario": 19.2
+    },
+    {
+      "id": "74699d3f-f8a2-441e-a6c1-da8bf7b29ef5",
+      "invoice_id": "a368d380-8421-4053-8f20-9adffdaf2e72",
+      "nome": "6.4000000000",
+      "data_compra": "2025-10-31T00:00:00.000Z",
+      "valor_unitario": 6.4
+    },
+    {
+      "id": "4bee0d11-c63d-4a09-9588-5fda7a0407dd",
+      "invoice_id": "a368d380-8421-4053-8f20-9adffdaf2e72",
+      "nome": "3.2000000000",
+      "data_compra": "2025-10-31T00:00:00.000Z",
+      "valor_unitario": 3.2
+    },
+    {
+      "id": "6716e1b2-9289-4495-acbd-123297403f36",
+      "invoice_id": "a368d380-8421-4053-8f20-9adffdaf2e72",
+      "nome": "12.8000000000",
+      "data_compra": "2025-10-31T00:00:00.000Z",
+      "valor_unitario": 12.8
+    },
+    {
+      "id": "c36620f6-38a9-4f80-9665-a670d2d71730",
+      "invoice_id": "a368d380-8421-4053-8f20-9adffdaf2e72",
+      "nome": "2.5600000000",
+      "data_compra": "2025-10-31T00:00:00.000Z",
+      "valor_unitario": 2.56
+    },
+    {
+      "id": "7cfd507c-0ca7-41b4-b09d-4d1f86f57809",
+      "invoice_id": "a368d380-8421-4053-8f20-9adffdaf2e72",
+      "nome": "2.4000000000",
+      "data_compra": "2025-10-31T00:00:00.000Z",
+      "valor_unitario": 2.4
+    },
+    {
+      "id": "f50c1f4e-24cf-4bc4-bfba-00e967200f78",
+      "invoice_id": "a368d380-8421-4053-8f20-9adffdaf2e72",
+      "nome": "3.3000",
+      "data_compra": "2025-10-31T00:00:00.000Z",
+      "valor_unitario": 38.81
+    },
+    {
+      "id": "2d4ad4ef-d336-4685-84d0-be334371c9c2",
+      "invoice_id": "a368d380-8421-4053-8f20-9adffdaf2e72",
+      "nome": "2.9000",
+      "data_compra": "2025-10-31T00:00:00.000Z",
+      "valor_unitario": 20.65
+    },
+    {
+      "id": "12492756-08c2-4a25-a518-fd93bb3a7c58",
+      "invoice_id": "a368d380-8421-4053-8f20-9adffdaf2e72",
+      "nome": "5.3600000000",
+      "data_compra": "2025-10-31T00:00:00.000Z",
+      "valor_unitario": 37.52
+    },
+    {
+      "id": "ccf68ea4-3f40-4724-9041-d9ce48ab1e00",
+      "invoice_id": "a368d380-8421-4053-8f20-9adffdaf2e72",
+      "nome": "2.3000000000",
+      "data_compra": "2025-10-31T00:00:00.000Z",
+      "valor_unitario": 4.6
+    },
+    {
+      "id": "ca79310d-c70f-4eb9-a4fa-a3ee77fec833",
+      "invoice_id": "a368d380-8421-4053-8f20-9adffdaf2e72",
+      "nome": "0.7000",
+      "data_compra": "2025-10-31T00:00:00.000Z",
+      "valor_unitario": 4.2
+    },
+    {
+      "id": "aef0c0a9-2276-48bd-be45-8a364d2ae2d2",
+      "invoice_id": "a368d380-8421-4053-8f20-9adffdaf2e72",
+      "nome": "11.2500000000",
+      "data_compra": "2025-10-31T00:00:00.000Z",
+      "valor_unitario": 22.5
+    },
+    {
+      "id": "886d831b-ea12-43b5-8847-c8245a787ea2",
+      "invoice_id": "a368d380-8421-4053-8f20-9adffdaf2e72",
+      "nome": "2.0000",
+      "data_compra": "2025-10-31T00:00:00.000Z",
+      "valor_unitario": 25.6
+    },
+    {
+      "id": "4b454e8d-c5ec-42ca-b15e-0b96a32535f4",
+      "invoice_id": "a368d380-8421-4053-8f20-9adffdaf2e72",
+      "nome": "0.5000",
+      "data_compra": "2025-10-31T00:00:00.000Z",
+      "valor_unitario": 4.8
+    },
+    {
+      "id": "17a07db4-ffba-4af6-bd2b-3698320befc9",
+      "invoice_id": "a368d380-8421-4053-8f20-9adffdaf2e72",
+      "nome": "1.2000",
+      "data_compra": "2025-10-31T00:00:00.000Z",
+      "valor_unitario": 5.34
+    },
+    {
+      "id": "36703f2a-cc8a-420e-af6a-f6c256b67c41",
+      "invoice_id": "a368d380-8421-4053-8f20-9adffdaf2e72",
+      "nome": "3.5000",
+      "data_compra": "2025-10-31T00:00:00.000Z",
+      "valor_unitario": 26.25
+    },
+    {
+      "id": "0d3cde2e-d2f2-45c2-b1a0-594e3c48244a",
+      "invoice_id": "a368d380-8421-4053-8f20-9adffdaf2e72",
+      "nome": "2.4000",
+      "data_compra": "2025-10-31T00:00:00.000Z",
+      "valor_unitario": 39.74
+    },
+    {
+      "id": "2577c0ed-78c4-4094-8bfa-8a01e5559c6e",
+      "invoice_id": "a368d380-8421-4053-8f20-9adffdaf2e72",
+      "nome": "1.2000",
+      "data_compra": "2025-10-31T00:00:00.000Z",
+      "valor_unitario": 9.02
+    },
+    {
+      "id": "639a91ad-727a-4855-956a-66958b355bd7",
+      "invoice_id": "a368d380-8421-4053-8f20-9adffdaf2e72",
+      "nome": "3.0000",
+      "data_compra": "2025-10-31T00:00:00.000Z",
+      "valor_unitario": 27
+    },
+    {
+      "id": "6c6023a5-f9d5-405c-9656-8f40499bc070",
+      "invoice_id": "a368d380-8421-4053-8f20-9adffdaf2e72",
+      "nome": "1.0000",
+      "data_compra": "2025-10-31T00:00:00.000Z",
+      "valor_unitario": 24
+    },
+    {
+      "id": "d4168d8b-79b4-4e84-abb0-93fa63ca9c23",
+      "invoice_id": "a368d380-8421-4053-8f20-9adffdaf2e72",
+      "nome": "4.4000",
+      "data_compra": "2025-10-31T00:00:00.000Z",
+      "valor_unitario": 66.18
+    },
+    {
+      "id": "8189356d-021c-449e-ab6a-b89e014b4ae6",
+      "invoice_id": "a368d380-8421-4053-8f20-9adffdaf2e72",
+      "nome": "1.0000",
+      "data_compra": "2025-10-31T00:00:00.000Z",
+      "valor_unitario": 19.2
+    },
+    {
+      "id": "c83cdfe9-7693-45b2-8a06-76d4e913d2d6",
+      "invoice_id": "a368d380-8421-4053-8f20-9adffdaf2e72",
+      "nome": "0.3000",
+      "data_compra": "2025-10-31T00:00:00.000Z",
+      "valor_unitario": 6.6
+    },
+    {
+      "id": "6c90c663-af00-4d85-af11-5b4387e90d8b",
+      "invoice_id": "a368d380-8421-4053-8f20-9adffdaf2e72",
+      "nome": "1.0000",
+      "data_compra": "2025-10-31T00:00:00.000Z",
+      "valor_unitario": 4
+    },
+    {
+      "id": "7d5f1dbd-004f-4275-a3f4-97d6f1edbcd3",
+      "invoice_id": "a368d380-8421-4053-8f20-9adffdaf2e72",
+      "nome": "1.0000",
+      "data_compra": "2025-10-31T00:00:00.000Z",
+      "valor_unitario": 6.4
+    },
+    {
+      "id": "6f7fffe0-c2ee-4545-bff6-360870639fd2",
+      "invoice_id": "a368d380-8421-4053-8f20-9adffdaf2e72",
+      "nome": "1.0000",
+      "data_compra": "2025-10-31T00:00:00.000Z",
+      "valor_unitario": 3.52
+    },
+    {
+      "id": "5378495c-4f6e-40ea-974a-70adafdab4ac",
+      "invoice_id": "a368d380-8421-4053-8f20-9adffdaf2e72",
+      "nome": "1.0000",
+      "data_compra": "2025-10-31T00:00:00.000Z",
+      "valor_unitario": 8
+    },
+    {
+      "id": "e6b12849-b384-417a-b4d4-2bcfa8636def",
+      "invoice_id": "a368d380-8421-4053-8f20-9adffdaf2e72",
+      "nome": "4.0000",
+      "data_compra": "2025-10-31T00:00:00.000Z",
+      "valor_unitario": 41.6
+    },
+    {
+      "id": "7fa34a8c-a2ce-40dc-a6e6-a4f361e43038",
+      "invoice_id": "a368d380-8421-4053-8f20-9adffdaf2e72",
+      "nome": "1.0000",
+      "data_compra": "2025-10-31T00:00:00.000Z",
+      "valor_unitario": 3.2
+    },
+    {
+      "id": "37325909-22a4-47b0-a42e-bfbe830dace8",
+      "invoice_id": "30a766f6-974d-4108-a66b-1e26381fd174",
+      "nome": "FILE MIGNON 4/5 S/C ESTRELA OURO",
+      "data_compra": "2025-10-28T00:00:00.000Z",
+      "valor_unitario": 69.5
+    },
+    {
+      "id": "c3bf1f9d-8965-486d-bda9-b9d9399a4460",
+      "invoice_id": "85bb15c8-61a7-4941-a401-69cad4e5c61a",
+      "nome": "05L",
+      "data_compra": "2025-10-08T00:00:00.000Z",
+      "valor_unitario": 257.17
+    },
+    {
+      "id": "73623ce1-5aba-40bd-8cc9-a493b402ff20",
+      "invoice_id": "03c7bf2f-16fb-4f07-a63e-62866828e953",
+      "nome": "6",
+      "data_compra": "2025-10-10T00:00:00.000Z",
+      "valor_unitario": 364.5
+    },
+    {
+      "id": "f6f1b522-7e40-413f-9621-7324226d5bfd",
+      "invoice_id": "03c7bf2f-16fb-4f07-a63e-62866828e953",
+      "nome": "6",
+      "data_compra": "2025-10-10T00:00:00.000Z",
+      "valor_unitario": 364.5
+    },
+    {
+      "id": "3ff701de-46b0-45ee-a0ff-9a576dbc0d7b",
+      "invoice_id": "99d2fc47-6328-4f3f-bef1-8fcbffc0e09d",
+      "nome": "34.10",
+      "data_compra": "2025-10-16T00:00:00.000Z",
+      "valor_unitario": 1636.8
+    },
+    {
+      "id": "3b78d148-4b12-4cdf-81cf-bf84b2d2eff0",
+      "invoice_id": "99d2fc47-6328-4f3f-bef1-8fcbffc0e09d",
+      "nome": "7.25",
+      "data_compra": "2025-10-16T00:00:00.000Z",
+      "valor_unitario": 420.5
+    },
+    {
+      "id": "149439db-ba99-4197-933a-3727535cc9b9",
+      "invoice_id": "99d2fc47-6328-4f3f-bef1-8fcbffc0e09d",
+      "nome": "3.30",
+      "data_compra": "2025-10-16T00:00:00.000Z",
+      "valor_unitario": 462
+    },
+    {
+      "id": "0e6b0cf4-3043-4ca9-b151-b2c230d78d1f",
+      "invoice_id": "6e605172-e533-4052-9985-ca6c18ce8164",
+      "nome": "CAMARAO 11/15 DESC EVISC TELSON",
+      "data_compra": "2025-11-03T00:00:00.000Z",
+      "valor_unitario": 169
+    },
+    {
+      "id": "097302e7-9825-440d-aec4-bcaa6d07f27f",
+      "invoice_id": "9acf206a-82f9-48d3-b372-17f736470b56",
+      "nome": "SUCO DE UVA VARIETAL ROSE CABERNET SAUVIGNON 750ML",
+      "data_compra": "2025-10-09T00:00:00.000Z",
+      "valor_unitario": 31.53
+    },
+    {
+      "id": "54c22c77-b6db-4d7b-b0f4-db52869d3fbe",
+      "invoice_id": "d5e8d666-c2b6-4019-9a78-ccb5bf9d76d3",
+      "nome": "F MIGNON S/C STEAKHOUSE RESF.18746-3 CX 12.306 11.581 11.226 |",
+      "data_compra": "2025-11-04T00:00:00.000Z",
+      "valor_unitario": 71.5
+    },
+    {
+      "id": "ce043acc-992a-49d7-a8fc-17e334e5cae3",
+      "invoice_id": "7464d9a5-c7ce-4653-895e-f13771cd959b",
+      "nome": "ABACAXI",
+      "data_compra": "2025-11-03T00:00:00.000Z",
+      "valor_unitario": 3
+    },
+    {
+      "id": "dc1c3958-7b06-4d81-af72-befb225f2a88",
+      "invoice_id": "7464d9a5-c7ce-4653-895e-f13771cd959b",
+      "nome": "ABOBRINHA ITALIANA",
+      "data_compra": "2025-11-03T00:00:00.000Z",
+      "valor_unitario": 6.4
+    },
+    {
+      "id": "0583ad35-bc71-4689-a6f5-cb4ac59545e0",
+      "invoice_id": "7464d9a5-c7ce-4653-895e-f13771cd959b",
+      "nome": "AGRIAO HIDROPONICO",
+      "data_compra": "2025-11-03T00:00:00.000Z",
+      "valor_unitario": 3.2
+    },
+    {
+      "id": "1433824c-1e6d-47e6-bc18-20344d71238c",
+      "invoice_id": "7464d9a5-c7ce-4653-895e-f13771cd959b",
+      "nome": "ALECRIM",
+      "data_compra": "2025-11-03T00:00:00.000Z",
+      "valor_unitario": 12.8
+    },
+    {
+      "id": "39c0b971-d085-4519-b741-f1397a9ad276",
+      "invoice_id": "7464d9a5-c7ce-4653-895e-f13771cd959b",
+      "nome": "ALFACE CRESPA",
+      "data_compra": "2025-11-03T00:00:00.000Z",
+      "valor_unitario": 2.56
+    },
+    {
+      "id": "0ab06f48-3745-483d-b90e-fd29f4173fc5",
+      "invoice_id": "7464d9a5-c7ce-4653-895e-f13771cd959b",
+      "nome": "ALFACE ROXA HIDROPONICA",
+      "data_compra": "2025-11-03T00:00:00.000Z",
+      "valor_unitario": 2.4
+    },
+    {
+      "id": "7a6b863d-42be-4f54-bc13-5093d88f02a3",
+      "invoice_id": "7464d9a5-c7ce-4653-895e-f13771cd959b",
+      "nome": "ALHO ROXO COM CASCA",
+      "data_compra": "2025-11-03T00:00:00.000Z",
+      "valor_unitario": 30.4
+    },
+    {
+      "id": "715d8caf-308d-4eb5-99dc-8437ee43267d",
+      "invoice_id": "7464d9a5-c7ce-4653-895e-f13771cd959b",
+      "nome": "BANANA PRATA",
+      "data_compra": "2025-11-03T00:00:00.000Z",
+      "valor_unitario": 6.64
+    },
+    {
+      "id": "5a4a0d76-ce95-495d-ac7d-a6b63bab2255",
+      "invoice_id": "7464d9a5-c7ce-4653-895e-f13771cd959b",
+      "nome": "BATATA DOCE ESP",
+      "data_compra": "2025-11-03T00:00:00.000Z",
+      "valor_unitario": 8
+    },
+    {
+      "id": "c5fddaf9-3644-4dbc-b2d0-d3a98341a8e0",
+      "invoice_id": "7464d9a5-c7ce-4653-895e-f13771cd959b",
+      "nome": "BATATA LAVADA",
+      "data_compra": "2025-11-03T00:00:00.000Z",
+      "valor_unitario": 5.36
+    },
+    {
+      "id": "6a1ed690-1086-4800-9643-8691685ea098",
+      "invoice_id": "7464d9a5-c7ce-4653-895e-f13771cd959b",
+      "nome": "CEBOLA BRANCA",
+      "data_compra": "2025-11-03T00:00:00.000Z",
+      "valor_unitario": 2.3
+    },
+    {
+      "id": "202bf711-69ec-4a40-8f2b-fc64fba16b0a",
+      "invoice_id": "7464d9a5-c7ce-4653-895e-f13771cd959b",
+      "nome": "CENOURA",
+      "data_compra": "2025-11-03T00:00:00.000Z",
+      "valor_unitario": 6
+    },
+    {
+      "id": "dfa8b0c6-8cdf-4124-bed5-e7212e3f3112",
+      "invoice_id": "7464d9a5-c7ce-4653-895e-f13771cd959b",
+      "nome": "GENGIBRE",
+      "data_compra": "2025-11-03T00:00:00.000Z",
+      "valor_unitario": 10.6
+    },
+    {
+      "id": "a1a23ac5-cdfb-40f8-b786-8749a4a4c7f3",
+      "invoice_id": "7464d9a5-c7ce-4653-895e-f13771cd959b",
+      "nome": "HORTELA",
+      "data_compra": "2025-11-03T00:00:00.000Z",
+      "valor_unitario": 9.6
+    },
+    {
+      "id": "f9433371-1be8-4855-a06a-d7eabbbbcce9",
+      "invoice_id": "7464d9a5-c7ce-4653-895e-f13771cd959b",
+      "nome": "MACA VERDE",
+      "data_compra": "2025-11-03T00:00:00.000Z",
+      "valor_unitario": 15.68
+    },
+    {
+      "id": "8c59a9f7-e0f5-4a5d-a9e9-721f8c41ece0",
+      "invoice_id": "7464d9a5-c7ce-4653-895e-f13771cd959b",
+      "nome": "MANGA PALMER",
+      "data_compra": "2025-11-03T00:00:00.000Z",
+      "valor_unitario": 7.52
+    },
+    {
+      "id": "bfefb444-f273-494c-a263-505faf1ba045",
+      "invoice_id": "7464d9a5-c7ce-4653-895e-f13771cd959b",
+      "nome": "MANJERICAO ROXO",
+      "data_compra": "2025-11-03T00:00:00.000Z",
+      "valor_unitario": 9.6
+    },
+    {
+      "id": "72892913-2fb8-4548-9f51-98e933ec6a2a",
+      "invoice_id": "7464d9a5-c7ce-4653-895e-f13771cd959b",
+      "nome": "MORANGO",
+      "data_compra": "2025-11-03T00:00:00.000Z",
+      "valor_unitario": 9
+    },
+    {
+      "id": "3e5f359d-a85f-49e9-bcb3-905eddace55b",
+      "invoice_id": "7464d9a5-c7ce-4653-895e-f13771cd959b",
+      "nome": "OVO BRANCO",
+      "data_compra": "2025-11-03T00:00:00.000Z",
+      "valor_unitario": 24
+    },
+    {
+      "id": "19097b86-713e-46d4-b906-19b110b31130",
+      "invoice_id": "7464d9a5-c7ce-4653-895e-f13771cd959b",
+      "nome": "PALMITO PUPUNHA",
+      "data_compra": "2025-11-03T00:00:00.000Z",
+      "valor_unitario": 19.2
+    },
+    {
+      "id": "8efbf17c-3fa0-4ce9-9d09-ec5caf51ae98",
+      "invoice_id": "7464d9a5-c7ce-4653-895e-f13771cd959b",
+      "nome": "PIMENTAO VERMELHO",
+      "data_compra": "2025-11-03T00:00:00.000Z",
+      "valor_unitario": 22
+    },
+    {
+      "id": "b717b4b2-f3eb-4c2f-aef2-6660b7edadb0",
+      "invoice_id": "7464d9a5-c7ce-4653-895e-f13771cd959b",
+      "nome": "RUCULA HIDROPONICA",
+      "data_compra": "2025-11-03T00:00:00.000Z",
+      "valor_unitario": 4
+    },
+    {
+      "id": "4245a717-1488-4ede-b1db-5fced0ba20e6",
+      "invoice_id": "7464d9a5-c7ce-4653-895e-f13771cd959b",
+      "nome": "SALSA CRESPA",
+      "data_compra": "2025-11-03T00:00:00.000Z",
+      "valor_unitario": 6.4
+    },
+    {
+      "id": "fe8429fb-42c5-4433-824e-20c3d4936199",
+      "invoice_id": "7464d9a5-c7ce-4653-895e-f13771cd959b",
+      "nome": "TOMATE CEREJA",
+      "data_compra": "2025-11-03T00:00:00.000Z",
+      "valor_unitario": 3.52
+    },
+    {
+      "id": "7d2fa9a8-aafb-4eac-bd6e-28908897a562",
+      "invoice_id": "7464d9a5-c7ce-4653-895e-f13771cd959b",
+      "nome": "TOMATE CEREJA AMARELO",
+      "data_compra": "2025-11-03T00:00:00.000Z",
+      "valor_unitario": 8
+    },
+    {
+      "id": "68f29a75-862a-440a-a8f7-c1800164faba",
+      "invoice_id": "7464d9a5-c7ce-4653-895e-f13771cd959b",
+      "nome": "TOMATE SALADA",
+      "data_compra": "2025-11-03T00:00:00.000Z",
+      "valor_unitario": 10.4
+    },
+    {
+      "id": "73d387b5-d330-46b8-bafe-304b6e97a6c0",
+      "invoice_id": "7464d9a5-c7ce-4653-895e-f13771cd959b",
+      "nome": "TOMILHO",
+      "data_compra": "2025-11-03T00:00:00.000Z",
+      "valor_unitario": 8
+    },
+    {
+      "id": "0c630a65-f460-4039-bff9-314e64c8d870",
+      "invoice_id": "7464d9a5-c7ce-4653-895e-f13771cd959b",
+      "nome": "CEBOLINHA INDUSTRIAL",
+      "data_compra": "2025-11-03T00:00:00.000Z",
+      "valor_unitario": 10.4
+    },
+    {
+      "id": "511e217a-0f68-4d63-bab8-43a215f4a745",
+      "invoice_id": "06bd4935-7c57-4427-9523-7e71fae96e15",
+      "nome": "QUEIJO PARMESAO ARROYO CABRAL",
+      "data_compra": "2025-11-05T00:00:00.000Z",
+      "valor_unitario": 69.9
+    },
+    {
+      "id": "0fb8aaca-ec56-4010-ad04-caa0de9d7640",
+      "invoice_id": "06bd4935-7c57-4427-9523-7e71fae96e15",
+      "nome": "MANTEIGA LA MILK",
+      "data_compra": "2025-11-05T00:00:00.000Z",
+      "valor_unitario": 37.5
+    },
+    {
+      "id": "e9f9901b-c3c7-4c97-ae7d-5504da509206",
+      "invoice_id": "34a8308e-a33c-4101-ba92-c9ac1f845ff4",
+      "nome": "AMENDOA S/PELE LAMINADA KINGFOOD FD10X1KG VAL APROX TRIBUTOS R$ 39.66 (42.69%) FONTE: IBPT",
+      "data_compra": "2025-10-27T00:00:00.000Z",
+      "valor_unitario": 92.9
+    },
+    {
+      "id": "57b1eed4-43ea-480f-a3a4-262db7af0faf",
+      "invoice_id": "34a8308e-a33c-4101-ba92-c9ac1f845ff4",
+      "nome": "ARROZ BRANCO T1 CAMIL FD6X5KG VAL APROX TRIBUTOS R$ 16.49 (15.73) %FONTE: IBPT",
+      "data_compra": "2025-10-27T00:00:00.000Z",
+      "valor_unitario": 26.2
+    },
+    {
+      "id": "c4fefbc7-f8f7-4fe2-922f-51e77dbfb242",
+      "invoice_id": "34a8308e-a33c-4101-ba92-c9ac1f845ff4",
+      "nome": "CASTANHA DE CAJU XEREM LERYC PCT 1KG VAL APROX TRIBUTOS R$ 10.88 (32.09%) FONTE: IBPT",
+      "data_compra": "2025-10-27T00:00:00.000Z",
+      "valor_unitario": 33.9
+    },
+    {
+      "id": "6871c7ed-e766-4a88-b90f-18b99f4cceb0",
+      "invoice_id": "34a8308e-a33c-4101-ba92-c9ac1f845ff4",
+      "nome": "GRANULADO SABOR CHOCOLATE HARALD CX10X1,05KG VAL APROX TRIBUTOS R$ 8.13 (28.52%) FONTE: IBPT",
+      "data_compra": "2025-10-27T00:00:00.000Z",
+      "valor_unitario": 28.5
+    },
+    {
+      "id": "383b78b7-d1fe-4724-b54b-a30df651eec1",
+      "invoice_id": "34a8308e-a33c-4101-ba92-c9ac1f845ff4",
+      "nome": "LEITE DE COCO SOCOCO CX12X1LITRO VAL APROX TRIBUTOS R$ 203.79 (26.33%) FONTE: IBPT",
+      "data_compra": "2025-10-27T00:00:00.000Z",
+      "valor_unitario": 32.25
+    },
+    {
+      "id": "4d140d9b-47c4-48ad-bcc9-ed7696d74770",
+      "invoice_id": "34a8308e-a33c-4101-ba92-c9ac1f845ff4",
+      "nome": "MEL SILVESTRE POTE 1KG CX12 NOVO MEL VAL APROX TRIBUTOS R$ 28.82 (32.09%) FONTE: JBPT",
+      "data_compra": "2025-10-27T00:00:00.000Z",
+      "valor_unitario": 44.9
+    },
+    {
+      "id": "6134844b-169c-4e91-bc9f-5d6cbd4fc390",
+      "invoice_id": "34a8308e-a33c-4101-ba92-c9ac1f845ff4",
+      "nome": "REQUEIJAO BISNAGA (PURO] CATUPIRY CX12X1,54KG VAL APROX TRIBUTOS R$ 21.17 (32.09%) FONTE: IBPT",
+      "data_compra": "2025-10-27T00:00:00.000Z",
+      "valor_unitario": 65.96
+    },
+    {
+      "id": "8bbcda07-5b02-4a40-a273-af1b99b0e5a2",
+      "invoice_id": "34a8308e-a33c-4101-ba92-c9ac1f845ff4",
+      "nome": "MUSSARELA DE BUFALA (BOCCONCINO YEMA PCT 330GR VAL APROX TRIBUTOS R$ 12.74 (32.09%) FONTE: IBPT",
+      "data_compra": "2025-10-27T00:00:00.000Z",
+      "valor_unitario": 19.85
+    },
+    {
+      "id": "139b1f5b-4f32-420e-9346-84fa6ceb8637",
+      "invoice_id": "2db74829-6e76-4152-ac08-a7fc95d46773",
+      "nome": "AMENDOAS LAMINADAS 1 KG",
+      "data_compra": "2025-11-03T00:00:00.000Z",
+      "valor_unitario": 96.88
+    },
+    {
+      "id": "4af356b9-cd44-47e3-ba22-6f939ccd2c35",
+      "invoice_id": "2db74829-6e76-4152-ac08-a7fc95d46773",
+      "nome": "CALDO DE GALINHA KNORR 1,01KG",
+      "data_compra": "2025-11-03T00:00:00.000Z",
+      "valor_unitario": 19.42
+    },
+    {
+      "id": "238cbbb2-09f5-4a25-a0dc-5b0092984818",
+      "invoice_id": "2db74829-6e76-4152-ac08-a7fc95d46773",
+      "nome": "CALDO DE CARNE KNORR 1.01KG",
+      "data_compra": "2025-11-03T00:00:00.000Z",
+      "valor_unitario": 19.42
+    },
+    {
+      "id": "681dcb64-b366-4511-b3a4-1b078e52450e",
+      "invoice_id": "2db74829-6e76-4152-ac08-a7fc95d46773",
+      "nome": "CALDO DELICIAS DO MAR KNORR 1,01KG",
+      "data_compra": "2025-11-03T00:00:00.000Z",
+      "valor_unitario": 20.13
+    },
+    {
+      "id": "ff5c3289-4314-4924-8e7b-4bbbb243294d",
+      "invoice_id": "2db74829-6e76-4152-ac08-a7fc95d46773",
+      "nome": "COCO RALADO FINO 1KG",
+      "data_compra": "2025-11-03T00:00:00.000Z",
+      "valor_unitario": 37.94
+    },
+    {
+      "id": "4931416b-fd31-4c0c-8cc2-d0a01e274415",
+      "invoice_id": "2db74829-6e76-4152-ac08-a7fc95d46773",
+      "nome": "CREME DE LEITE FRESCO ECILA 1,01 L",
+      "data_compra": "2025-11-03T00:00:00.000Z",
+      "valor_unitario": 46.9
+    },
+    {
+      "id": "5039ba49-61eb-4290-8d0d-d4389882fa9b",
+      "invoice_id": "2db74829-6e76-4152-ac08-a7fc95d46773",
+      "nome": "GRAO DE BICO PCT 1KG",
+      "data_compra": "2025-11-03T00:00:00.000Z",
+      "valor_unitario": 11.53
+    },
+    {
+      "id": "5534dd94-b69c-4bde-be45-682ae43e1d98",
+      "invoice_id": "2db74829-6e76-4152-ac08-a7fc95d46773",
+      "nome": "MAC ESPAGUETE COM OVOS PETYBON 500G",
+      "data_compra": "2025-11-03T00:00:00.000Z",
+      "valor_unitario": 4.99
+    },
+    {
+      "id": "25641779-1d23-4f34-bc7c-227de3397ce1",
+      "invoice_id": "2db74829-6e76-4152-ac08-a7fc95d46773",
+      "nome": "MAC ESPAGUETE N 08 DIVELLA 500G",
+      "data_compra": "2025-11-03T00:00:00.000Z",
+      "valor_unitario": 10.36
+    },
+    {
+      "id": "b4bc0542-24a4-47da-af90-d95642650da7",
+      "invoice_id": "2db74829-6e76-4152-ac08-a7fc95d46773",
+      "nome": "AMIDO DE MILHO MAIZENA 1KG",
+      "data_compra": "2025-11-03T00:00:00.000Z",
+      "valor_unitario": 21.72
+    },
+    {
+      "id": "e033dbe3-98e4-41fe-883d-982e61bd84ef",
+      "invoice_id": "2db74829-6e76-4152-ac08-a7fc95d46773",
+      "nome": "MASSA FOLHADA AROSA 1KG",
+      "data_compra": "2025-11-03T00:00:00.000Z",
+      "valor_unitario": 44.76
+    },
+    {
+      "id": "00142d48-9de1-47a5-9997-503468e87f7b",
+      "invoice_id": "2db74829-6e76-4152-ac08-a7fc95d46773",
+      "nome": "OLEO DE GIRASSOL LIZA 900 ML",
+      "data_compra": "2025-11-03T00:00:00.000Z",
+      "valor_unitario": 19.43
+    },
+    {
+      "id": "2be143cb-26d1-475d-9af6-d8ba662dffda",
+      "invoice_id": "2db74829-6e76-4152-ac08-a7fc95d46773",
+      "nome": "FERMENTO EM PO ROYAL 250G",
+      "data_compra": "2025-11-03T00:00:00.000Z",
+      "valor_unitario": 12.11
+    },
+    {
+      "id": "2f4c1f23-3af3-4214-a615-d5dd17ec6b5a",
+      "invoice_id": "407a2a1d-4528-4544-92d3-534cf2737f4f",
+      "nome": "NASCARPONE UNT STERILGARDA 2000",
+      "data_compra": "2025-11-13T13:08:43.929Z",
+      "valor_unitario": 18.83
+    }
+  ],
+  "suppliers": [
+    {
+      "id": "f671e31d-b9a0-4e8b-b6e0-4dc4bd607b19",
+      "nome": "CRISTIANE HASEGAWA PESCADOS EPP",
+      "cnpj": "06.323.460/0001-37",
+      "endereco": "",
+      "telefone": "",
+      "email": ""
+    },
+    {
+      "id": "fa31177d-08fa-4723-9f7c-fb86da23fe20",
+      "nome": "W2W E-COMMERCE DE VINHOS S/A",
+      "cnpj": "09.813.204/0004-69",
+      "endereco": "",
+      "telefone": "",
+      "email": ""
+    },
+    {
+      "id": "b560b995-7480-49f4-af22-d3c089cb4104",
+      "nome": "WINE CAPITAL IMPORTACAO E DISTRIBUICAO-EIREL",
+      "cnpj": "27.312.819/0001-40",
+      "endereco": "",
+      "telefone": "",
+      "email": ""
+    },
+    {
+      "id": "34268a8b-fbca-439c-a147-8d17bda3136f",
+      "nome": "SPECIALITA COMERCIO DE BEBIDAS TDA.",
+      "cnpj": "09.063.896/0001-22",
+      "endereco": "",
+      "telefone": "",
+      "email": ""
+    },
+    {
+      "id": "e0844ab7-8c7b-4530-99e0-893656b8e168",
+      "nome": "AC URBAN TRIBE IMPORTACAO E COMERCIO LTDA",
+      "cnpj": "14.739.674/0002-06",
+      "endereco": "",
+      "telefone": "",
+      "email": ""
+    },
+    {
+      "id": "3efcfd63-e23d-49dc-a280-d4b67755a587",
+      "nome": "Petara Importacao e Distribuicao de Bebidas Ltda.",
+      "cnpj": "38.063.278/0001-80",
+      "endereco": "",
+      "telefone": "",
+      "email": ""
+    },
+    {
+      "id": "6be7fb68-7fc0-4316-b805-663fec81b68a",
+      "nome": "LEGEND COMERCIO DE BEBIDAS LTDA",
+      "cnpj": "41.939.028/0001-76",
+      "endereco": "",
+      "telefone": "",
+      "email": ""
+    },
+    {
+      "id": "4d392f47-7c89-4a9e-9ce5-2c40cc273bd4",
+      "nome": "FRUTT'S HORTIFRUTI LTDA",
+      "cnpj": "10.751.978/0001-49",
+      "endereco": "",
+      "telefone": "",
+      "email": ""
+    },
+    {
+      "id": "a8914de2-c8c7-41e7-9d72-6daa0a7fb94f",
+      "nome": "WAN SAN COMERCIAL LTDA",
+      "cnpj": "59.713.305/0001-93",
+      "endereco": "",
+      "telefone": "",
+      "email": ""
+    },
+    {
+      "id": "7a4ec3ce-aee5-4c86-b7f8-8c7c5f6251e6",
+      "nome": "MEIWA INDUSTRIA E COMERCIO LTDA",
+      "cnpj": "55.078.307/0001-05",
+      "endereco": "",
+      "telefone": "",
+      "email": ""
+    },
+    {
+      "id": "847472c0-c78c-4585-90ca-f7637101c044",
+      "nome": "HERMANN VINHOS E VINHAS LTDA",
+      "cnpj": "11.683.999/0001-37",
+      "endereco": "",
+      "telefone": "",
+      "email": ""
+    },
+    {
+      "id": "2302cdbb-a9c3-449c-9e03-e8256df53596",
+      "nome": "PEIXE GOURMET IMPORTACAO E EXPORTACAO LTDA",
+      "cnpj": "14.798.308/0001-39",
+      "endereco": "",
+      "telefone": "",
+      "email": ""
+    },
+    {
+      "id": "7d4c3c15-2b27-4721-a48c-b14b3c4e469c",
+      "nome": "COSTAZZURRA IMPORTAÇÃO E EXPORTAÇÃO LTDA",
+      "cnpj": "05.728.235/0001-18",
+      "endereco": "",
+      "telefone": "",
+      "email": ""
+    },
+    {
+      "id": "8d4c6c60-3539-4eff-b9ac-ea09d200c19d",
+      "nome": "PIRAMIDES DISTRIBUIDORA LTDA",
+      "cnpj": "63.064.737/0001-98",
+      "endereco": "",
+      "telefone": "",
+      "email": ""
+    },
+    {
+      "id": "527db379-a113-4dbb-aa5c-881295f51911",
+      "nome": "FORTE ALIMENTOS COMERCIO E IMP LTDA",
+      "cnpj": "21.498.077/0001-03",
+      "endereco": "",
+      "telefone": "",
+      "email": ""
+    },
+    {
+      "id": "888da046-d178-462b-a346-4ed29298501e",
+      "nome": "DECANTER VINHOS FINOS LTDA",
+      "cnpj": "01.367.632/0001-50",
+      "endereco": "",
+      "telefone": "",
+      "email": ""
+    },
+    {
+      "id": "01af318e-2e32-4b16-8a60-48c3dcf3452a",
+      "nome": "FABENE CIA DE ALIMENTOS LTDA",
+      "cnpj": "36.226.780/0001-30",
+      "endereco": "",
+      "telefone": "",
+      "email": ""
+    },
+    {
+      "id": "da3ccd2d-f623-4c29-843d-a41fa6ea0f0c",
+      "nome": "HMI REPRESENTACAO DE ALIMENTOS LTDA",
+      "cnpj": "30.161.877/0001-25",
+      "endereco": "",
+      "telefone": "",
+      "email": ""
+    },
+    {
+      "id": "8a588864-39d9-4163-b70a-206cd34acafa",
+      "nome": "MASTER FOODS COMERCIO E IMPORTACAO LTDA",
+      "cnpj": "08.602.684/0002-94",
+      "endereco": "",
+      "telefone": "",
+      "email": ""
+    },
+    {
+      "id": "4a14a7f8-5632-42c1-ab16-1451dbd26f0d",
+      "nome": "EMPORIO MEL COMERCIO DE ALIMENTOS E BI",
+      "cnpj": "09.640.611/0002-50",
+      "endereco": "",
+      "telefone": "",
+      "email": ""
+    },
+    {
+      "id": "1b01d285-6165-4999-bdfc-5db19477ab3c",
+      "nome": "LEVITARE - INDUSTRIA E COMERCIO DE LATICINIOS LTDA",
+      "cnpj": "52.604.311/0003-25",
+      "endereco": "",
+      "telefone": "",
+      "email": ""
+    },
+    {
+      "id": "e47c3bbc-3ece-451b-88f9-94dd270c792c",
+      "nome": "ROMEU PASQUANTONIO",
+      "cnpj": "29.835.524/0001-84",
+      "endereco": "",
+      "telefone": "",
+      "email": ""
+    },
+    {
+      "id": "98d0cefc-3ab8-46c8-a862-516aa43cd91e",
+      "nome": "NESTLE BRASIL LTDA",
+      "cnpj": "60.409.075/0540-82",
+      "endereco": "",
+      "telefone": "",
+      "email": ""
+    },
+    {
+      "id": "97164fdb-9955-4128-930a-b907dfe475c6",
+      "nome": "WINE CAPITAL IMPORTACAO E DISTRIBUICAO - EIRELI",
+      "cnpj": "10.992.853/0001-00",
+      "endereco": "",
+      "telefone": "",
+      "email": ""
+    },
+    {
+      "id": "bc4acc88-5df7-4fd9-ba4d-313b24055b1a",
+      "nome": "AUTOAMERICA LTDA",
+      "cnpj": "04.140.399/0001-67",
+      "endereco": "",
+      "telefone": "",
+      "email": ""
+    },
+    {
+      "id": "864d1b43-8ad7-4954-9e7f-aaf5a60c4e5c",
+      "nome": "KEIKO SAN PRODUTOS ALIMENTICIOS LTDA - KEIKOSAN",
+      "cnpj": "59.501.502/0001-49",
+      "endereco": "",
+      "telefone": "",
+      "email": ""
+    },
+    {
+      "id": "b9ddc17b-5395-4607-953a-3639b2f18680",
+      "nome": "FUTURA COMERCIAL TRADING LTDA",
+      "cnpj": "00.163.222/0001-25",
+      "endereco": "",
+      "telefone": "",
+      "email": ""
+    },
+    {
+      "id": "e5b9e8ad-9e8f-4b94-afd3-bc1a6666a943",
+      "nome": "3GX COMERCIO DE ALIMENTOS LTDA",
+      "cnpj": "22.873.332/0001-13",
+      "endereco": "",
+      "telefone": "",
+      "email": ""
+    },
+    {
+      "id": "d2289235-106e-4cd7-93f4-b4bfa76d9ed8",
+      "nome": "CALIMP IMP. EXP. LTDA",
+      "cnpj": "00.923.077/0001-33",
+      "endereco": "",
+      "telefone": "",
+      "email": ""
+    }
+  ]
+}

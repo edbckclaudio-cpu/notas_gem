@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ===== Melhorias visuais do react-big-calendar ===== */
+.rbc-toolbar {
+  padding: 8px 12px;
+  gap: 8px;
+  border-bottom: 1px solid #e5e7eb; /* zinc-200 */
+}
+.rbc-toolbar .rbc-toolbar-label {
+  font-weight: 600;
+  font-size: 1rem;
+}
+.rbc-header {
+  padding: 6px 0;
+  font-weight: 500;
+  color: #374151; /* zinc-700 */
+  border-bottom: 1px solid #f1f5f9; /* slate-100 */
+}
+.rbc-month-view {
+  border-radius: 8px;
+}
+.rbc-month-row {
+  border-top: 1px solid #f1f5f9; /* slate-100 */
+}
+.rbc-day-bg + .rbc-day-bg {
+  border-left: 1px solid #f1f5f9; /* linhas coluna leves */
+}
+.rbc-off-range-bg {
+  background-color: #f9fafb; /* gray-50 */
+}
+.rbc-today {
+  background-color: #fff7ed !important; /* orange-50 */
+}
+.rbc-event {
+  border-radius: 6px;
+}
