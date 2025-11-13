@@ -181,18 +181,32 @@ export async function POST() {
       }
     }
 
-    const exportsDir = path.join(process.cwd(), "public", "exports");
-    fs.mkdirSync(exportsDir, { recursive: true });
     const now = new Date();
     const stamp = `${now.getFullYear()}${String(now.getMonth() + 1).padStart(2, "0")}${String(
       now.getDate()
     ).padStart(2, "0")}-${String(now.getHours()).padStart(2, "0")}${String(
       now.getMinutes()
     ).padStart(2, "0")}${String(now.getSeconds()).padStart(2, "0")}`;
-    let fileName = `consolidado-${stamp}.xlsx`;
-    let outAbs = path.join(exportsDir, fileName);
-    await wb.xlsx.writeFile(outAbs);
+    const fileName = `consolidado-${stamp}.xlsx`;
 
+    // Em ambientes serverless (Vercel), retornar como download direto
+    if (process.env.VERCEL) {
+      const buf = await wb.xlsx.writeBuffer();
+      return new NextResponse(buf as any, {
+        status: 200,
+        headers: {
+          "Content-Type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "Content-Disposition": `attachment; filename="${fileName}"`,
+          "Cache-Control": "no-store",
+        },
+      });
+    }
+
+    // Ambiente com filesystem persistente: salva e retorna metadados
+    const exportsDir = path.join(process.cwd(), "public", "exports");
+    fs.mkdirSync(exportsDir, { recursive: true });
+    const outAbs = path.join(exportsDir, fileName);
+    await wb.xlsx.writeFile(outAbs);
     const relPath = `/exports/${fileName}`;
     const publicUrl = `/exports/${fileName}`; // served by Next static from public
 
