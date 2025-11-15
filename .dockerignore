@@ -1,4 +1,13 @@
 node_modules
+.next
+.git
+.vscode
+.env*
+npm-debug.log*
+yarn-error.log*
+coverage
+public/exports
+data/
 .git
 .next
 public/exports/*.xlsx
